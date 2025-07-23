@@ -145,7 +145,7 @@ def main() -> None:
     application.add_handler(CommandHandler("weather", get_weather))
     application.add_handler(MessageHandler(filters.VOICE, transcribe_voice))
     application.add_handler(CommandHandler("calendar", show_calendar))
-    application.add_handler(CallbackQueryHandler(calendar_callback, pattern='^calendar_'))
+    application.add_handler(CallbackQueryHandler(calendar_callback, pattern='^calendar-'))
     application.add_handler(CommandHandler("university", send_university_location))
 
     live_chat_handler = ConversationHandler(

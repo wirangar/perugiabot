@@ -1,22 +1,75 @@
-from telegram import Update
+import calendar
+from datetime import datetime
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
-from telegram_inline_calendar import InlineCalendar
 
-calendar = InlineCalendar()
+def create_calendar(year, month):
+    markup = []
+    # Header
+    row = [InlineKeyboardButton(f"{calendar.month_name[month]} {year}", callback_data="ignore")]
+    markup.append(row)
+    row = [InlineKeyboardButton(day, callback_data="ignore") for day in ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"]]
+    markup.append(row)
+
+    my_calendar = calendar.monthcalendar(year, month)
+    for week in my_calendar:
+        row = []
+        for day in week:
+            if day == 0:
+                row.append(InlineKeyboardButton(" ", callback_data="ignore"))
+            else:
+                row.append(InlineKeyboardButton(str(day), callback_data=f"calendar-day-{year}-{month}-{day}"))
+        markup.append(row)
+
+    # Navigation
+    row = [
+        InlineKeyboardButton("<", callback_data=f"calendar-prev-{year}-{month}"),
+        InlineKeyboardButton(" ", callback_data="ignore"),
+        InlineKeyboardButton(">", callback_data=f"calendar-next-{year}-{month}"),
+    ]
+    markup.append(row)
+
+    return InlineKeyboardMarkup(markup)
 
 async def show_calendar(update: Update, context: CallbackContext) -> None:
     """Shows the calendar."""
-    await update.message.reply_text("Please select a date:", reply_markup=calendar.markup)
+    now = datetime.now()
+    await update.message.reply_text(
+        "Please select a date:",
+        reply_markup=create_calendar(now.year, now.month)
+    )
 
 async def calendar_callback(update: Update, context: CallbackContext) -> None:
     """Handles the calendar callback."""
     query = update.callback_query
     await query.answer()
 
-    selected, date = calendar.process_selection(update, context)
+    data = query.data.split('-')
+    action = data[1]
+    year = int(data[2])
+    month = int(data[3])
 
-    if selected:
+    if action == "prev":
+        month -= 1
+        if month < 1:
+            month = 12
+            year -= 1
         await query.edit_message_text(
-            text=f"You selected {date.strftime('%Y-%m-%d')}",
+            text="Please select a date:",
+            reply_markup=create_calendar(year, month)
+        )
+    elif action == "next":
+        month += 1
+        if month > 12:
+            month = 1
+            year += 1
+        await query.edit_message_text(
+            text="Please select a date:",
+            reply_markup=create_calendar(year, month)
+        )
+    elif action == "day":
+        day = int(data[4])
+        await query.edit_message_text(
+            text=f"You selected {year}-{month}-{day}",
             reply_markup=None
         )
