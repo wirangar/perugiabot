@@ -9,10 +9,16 @@ from handlers.cmd_start import get_translation
 def load_knowledge_base():
     """Loads the knowledge base from JSON file."""
     try:
-        with open('knowledge_base_guide.json', 'r', encoding='utf-8') as f:
+        with open('studentbot/knowledge_base_guide.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         logger.info("Successfully loaded knowledge_base_guide.json")
         return data
+    except FileNotFoundError:
+        logger.warning("knowledge_base_guide.json not found")
+        raise
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON format in knowledge_base_guide.json: {e}")
+        raise
     except Exception as e:
         logger.error(f"Failed to load knowledge_base_guide.json: {e}")
         raise
