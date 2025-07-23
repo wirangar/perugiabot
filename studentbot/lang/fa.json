@@ -35,6 +35,8 @@
   "no_scholarship": "عدم واجد شرایط",
   "isee_limit": "سقف ISEE سال جاری:",
   "invalid_number": "لطفا یک عدد معتبر وارد کنید.",
+  "invalid_number_positive": "لطفا یک عدد مثبت وارد کنید.",
+  "invalid_number_non_negative": "لطفا یک عدد غیرمنفی وارد کنید.",
   "calculation_cancelled": "محاسبه لغو شد.",
   "profile_title": "پروفایل شما:",
   "name": "نام:",
@@ -64,5 +66,15 @@
   "live_chat_prompt": "شما در حال اتصال به پشتیبانی زنده هستید. لطفا پیام خود را ارسال کنید. برای خروج، /cancel را ارسال کنید.",
   "live_chat_connected": "شما به پشتیبانی زنده متصل شدید.",
   "live_chat_disconnected": "شما از پشتیبانی زنده خارج شدید.",
-  "new_live_chat": "چت زنده جدید از کاربر:"
+  "new_live_chat": "چت زنده جدید از کاربر:",
+  "error_no_guide_data": "خطا: داده‌های راهنما یافت نشد.",
+  "error_category_not_found": "خطا: دسته‌بندی یافت نشد.",
+  "error_subsection_not_found": "خطا: زیربخش یافت نشد.",
+  "back_button": "⬅️ بازگشت",
+  "resources_links": "لینک‌ها:",
+  "resources_apps": "برنامه‌ها:",
+  "resources_contacts": "تماس‌ها:",
+  "tips": "نکات:",
+  "faqs": "سوالات متداول:",
+  "tips_for_iranians": "نکات برای ایرانیان:"
 }
