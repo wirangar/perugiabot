@@ -44,7 +44,11 @@ from handlers.question_handler import (
 )
 from handlers.weather_handler import get_weather
 from handlers.file_handler import send_pdf, send_video
-from handlers.menu_handler import scholarships_menu, immigration_menu, housing_menu
+from handlers.menu_handler import (
+    guide_menu,
+    guide_category_menu,
+    guide_subsection_content,
+)
 from handlers.profile_handler import (
     start_registration,
     get_name,
@@ -133,9 +137,9 @@ def main() -> None:
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button, pattern='^lang_'))
     application.add_handler(CallbackQueryHandler(show_profile, pattern='^profile$'))
-    application.add_handler(CallbackQueryHandler(scholarships_menu, pattern='^scholarships$'))
-    application.add_handler(CallbackQueryHandler(immigration_menu, pattern='^immigration$'))
-    application.add_handler(CallbackQueryHandler(housing_menu, pattern='^housing$'))
+    application.add_handler(CallbackQueryHandler(guide_menu, pattern='^guide$'))
+    application.add_handler(CallbackQueryHandler(guide_category_menu, pattern='^guide_category_'))
+    application.add_handler(CallbackQueryHandler(guide_subsection_content, pattern='^guide_subsection_'))
     application.add_handler(CommandHandler("pdf", send_pdf))
     application.add_handler(CommandHandler("video", send_video))
     application.add_handler(CommandHandler("weather", get_weather))

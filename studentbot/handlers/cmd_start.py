@@ -36,11 +36,7 @@ async def button(update: Update, context: CallbackContext) -> None:
     keyboard = [
         [InlineKeyboardButton(get_translation(lang, "profile"), callback_data="profile")],
         [InlineKeyboardButton(get_translation(lang, "isee_calculator"), callback_data="isee_calculator")],
-        [
-            InlineKeyboardButton(get_translation(lang, "scholarships"), callback_data="scholarships"),
-            InlineKeyboardButton("Immigration", callback_data="immigration"),
-            InlineKeyboardButton("Housing", callback_data="housing"),
-        ],
+        [InlineKeyboardButton("📚 Comprehensive Guide", callback_data="guide")],
         [InlineKeyboardButton(get_translation(lang, "ask_question"), callback_data="ask_question")],
         [InlineKeyboardButton(get_translation(lang, "about"), callback_data="about")],
     ]
