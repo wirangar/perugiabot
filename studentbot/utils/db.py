@@ -133,15 +133,6 @@ def add_points(user_id, points):
     conn.commit()
     cur.close()
     conn.close()
-            "family_name": user[1],
-            "age": user[2],
-            "email": user[3],
-            "field_of_study": user[4],
-            "country": user[5],
-            "language": user[6],
-            "created_at": user[7]
-        }
-    return None
 
 def get_redis_connection():
     """Establishes a connection to the Redis server."""
