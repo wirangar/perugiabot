@@ -1,103 +1,148 @@
 import json
+import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import CallbackContext
-
+from telegram.ext import ContextTypes
+from src.config import logger
 from .cmd_start import get_translation
 
 def load_guide_data():
-    with open('knowledge_base_guide.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+    """Load guide data from knowledge_base_guide.json."""
+    try:
+        # مسیر فایل نسبت به موقعیت فایل menu_handler.py
+        file_path = os.path.join(os.path.dirname(__file__), '..', 'knowledge_base_guide.json')
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        logger.info(f"Successfully loaded knowledge_base_guide.json from {file_path}")
+        return data
+    except FileNotFoundError as e:
+        logger.error(f"Failed to load knowledge_base_guide.json: {e}")
+        raise
+    except json.JSONDecodeError as e:
+        logger.error(f"Invalid JSON format in knowledge_base_guide.json: {e}")
+        raise
 
-guide_data = load_guide_data()
+try:
+    guide_data = load_guide_data()
+except Exception as e:
+    logger.error(f"Failed to initialize guide_data: {e}")
+    guide_data = {}  # برای جلوگیری از کرش، اما باید فایل را اضافه کنید
 
-async def guide_menu(update: Update, context: CallbackContext) -> None:
+async def guide_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Displays the main guide menu."""
+    query = update.callback_query
+    await query.answer()
     lang = context.user_data.get('lang', 'fa')
 
+    if not guide_data:
+        error_msg = get_translation(lang, 'error_no_guide_data')
+        await query.message.reply_text(error_msg, parse_mode='MarkdownV2')
+        return
+
     keyboard = []
-    for category in guide_data['guide']['categories']:
+    for category in guide_data.get('guide', {}).get('categories', []):
         button = InlineKeyboardButton(
-            category['title'][lang],
+            category['title'].get(lang, category['title']['fa']),
             callback_data=f"guide_category_{category['id']}"
         )
         keyboard.append([button])
 
     reply_markup = InlineKeyboardMarkup(keyboard)
-    # It's better to send a new message here instead of editing,
-    # because the user is coming from the main menu.
-    await update.callback_query.message.reply_text(
-        guide_data['guide']['title'][lang],
-        reply_markup=reply_markup
+    await query.message.reply_text(
+        text=guide_data['guide']['title'].get(lang, guide_data['guide']['title']['fa']),
+        reply_markup=reply_markup,
+        parse_mode='MarkdownV2'
     )
-    await update.callback_query.message.delete()
+    await query.message.delete()
 
-
-async def guide_category_menu(update: Update, context: CallbackContext) -> None:
+async def guide_category_menu(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Displays the subsections of a guide category."""
     query = update.callback_query
     await query.answer()
     category_id = query.data.split('_')[-1]
     lang = context.user_data.get('lang', 'fa')
 
-    category = next((cat for cat in guide_data['guide']['categories'] if cat['id'] == category_id), None)
+    category = next((cat for cat in guide_data.get('guide', {}).get('categories', []) if cat['id'] == category_id), None)
 
-    if category:
-        keyboard = []
-        for subsection in category['subsections']:
-            button = InlineKeyboardButton(
-                subsection['title'][lang],
-                callback_data=f"guide_subsection_{category_id}_{subsection['id']}"
-            )
-            keyboard.append([button])
+    if not category:
+        error_msg = get_translation(lang, 'error_category_not_found')
+        await query.message.edit_text(error_msg, parse_mode='MarkdownV2')
+        return
 
-        # Add a back button
-        keyboard.append([InlineKeyboardButton("⬅️ Back", callback_data="guide")])
-
-        reply_markup = InlineKeyboardMarkup(keyboard)
-        await query.edit_message_text(
-            text=category['description'][lang],
-            reply_markup=reply_markup
+    keyboard = []
+    for subsection in category.get('subsections', []):
+        button = InlineKeyboardButton(
+            subsection['title'].get(lang, subsection['title']['fa']),
+            callback_data=f"guide_subsection_{category_id}_{subsection['id']}"
         )
+        keyboard.append([button])
 
-async def guide_subsection_content(update: Update, context: CallbackContext) -> None:
+    # Add a back button
+    back_text = get_translation(lang, 'back_button')
+    keyboard.append([InlineKeyboardButton(back_text, callback_data="guide")])
+
+    reply_markup = InlineKeyboardMarkup(keyboard)
+    await query.message.edit_text(
+        text=category['description'].get(lang, category['description']['fa']),
+        reply_markup=reply_markup,
+        parse_mode='MarkdownV2'
+    )
+
+async def guide_subsection_content(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Displays the content of a guide subsection."""
     query = update.callback_query
     await query.answer()
     _, _, category_id, subsection_id = query.data.split('_')
     lang = context.user_data.get('lang', 'fa')
 
-    category = next((cat for cat in guide_data['guide']['categories'] if cat['id'] == category_id), None)
-    if category:
-        subsection = next((sub for sub in category['subsections'] if sub['id'] == subsection_id), None)
-        if subsection:
-            content = "\n".join(subsection['content'][lang])
+    category = next((cat for cat in guide_data.get('guide', {}).get('categories', []) if cat['id'] == category_id), None)
+    if not category:
+        error_msg = get_translation(lang, 'error_category_not_found')
+        await query.message.edit_text(error_msg, parse_mode='MarkdownV2')
+        return
 
-            resources = ""
-            if subsection.get('resources'):
-                if subsection['resources'].get('links'):
-                    resources += "\n\nLinks:\n" + "\n".join(subsection['resources']['links'])
-                if subsection['resources'].get('apps'):
-                    resources += "\n\nApps:\n" + "\n".join(subsection['resources']['apps'])
-                if subsection['resources'].get('contacts'):
-                    resources += "\n\nContacts:\n" + "\n".join(subsection['resources']['contacts'])
+    subsection = next((sub for sub in category.get('subsections', []) if sub['id'] == subsection_id), None)
+    if not subsection:
+        error_msg = get_translation(lang, 'error_subsection_not_found')
+        await query.message.edit_text(error_msg, parse_mode='MarkdownV2')
+        return
 
-            tips = ""
-            if subsection.get('tips'):
-                tips = "\n\nTips:\n" + "\n".join(subsection['tips'][lang])
+    # Build content
+    content = "\n".join(subsection.get('content', {}).get(lang, subsection.get('content', {}).get('fa', [])))
 
-            faqs = ""
-            if subsection.get('faqs'):
-                faqs = "\n\nFAQs:\n" + "\n".join(subsection['faqs'][lang])
+    resources = ""
+    if subsection.get('resources'):
+        if subsection['resources'].get('links'):
+            resources += "\n\n" + get_translation(lang, 'resources_links') + "\n" + "\n".join(subsection['resources']['links'])
+        if subsection['resources'].get('apps'):
+            resources += "\n\n" + get_translation(lang, 'resources_apps') + "\n" + "\n".join(subsection['resources']['apps'])
+        if subsection['resources'].get('contacts'):
+            resources += "\n\n" + get_translation(lang, 'resources_contacts') + "\n" + "\n".join(subsection['resources']['contacts'])
 
-            tips_for_iranians = ""
-            if subsection.get('tips_for_iranians'):
-                tips_for_iranians = "\n\nTips for Iranians:\n" + "\n".join(subsection['tips_for_iranians'][lang])
+    tips = ""
+    if subsection.get('tips'):
+        tips = "\n\n" + get_translation(lang, 'tips') + "\n" + "\n".join(subsection['tips'].get(lang, subsection['tips'].get('fa', [])))
 
-            keyboard = [[InlineKeyboardButton("⬅️ Back", callback_data=f"guide_category_{category_id}")]]
-            reply_markup = InlineKeyboardMarkup(keyboard)
+    faqs = ""
+    if subsection.get('faqs'):
+        faqs = "\n\n" + get_translation(lang, 'faqs') + "\n" + "\n".join(subsection['faqs'].get(lang, subsection['faqs'].get('fa', [])))
 
-            await query.edit_message_text(
-                text=f"**{subsection['title'][lang]}**\n\n{content}{resources}{tips}{faqs}{tips_for_iranians}",
-                parse_mode='Markdown',
-                reply_markup=reply_markup
-            )
+    tips_for_iranians = ""
+    if subsection.get('tips_for_iranians'):
+        tips_for_iranians = "\n\n" + get_translation(lang, 'tips_for_iranians') + "\n" + "\n".join(subsection['tips_for_iranians'].get(lang, subsection['tips_for_iranians'].get('fa', [])))
+
+    # Escape special characters for MarkdownV2
+    from src.utils.text_formatter import sanitize_markdown
+    content_text = sanitize_markdown(
+        f"**{subsection['title'].get(lang, subsection['title']['fa'])}**\n\n{content}{resources}{tips}{faqs}{tips_for_iranians}"
+    )
+
+    # Add back button
+    back_text = get_translation(lang, 'back_button')
+    keyboard = [[InlineKeyboardButton(back_text, callback_data=f"guide_category_{category_id}")]]
+    reply_markup = InlineKeyboardMarkup(keyboard)
+
+    await query.message.edit_text(
+        text=content_text,
+        parse_mode='MarkdownV2',
+        reply_markup=reply_markup
+    )
