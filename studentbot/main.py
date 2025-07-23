@@ -6,11 +6,11 @@ from telegram.ext import (
     CallbackQueryHandler,
     MessageHandler,
     filters,
-    ContextTypes,  # جایگزین CallbackContext
+    ContextTypes,
     ConversationHandler,
 )
 
-from config import TELEGRAM_TOKEN, logger  # اضافه کردن logger
+from config import TELEGRAM_TOKEN, logger
 from utils.db import create_user_table, create_isee_calculations_table
 from handlers.cmd_start import start, button
 from handlers.isee_handler import (
