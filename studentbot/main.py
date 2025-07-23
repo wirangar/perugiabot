@@ -1,9 +1,53 @@
 import logging
 from telegram import Update
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
+from telegram.ext import (
+    Application,
+    CommandHandler,
+    CallbackQueryHandler,
+    MessageHandler,
+    filters,
+    CallbackContext,
+    ConversationHandler,
+)
 
 from config import TELEGRAM_TOKEN
-from handlers.cmd_start import start
+from utils.db import create_user_table, create_isee_calculations_table
+from handlers.cmd_start import start, button
+from handlers.isee_handler import (
+    start_isee_calculation,
+    get_family_members,
+    get_annual_income,
+    get_property_status,
+    get_property_size,
+    cancel_isee_calculation,
+    FAMILY_MEMBERS,
+    ANNUAL_INCOME,
+    PROPERTY_STATUS,
+    PROPERTY_SIZE,
+)
+from handlers.profile_handler import (
+    start_registration,
+    get_name,
+    get_family_name,
+    get_age,
+    get_email,
+    get_field_of_study,
+    get_country,
+    cancel_registration,
+    show_profile,
+    start_edit_profile,
+    ask_for_new_value,
+    update_field,
+    cancel_edit,
+    NAME,
+    FAMILY_NAME,
+    AGE,
+    EMAIL,
+    FIELD_OF_STUDY,
+    COUNTRY,
+    EDIT_PROFILE,
+    EDIT_FIELD,
+)
 
 # Enable logging
 logging.basicConfig(
@@ -14,10 +58,51 @@ logger = logging.getLogger(__name__)
 
 def main() -> None:
     """Start the bot."""
+    # Create the user table if it doesn't exist
+    create_user_table()
+    create_isee_calculations_table()
+
     application = Application.builder().token(TELEGRAM_TOKEN).build()
 
     # on different commands - answer in Telegram
+    reg_handler = ConversationHandler(
+        entry_points=[CommandHandler("register", start_registration)],
+        states={
+            NAME: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_name)],
+            FAMILY_NAME: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_family_name)],
+            AGE: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_age)],
+            EMAIL: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_email)],
+            FIELD_OF_STUDY: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_field_of_study)],
+            COUNTRY: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_country)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_registration)],
+    )
+    application.add_handler(reg_handler)
+
+    isee_handler = ConversationHandler(
+        entry_points=[CallbackQueryHandler(start_isee_calculation, pattern='^isee_calculator$')],
+        states={
+            FAMILY_MEMBERS: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_family_members)],
+            ANNUAL_INCOME: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_annual_income)],
+            PROPERTY_STATUS: [CallbackQueryHandler(get_property_status)],
+            PROPERTY_SIZE: [MessageHandler(filters.TEXT & ~filters.COMMAND, get_property_size)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_isee_calculation)],
+    )
+    application.add_handler(isee_handler)
+
+    edit_profile_handler = ConversationHandler(
+        entry_points=[CallbackQueryHandler(start_edit_profile, pattern='^edit_profile$')],
+        states={
+            EDIT_PROFILE: [CallbackQueryHandler(ask_for_new_value)],
+            EDIT_FIELD: [MessageHandler(filters.TEXT & ~filters.COMMAND, update_field)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_edit)],
+    )
+    application.add_handler(edit_profile_handler)
     application.add_handler(CommandHandler("start", start))
+    application.add_handler(CallbackQueryHandler(button, pattern='^lang_'))
+    application.add_handler(CallbackQueryHandler(show_profile, pattern='^profile$'))
 
     # Start the Bot
     application.run_polling()
