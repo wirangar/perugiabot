@@ -1,0 +1,9 @@
+python-telegram-bot[ext]
+python-dotenv
+psycopg2-binary
+redis
+gspread
+oauth2client
+google-api-python-client
+openai
+requests
