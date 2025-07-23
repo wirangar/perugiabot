@@ -26,10 +26,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # لود کردن knowledge_base_guide.json
+guide_data = {}
 try:
-    with open('knowledge_base_guide.json', 'r', encoding='utf-8') as f:
+    with open('studentbot/knowledge_base_guide.json', 'r', encoding='utf-8') as f:
         guide_data = json.load(f)
     logger.info("Successfully loaded knowledge_base_guide.json")
-except Exception as e:
+except FileNotFoundError:
+    logger.warning("knowledge_base_guide.json not found, initializing with empty guide_data")
+except json.JSONDecodeError as e:
     logger.error(f"Invalid JSON format in knowledge_base_guide.json: {e}")
-    guide_data = {}
+except Exception as e:
+    logger.error(f"Failed to initialize guide_data: {e}")
