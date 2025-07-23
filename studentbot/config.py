@@ -1,4 +1,5 @@
 import logging
+import json
 from dotenv import load_dotenv
 import os
 
@@ -23,3 +24,12 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logger = logging.getLogger(__name__)
+
+# لود کردن knowledge_base_guide.json
+try:
+    with open('knowledge_base_guide.json', 'r', encoding='utf-8') as f:
+        guide_data = json.load(f)
+    logger.info("Successfully loaded knowledge_base_guide.json")
+except Exception as e:
+    logger.error(f"Invalid JSON format in knowledge_base_guide.json: {e}")
+    guide_data = {}
