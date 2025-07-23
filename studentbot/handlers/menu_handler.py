@@ -2,8 +2,9 @@ import json
 import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ContextTypes
-from src.config import logger
-from .cmd_start import get_translation
+from config import logger  # وارد کردن logger از config.py در ریشه پروژه
+from handlers.cmd_start import get_translation  # اصلاح مسیر وارد کردن get_translation
+from utils.text_formatter import sanitize_markdown  # وارد کردن sanitize_markdown از utils/
 
 def load_guide_data():
     """Load guide data from knowledge_base_guide.json."""
@@ -131,7 +132,6 @@ async def guide_subsection_content(update: Update, context: ContextTypes.DEFAULT
         tips_for_iranians = "\n\n" + get_translation(lang, 'tips_for_iranians') + "\n" + "\n".join(subsection['tips_for_iranians'].get(lang, subsection['tips_for_iranians'].get('fa', [])))
 
     # Escape special characters for MarkdownV2
-    from src.utils.text_formatter import sanitize_markdown
     content_text = sanitize_markdown(
         f"**{subsection['title'].get(lang, subsection['title']['fa'])}**\n\n{content}{resources}{tips}{faqs}{tips_for_iranians}"
     )
