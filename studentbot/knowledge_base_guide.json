@@ -487,383 +487,402 @@
         },
         "subsections": [
           {
-            "name": {
-              "fa": "خوابگاه‌های دانشجویی (ADiSU و سایر گزینه‌ها)",
-              "en": "Student Dormitories (ADiSU and Other Options)",
-              "it": "Dormitori Studenteschi (ADiSU e Altre Opzioni)"
+            "id": "student_life_italy_perugia_culture",
+            "title": {
+              "fa": "🏠 فرهنگ زندگی در ایتالیا، قبض‌ها، هزینه زندگی در پروجا و نکات فرهنگی",
+              "en": "🏠 Culture of Living in Italy, Utility Bills, Cost of Living in Perugia, and Cultural Tips",
+              "it": "🏠 Cultura della Vita in Italia, Bollette, Costo della Vita a Perugia e Consigli Culturali"
             },
-            "content": {
-              "fa": [
-                "خوابگاه‌های دانشجویی تو پروجا عمدتاً توسط **ADiSU Umbria** (سازمان خدمات دانشجویی منطقه اومبریا) مدیریت می‌شن و گزینه‌ای مقرون‌به‌صرفه برای دانشجوهای بین‌المللی هستن.",
-                "مراحل درخواست خوابگاه ADiSU:",
-                "1. **ثبت‌نام آنلاین**: از سایت ADiSU (https://www.adisu.umbria.it) فرم درخواست خوابگاه رو پر کن. معمولاً از ژوئن تا آگوست برای ترم پاییز بازه.",
-                "2. **مدارک لازم**:",
-                "- کپی پاسپورت و ویزای تحصیلی (Tipo D).",
-                "- کدیچه فیسکاله (باید قبلش از Agenzia delle Entrate بگیری).",
-                "- نامه پذیرش دانشگاه پروجا یا مدرک ثبت‌نام.",
-                "- گواهی تمکن مالی (برای اثبات توانایی پرداخت هزینه خوابگاه).",
-                "3. **پرداخت هزینه درخواست**: حدود €10-20 (نقدی یا از طریق حواله بانکی، چون کارت‌های ایرانی کار نمی‌کنن).",
-                "4. **انتخاب خوابگاه**: ADiSU چند خوابگاه تو پروجا داره، مثل Collegio di Merito یا Casa dello Studente. اولویت‌بندی خوابگاه‌ها رو تو فرم مشخص کن.",
-                "5. **تأیید و قرارداد**: بعد از تأیید (معمولاً 1-2 ماه بعد)، قرارداد خوابگاه (Contratto di Locazione) بهت داده می‌شه. قرارداد رو با دقت بخون و امضا کن.",
-                "هزینه خوابگاه: ماهانه €200-350 (بسته به نوع اتاق: تک‌نفره، دونفره، یا آپارتمان مشترک).",
-                "مزایا: اینترنت رایگان، امکانات آشپزخانه، و نزدیکی به دانشگاه (مثلاً خوابگاه Via del Giochetto نزدیک پردیس اصلیه).",
-                "معایب: تعداد محدود، رقابت بالا، و قوانین سخت (مثل ممنوعیت مهمانی شبانه).",
-                "خوابگاه‌های خصوصی: اگه ADiSU پر باشه، می‌تونی از خوابگاه‌های خصوصی (مثل Camplus یا Residenza Universitaria) استفاده کنی. هزینه: €300-500 در ماه."
-              ],
-              "en": [
-                "Student dormitories in Perugia are primarily managed by **ADiSU Umbria**, offering affordable housing for international students.",
-                "Steps to apply for ADiSU dorms:",
-                "1. **Online application**: Fill out the dorm application form on the ADiSU website (https://www.adisu.umbria.it), typically open from June to August for the fall semester.",
-                "2. **Required documents**:",
-                "- Copy of passport and study visa (Tipo D).",
-                "- Codice Fiscale (obtained from Agenzia delle Entrate).",
-                "- University of Perugia acceptance letter or enrollment proof.",
-                "- Proof of financial means (to show ability to pay dorm fees).",
-                "3. **Pay the application fee**: Approx. €10-20 (cash or bank transfer, as Iranian cards don’t work).",
-                "4. **Choose a dorm**: ADiSU offers several dorms in Perugia, like Collegio di Merito or Casa dello Studente. Specify preferences in the form.",
-                "5. **Confirmation and contract**: After approval (usually 1-2 months), you’ll receive a lease contract (Contratto di Locazione). Read and sign carefully.",
-                "Dorm costs: €200-350/month (depending on room type: single, double, or shared apartment).",
-                "Pros: Free Wi-Fi, kitchen facilities, and proximity to the university (e.g., Via del Giochetto dorm is near the main campus).",
-                "Cons: Limited spots, high competition, and strict rules (e.g., no overnight guests).",
-                "Private dorms: If ADiSU is full, consider private options like Camplus or Residenza Universitaria. Costs: €300-500/month."
-              ],
-              "it": [
-                "I dormitori studenteschi a Perugia sono gestiti principalmente da **ADiSU Umbria**, offrendo alloggi economici per studenti internazionali.",
-                "Fasi per richiedere i dormitori ADiSU:",
-                "1. **Domanda online**: Compila il modulo di richiesta sul sito ADiSU (https://www.adisu.umbria.it), di solito aperto da giugno ad agosto per il semestre autunnale.",
-                "2. **Documenti richiesti**:",
-                "- Copia del passaporto e visto di studio (Tipo D).",
-                "- Codice Fiscale (ottenuto presso l’Agenzia delle Entrate).",
-                "- Lettera di accettazione dell’Università di Perugia o prova di iscrizione.",
-                "- Prova di mezzi finanziari (per dimostrare la capacità di pagare le spese del dormitorio).",
-                "3. **Pagamento della tassa di domanda**: Circa €10-20 (in contanti o bonifico bancario, poiché le carte iraniane non funzionano).",
-                "4. **Scelta del dormitorio**: ADiSU offre diversi dormitori a Perugia, come il Collegio di Merito o la Casa dello Studente. Specifica le preferenze nel modulo.",
-                "5. **Conferma e contratto**: Dopo l’approvazione (di solito 1-2 mesi), riceverai un contratto di locazione. Leggilo attentamente e firmalo.",
-                "Costi del dormitorio: €200-350/mese (a seconda del tipo di stanza: singola, doppia o appartamento condiviso).",
-                "Vantaggi: Wi-Fi gratuito, strutture cucina e vicinanza all’università (es. il dormitorio di Via del Giochetto è vicino al campus principale).",
-                "Svantaggi: Posti limitati, alta competizione e regole rigide (es. divieto di ospiti notturni).",
-                "Dormitori privati: Se ADiSU è pieno, considera opzioni private come Camplus o Residenza Universitaria. Costi: €300-500/mese."
-              ]
-            },
-            "resources": {
-              "links": [
-                "ADiSU Umbria: https://www.adisu.umbria.it",
-                "دانشگاه پروجا (دفتر بین‌الملل): https://www.unipg.it/en/international-students",
-                "Camplus Perugia: https://www.camplus.it/en/perugia"
-              ],
-              "apps": [
-                "ADiSU App: برای پیگیری درخواست خوابگاه (Google Play/App Store).",
-                "Idealista: برای جستجوی خوابگاه‌ها و آپارتمان‌های خصوصی (Google Play/App Store)."
-              ],
-              "contacts": [
-                "ADiSU Umbria: +39 075 577 4011, info@adisu.umbria.it",
-                "دفتر بین‌الملل دانشگاه پروجا: +39 075 585 2526, international@unipg.it"
-              ]
-            },
-            "tips": {
-              "fa": [
-                "درخواست خوابگاه ADiSU رو زود (ترجیحاً ژوئن) بفرست، چون رقابت زیاده.",
-                "قرارداد خوابگاه رو با دقت بخون، چون قوانین سختگیرانه‌ای (مثل ممنوعیت سیگار) داره.",
-                "اگه خوابگاه نگرفتی، از سایت Idealista یا گروه‌های تلگرامی برای پیدا کردن خوابگاه خصوصی کمک بگیر."
-              ],
-              "en": [
-                "Apply for ADiSU dorms early (preferably June), as competition is high.",
-                "Read the dorm contract carefully, as it has strict rules (e.g., no smoking).",
-                "If you don’t get a dorm, use Idealista or Telegram groups to find private options."
-              ],
-              "it": [
-                "Invia la domanda per i dormitori ADiSU presto (preferibilmente a giugno), poiché la competizione è alta.",
-                "Leggi attentamente il contratto del dormitorio, poiché ha regole rigide (es. divieto di fumare).",
-                "Se non ottieni un dormitorio, usa Idealista o gruppi Telegram per trovare opzioni private."
-              ]
-            },
-            "faqs": {
-              "fa": [
-                "سؤال: اگه خوابگاه ADiSU پر باشه چی؟ پاسخ: به خوابگاه‌های خصوصی (مثل Camplus) یا اجاره آپارتمان فکر کن.",
-                "سؤال: هزینه خوابگاه شامل قبض‌ها می‌شه؟ پاسخ: بله، معمولاً آب، برق، و اینترنت تو هزینه ADiSU گنجانده شده.",
-                "سؤال: می‌تونم بدون کدیچه فیسکاله خوابگاه بگیرم؟ پاسخ: برای ADiSU خیر، ولی بعضی خوابگاه‌های خصوصی ممکنه قبول کنن."
-              ],
-              "en": [
-                "FAQ: What if ADiSU dorms are full? Answer: Consider private dorms (e.g., Camplus) or renting an apartment.",
-                "FAQ: Do dorm costs include utilities? Answer: Yes, ADiSU dorms usually include water, electricity, and internet.",
-                "FAQ: Can I get a dorm without a Codice Fiscale? Answer: No for ADiSU, but some private dorms may accept."
-              ],
-              "it": [
-                "Domanda: Cosa succede se i dormitori ADiSU sono pieni? Risposta: Considera dormitori privati (es. Camplus) o l’affitto di un appartamento.",
-                "Domanda: I costi del dormitorio includono le utenze? Risposta: SÌ, i dormitori ADiSU di solito includono acqua, elettricità e internet.",
-                "Domanda: Posso ottenere un dormitorio senza Codice Fiscale? Risposta: No per ADiSU, ma alcuni dormitori privati potrebbero accettare."
-              ]
-            },
-            "tips_for_iranians": {
-              "fa": [
-                "برای پرداخت هزینه درخواست ADiSU، از حساب بانکی ایتالیایی (مثل UniCredit) استفاده کن، چون کارت‌های ایرانی کار نمی‌کنن.",
-                "تو گروه‌های تلگرامی مثل 'Iranian Students in Perugia' از دانشجوهای قدیمی‌تر درباره خوابگاه‌های خلوت‌تر بپرس.",
-                "برای قرارداد خوابگاه، از دفتر بین‌الملل دانشگاه کمک بگیر تا بندهای حقوقی رو خوب بفهمی."
-              ],
-              "en": [
-                "For ADiSU application fees, use an Italian bank account (e.g., UniCredit), as Iranian cards don’t work.",
-                "Ask senior students in Telegram groups like 'Iranian Students in Perugia' about less crowded dorms.",
-                "Get help from the university’s international office to understand dorm contract terms."
-              ],
-              "it": [
-                "Per le spese di domanda ADiSU, usa un conto bancario italiano (es. UniCredit), poiché le carte iraniane non funzionano.",
-                "Chiedi agli studenti senior nei gruppi Telegram come 'Iranian Students in Perugia' informazioni sui dormitori meno affollati.",
-                "Chiedi aiuto all’ufficio internazionale dell’università per comprendere i termini del contratto del dormitorio."
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🍽️ سلف‌های دانشگاهی در پروجا",
-              "en": "🍽️ University Canteens in Perugia",
-              "it": "🍽️ Mense Universitarie a Perugia"
-            },
-            "content": {
-              "fa": [
-                "در پروجا سه سلف اصلی وجود دارد: Mensa Elce، Mensa Via Pascoli، و Mensa Ingegneria.",
-                "⏰ ساعات کاری معمول: دوشنبه تا جمعه، ۱۲:۰۰ تا ۱۴:۳۰ و ۱۹:۰۰ تا ۲۱:۰۰.",
-                "💰 قیمت غذا: بین ۱ تا ۳ یورو بر اساس سطح ISEE.",
-                "📱 رزرو غذا از طریق اپلیکیشن ADiSU امکان‌پذیر است: https://www.adisu.umbria.it",
-                "📍 آدرس نمونه: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-              ],
-              "en": [
-                "There are three main canteens in Perugia: Mensa Elce, Mensa Via Pascoli, and Mensa Ingegneria.",
-                "⏰ Opening hours: Monday to Friday, 12:00–14:30 and 19:00–21:00.",
-                "💰 Food cost: €1–3 depending on your ISEE level.",
-                "📱 You can book meals via the ADiSU app: https://www.adisu.umbria.it",
-                "📍 Example address: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-              ],
-              "it": [
-                "Ci sono tre mense principali a Perugia: Mensa Elce, Mensa Via Pascoli e Mensa Ingegneria.",
-                "⏰ Orari di apertura: lunedì-venerdì, 12:00–14:30 e 19:00–21:00.",
-                "💰 Prezzo: €1–3 a seconda del livello ISEE.",
-                "📱 Prenotazioni tramite l'app ADiSU: https://www.adisu.umbria.it",
-                "📍 Indirizzo esempio: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🏠 اجاره خانه و اتاق در پروجا",
-              "en": "🏠 Renting Apartments and Rooms in Perugia",
-              "it": "🏠 Affitti di Case e Stanze a Perugia"
-            },
-            "content": {
-              "fa": [
-                "رایج‌ترین مناطق دانشجویی برای اجاره: Elce، Monteluce، Madonna Alta.",
-                "سایت‌های پیشنهادی: idealista.it، subito.it، Facebook Groups.",
-                "قیمت اتاق دانشجویی: بین 250 تا 400 یورو بسته به منطقه و امکانات.",
-                "توصیه: قرارداد اجاره را حتماً مکتوب و با شماره کد مالیاتی ببندید.",
-                "برای اینترنت، مودم خانگی معمولاً با 25-30 یورو در ماه قابل تهیه است.",
-                "📝 قرارداد باید شامل مدت اجاره، مبلغ اجاره، نام صاحب‌خانه و کد مالیاتی او باشد.",
-                "⚖️ حتماً نسخه‌ای از قرارداد را نزد خود نگه دارید و از پرداخت نقدی بدون رسید خودداری کنید.",
-                "🧑‍🤝‍🧑 می‌توانید هم‌خانه پیدا کنید از طریق گروه‌های تلگرامی ایرانیان پروجا یا اپلیکیشن‌های Erasmus.",
-                "❗ در زمان دیدن خانه حضوری، از تطابق آدرس و مدارک مالک مطمئن شوید.",
-                "📌 برخی صاحب‌خانه‌ها نیاز به ضمانت‌نامه بانکی یا ضامن ایتالیایی دارند. از قبل بررسی کنید."
-              ],
-              "en": [
-                "Most common student neighborhoods: Elce, Monteluce, Madonna Alta.",
-                "Recommended websites: idealista.it, subito.it, Facebook housing groups.",
-                "Average room prices: €250–400 depending on area and facilities.",
-                "Tip: Always sign a written rental contract with your Codice Fiscale.",
-                "Home internet: €25–30/month via standard providers.",
-                "📝 The rental contract should include duration, rent amount, landlord's name, and Codice Fiscale.",
-                "⚖️ Keep a copy of the contract and avoid paying in cash without a receipt.",
-                "🧑‍🤝‍🧑 You can find roommates via Iranian Telegram groups in Perugia or Erasmus platforms.",
-                "❗ When visiting, make sure the address and landlord identity match the documents.",
-                "📌 Some landlords may require a bank guarantee or Italian guarantor. Check in advance."
-              ],
-              "it": [
-                "Quartieri studenteschi più comuni: Elce, Monteluce, Madonna Alta.",
-                "Siti consigliati: idealista.it, subito.it, gruppi Facebook per affitti.",
-                "Prezzo medio stanza: €250–400 a seconda della zona e servizi.",
-                "Consiglio: firma sempre un contratto scritto con il Codice Fiscale.",
-                "Internet domestico: €25–30/mese tramite fornitori locali.",
-                "📝 Il contratto d'affitto deve includere durata, importo, nome del proprietario e Codice Fiscale.",
-                "⚖️ Conserva una copia del contratto ed evita pagamenti in contanti senza ricevuta.",
-                "🧑‍🤝‍🧑 Puoi trovare coinquilini tramite gruppi Telegram iraniani a Perugia o piattaforme Erasmus.",
-                "❗ Quando visiti l'appartamento, verifica l'indirizzo e i documenti del proprietario.",
-                "📌 Alcuni proprietari possono richiedere una garanzia bancaria o un garante italiano. Verifica prima."
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🚍 حمل‌ونقل شهری در پروجا",
-              "en": "🚍 Urban Transport in Perugia",
-              "it": "🚍 Trasporto Urbano a Perugia"
-            },
-            "content": {
-              "fa": [
-                "اتوبوس‌های شهری توسط Umbria Mobilità اداره می‌شوند.",
-                "برای مسیر کوتاه از Minimetrò استفاده کنید (ایستگاه Piazzale Cupa نزدیک Elce).",
-                "اپلیکیشن‌های مفید: Moovit (مسیرها و زمان حرکت)، MyCicero (خرید بلیت).",
-                "کارت دانشجویی Umbria Mobilità با تخفیف برای سفرهای ماهانه ارائه می‌شود.",
-                "سایت رسمی: https://www.fsbusitalia.it/"
-              ],
-              "en": [
-                "Urban buses are operated by Umbria Mobilità.",
-                "Use Minimetrò for quick travel (Piazzale Cupa station near Elce).",
-                "Useful apps: Moovit (routes and timing), MyCicero (ticket purchase).",
-                "Student transport card by Umbria Mobilità offers monthly discounts.",
-                "Official site: https://www.fsbusitalia.it/"
-              ],
-              "it": [
-                "Gli autobus urbani sono gestiti da Umbria Mobilità.",
-                "Per viaggi rapidi usa il Minimetrò (stazione Piazzale Cupa vicino a Elce).",
-                "App utili: Moovit (percorso e orari), MyCicero (acquisto biglietti).",
-                "Carta studenti Umbria Mobilità offre sconti mensili.",
-                "Sito ufficiale: https://www.fsbusitalia.it/"
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🏦 افتتاح حساب بانکی",
-              "en": "🏦 Opening a Bank Account",
-              "it": "🏦 Apertura di un Conto Bancario"
-            },
-            "content": {
-              "fa": [
-                "برای افتتاح حساب بانکی در ایتالیا به مدارک زیر نیاز دارید:",
-                "- کد فیسکاله (Codice Fiscale)",
-                "- پاسپورت",
-                "- مدرک ثبت‌نام در دانشگاه یا پرمسو (Permesso di soggiorno)",
-                "بانک‌های پیشنهادی برای دانشجویان بین‌المللی:",
-                "- UniCredit، Intesa Sanpaolo، Poste Italiane، N26 (آنلاین)",
-                "برخی بانک‌ها ممکن است هزینه ماهانه دریافت کنند، ولی حساب دانشجویی اغلب رایگان است."
-              ],
-              "en": [
-                "To open a bank account in Italy, you need:",
-                "- Codice Fiscale",
-                "- Passport",
-                "- University enrollment proof or Permesso di soggiorno",
-                "Suggested banks for international students:",
-                "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
-                "Some banks may charge monthly fees, but student accounts are usually free."
-              ],
-              "it": [
-                "Per aprire un conto bancario in Italia hai bisogno di:",
-                "- Codice Fiscale",
-                "- Passaporto",
-                "- Iscrizione all’università o Permesso di soggiorno",
-                "Banche consigliate per studenti internazionali:",
-                "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
-                "Alcune banche possono applicare commissioni mensili, ma i conti studenti sono spesso gratuiti."
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "📶 سیم‌کارت و اینترنت",
-              "en": "📶 SIM Card & Internet",
-              "it": "📶 SIM e Internet"
-            },
-            "content": {
-              "fa": [
-                "شرکت‌های معروف فروش سیم‌کارت در ایتالیا:",
-                "- Iliad، TIM، Vodafone، WindTre، Ho.",
-                "مدارک مورد نیاز: پاسپورت + کد فیسکاله",
-                "تعرفه‌های متداول: از 5 تا 15 یورو برای اینترنت نامحدود و تماس",
-                "Iliad برای دانشجویان گزینه‌ای ارزان و پرسرعت است."
-              ],
-              "en": [
-                "Popular SIM providers in Italy:",
-                "- Iliad, TIM, Vodafone, WindTre, Ho.",
-                "Required documents: Passport + Codice Fiscale",
-                "Typical plans: €5–15 for unlimited data and calls",
-                "Iliad is a cheap and fast option for students."
-              ],
-              "it": [
-                "Operatori SIM più popolari in Italia:",
-                "- Iliad, TIM, Vodafone, WindTre, Ho.",
-                "Documenti richiesti: Passaporto + Codice Fiscale",
-                "Tariffe tipiche: €5–15 per dati e chiamate illimitate",
-                "Iliad è un'opzione economica e veloce per studenti."
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🏥 خدمات درمانی و سلامت",
-              "en": "🏥 Health & Medical Services",
-              "it": "🏥 Servizi Sanitari"
-            },
-            "content": {
-              "fa": [
-                "مراکز درمانی مهم در پروجا:",
-                "- بیمارستان Santa Maria della Misericordia",
-                "- کلینیک‌های خصوصی و داروخانه‌ها در مرکز شهر",
-                "شماره اورژانس: 112",
-                "اپلیکیشن‌های مفید: Doctoralia، MioDottore"
-              ],
-              "en": [
-                "Key medical centers in Perugia:",
-                "- Santa Maria della Misericordia Hospital",
-                "- Private clinics and pharmacies in city center",
-                "Emergency number: 112",
-                "Useful apps: Doctoralia, MioDottore"
-              ],
-              "it": [
-                "Centri sanitari principali a Perugia:",
-                "- Ospedale Santa Maria della Misericordia",
-                "- Cliniche private e farmacie in centro",
-                "Numero d'emergenza: 112",
-                "App utili: Doctoralia, MioDottore"
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "📚 خدمات دانشجویی",
-              "en": "📚 Student Services",
-              "it": "📚 Servizi Studenteschi"
-            },
-            "content": {
-              "fa": [
-                "کتابخانه‌های اصلی دانشگاهی: Biblioteca Umanistica، Biblioteca di Ingegneria",
-                "مراکز ورزشی: CUS Perugia امکانات ورزشی با تخفیف برای دانشجویان دارد.",
-                "مرکز مشاوره دانشجویی: سرویس رایگان ADiSU و ESN برای پشتیبانی روانی و آموزشی"
-              ],
-              "en": [
-                "Main university libraries: Biblioteca Umanistica, Engineering Library",
-                "Sports centers: CUS Perugia offers discounts for students.",
-                "Student counseling: Free services from ADiSU and ESN for psychological and academic support"
-              ],
-              "it": [
-                "Biblioteche principali: Biblioteca Umanistica, Biblioteca di Ingegneria",
-                "Centri sportivi: CUS Perugia offre sconti agli studenti.",
-                "Supporto psicologico: Servizi gratuiti di ADiSU e ESN per studenti"
-              ]
-            }
-          },
-          {
-            "name": {
-              "fa": "🏘️ آدرس دقیق خوابگاه‌ها",
-              "en": "🏘️ Dormitory Addresses",
-              "it": "🏘️ Indirizzi Dormitori"
-            },
-            "content": {
-              "fa": [
-                "خوابگاه ADiSU Monteluce: Via Faina, 06123 Perugia",
-                "خوابگاه ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
-                "خوابگاه ADiSU Elce: Via Innamorati, 06123 Perugia"
-              ],
-              "en": [
-                "ADiSU Monteluce Dorm: Via Faina, 06123 Perugia",
-                "ADiSU Ingegneria Dorm: Via Goffredo Duranti, 06125 Perugia",
-                "ADiSU Elce Dorm: Via Innamorati, 06123 Perugia"
-              ],
-              "it": [
-                "Residenza ADiSU Monteluce: Via Faina, 06123 Perugia",
-                "Residenza ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
-                "Residenza ADiSU Elce: Via Innamorati, 06123 Perugia"
-              ]
-            }
+            "subsections": [
+              {
+                "title": {
+                  "fa": "فرهنگ زندگی در ایتالیا",
+                  "en": "Culture of Living in Italy",
+                  "it": "Cultura della Vita in Italia"
+                },
+                "content": {
+                  "fa": [
+                    "🌍 **ویژگی‌های کلیدی فرهنگ ایتالیایی**:",
+                    "  - **خانواده و اجتماع**: خانواده در ایتالیا محور زندگیه. ایتالیایی‌ها با خانواده‌هاشون ارتباط نزدیکی دارن و در تعطیلات مثل کریسمس یا عید پاک دور هم جمع می‌شن. در پروجا، این فرهنگ در رویدادهای محلی مثل Umbria Jazz (جولای) یا Eurochocolate (اکتبر) دیده می‌شه.",
+                    "  - **غذا و آداب غذا خوردن**: غذا یه تجربه اجتماعیه. شام‌ها (Cena) معمولاً طولانی (2-3 ساعت) و با گفت‌وگوی صمیمیه. غذاهای محلی پروجا مثل پاستا با ترافل اومبریا یا Torta al Testo (نان سنتی) معروفه.",
+                    "    - کاپوچینو بعد از ساعت 11 صبح سفارش ندید، چون غیرمعموله.",
+                    "    - در رستوران‌ها، coperto (هزینه سرویس، €1-3) در صورت‌حسابه. انعام 5-10٪ اختیاریه.",
+                    "    - نون روی میز رایگانه، ولی زیاد خوردن قبل از غذا ممکنه بی‌ادبی تلقی بشه.",
+                    "  - **سبک زندگی آرام (La Dolce Vita)**: ایتالیایی‌ها به زندگی آرام و لذت‌بخش معروفن. مغازه‌ها در پروجا بین ساعت 1 تا 4 بعدازظهر برای riposo (استراحت) تعطیلن. برای قرارهای دانشگاهی یا کاری، سر وقت باشید.",
+                    "  - **ارتباطات اجتماعی**: ایتالیایی‌ها گرم و صمیمین. دست دادن یا دو بوسه روی گونه در دیدارهای دوستانه رایجه. با Buongiorno (صبح بخیر) یا Buonasera (عصر بخیر) شروع کنید. تماس چشمی نشانه احترامه.",
+                    "  - **اهمیت ظاهر**: ایتالیایی‌ها به لباس و ظاهر اهمیت می‌دن. در دانشگاه یا ملاقات‌های رسمی، لباس مرتب (مثل شلوار پارچه‌ای و پیراهن) بپوشید. در محیط‌های غیررسمی، جین و تی‌شرت تمیز کافیه.",
+                    "  - **جشنواره‌ها**: پروجا به خاطر Umbria Jazz و Eurochocolate معروفه. شرکت در این رویدادها راه خوبی برای ادغام در فرهنگ محلیه.",
+                    "📌 **نکات برای ایرانی‌ها**:",
+                    "  - چند عبارت ساده ایتالیایی (مثل Grazie، Per favore، Scusa) یاد بگیرید تا ارتباط بهتری برقرار کنید.",
+                    "  - به ساعت‌های riposo عادت کنید و خریدها رو صبح یا عصر انجام بدید.",
+                    "  - در مهمانی‌های خانگی، یه هدیه کوچیک (شیرینی یا گل) ببرید.",
+                    "  - در گروه‌های دانشجویی مثل 'Iranian Students in Perugia' در تلگرام عضو بشید تا با فرهنگ محلی آشنا بشید."
+                  ],
+                  "en": [
+                    "🌍 **Key Features of Italian Culture**:",
+                    "  - **Family and Community**: Family is central to Italian life. Italians maintain close ties with relatives and gather for holidays like Christmas or Easter. In Perugia, this is reflected in local events like Umbria Jazz (July) or Eurochocolate (October).",
+                    "  - **Food and Dining Etiquette**: Food is a social experience. Dinners (Cena) are long (2-3 hours) with lively conversations. Perugia’s local dishes include Umbrian truffle pasta or Torta al Testo (traditional bread).",
+                    "    - Avoid ordering cappuccino after 11 AM, as it’s uncommon.",
+                    "    - Restaurants charge coperto (service fee, €1-3). Tipping 5-10% is optional but appreciated.",
+                    "    - Bread on the table is free, but eating too much before the meal may seem impolite.",
+                    "  - **Relaxed Lifestyle (La Dolce Vita)**: Italians are known for a relaxed, enjoyable lifestyle. Shops in Perugia close from 1-4 PM for riposo (rest). Be punctual for university or professional meetings.",
+                    "  - **Social Interactions**: Italians are warm and friendly. Handshakes or two cheek kisses are common in friendly settings. Start with Buongiorno (good morning) or Buonasera (good evening). Eye contact shows respect.",
+                    "  - **Appearance**: Italians value style. Wear neat clothes (e.g., trousers, shirt) for university or formal events. Casual jeans and clean t-shirts are fine for informal settings.",
+                    "  - **Festivals**: Perugia is famous for Umbria Jazz and Eurochocolate. Joining these events helps integrate into local culture.",
+                    "📌 **Tips for Iranians**:",
+                    "  - Learn simple Italian phrases (e.g., Grazie, Per favore, Scusa) to build rapport.",
+                    "  - Get used to riposo hours and plan shopping for morning or evening.",
+                    "  - Bring a small gift (sweets or flowers) to Italian homes.",
+                    "  - Join Telegram groups like 'Iranian Students in Perugia' to learn about local culture."
+                  ],
+                  "it": [
+                    "🌍 **Caratteristiche Principali della Cultura Italiana**:",
+                    "  - **Famiglia e Comunità**: La famiglia è al centro della vita italiana. Gli italiani mantengono stretti legami con i parenti e si riuniscono per festività come Natale o Pasqua. A Perugia, questo si riflette in eventi locali come Umbria Jazz (luglio) o Eurochocolate (ottobre).",
+                    "  - **Cibo ed Etichetta a Tavola**: Il cibo è un’esperienza sociale. Le cene (Cena) sono lunghe (2-3 ore) con conversazioni vivaci. Piatti locali di Perugia includono pasta al tartufo umbro o Torta al Testo (pane tradizionale).",
+                    "    - Evita di ordinare cappuccino dopo le 11, poiché è insolito.",
+                    "    - I ristoranti applicano il coperto (tassa di servizio, €1-3). La mancia del 5-10% è opzionale ma apprezzata.",
+                    "    - Il pane sul tavolo è gratuito, ma mangiarne troppo prima del pasto può sembrare scortese.",
+                    "  - **Stile di Vita Rilassato (La Dolce Vita)**: Gli italiani sono noti per uno stile di vita rilassato. A Perugia, i negozi chiudono dalle 13 alle 16 per il riposo. Sii puntuale per incontri universitari o professionali.",
+                    "  - **Interazioni Sociali**: Gli italiani sono calorosi e amichevoli. Strette di mano o due baci sulla guancia sono comuni in contesti informali. Inizia con Buongiorno o Buonasera. Il contatto visivo mostra rispetto.",
+                    "  - **Aspetto**: Gli italiani apprezzano lo stile. Indossa abiti ordinati (es. pantaloni, camicia) per università o eventi formali. Jeans e magliette pulite vanno bene per contesti informali.",
+                    "  - **Festival**: Perugia è famosa per Umbria Jazz ed Eurochocolate. Partecipare a questi eventi aiuta a integrarsi nella cultura locale.",
+                    "📌 **Consigli per Iraniani**:",
+                    "  - Impara frasi italiane semplici (es. Grazie, Per favore, Scusa) per costruire rapporti.",
+                    "  - Abituati agli orari di riposo e pianifica gli acquisti per la mattina o la sera.",
+                    "  - Porta un piccolo regalo (dolci o fiori) quando sei invitato a casa di un italiano.",
+                    "  - Unisciti a gruppi Telegram come 'Iranian Students in Perugia' per conoscere la cultura locale."
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "fa": "مدیریت قبض‌ها و خدمات عمومی در ایتالیا",
+                  "en": "Managing Utility Bills and Public Services in Italy",
+                  "it": "Gestione delle Bollette e dei Servizi Pubblici in Italia"
+                },
+                "content": {
+                  "fa": [
+                    "💡 **انواع قبض‌ها و خدمات عمومی**:",
+                    "  - **برق (Elettricità)**: توسط شرکت‌های Enel یا Acea ارائه می‌شه. قبض هر 2 ماه €40-60 برای آپارتمان دانشجویی (1-2 نفر). در زمستون به دلیل بخاری ممکنه تا €80 برسه.",
+                    "  - **گاز (Gas)**: برای گرمایش، آشپزی و آب گرم (هر 2 ماه €30-50). در پروجا، زمستون‌های سرد هزینه رو افزایش می‌ده.",
+                    "  - **آب (Acqua)**: کم‌هزینه (€15-25 هر 2 ماه). قبض‌ها معمولاً هر 3 ماه میاد.",
+                    "  - **اینترنت و تلفن**: بسته‌های خانگی (TIM, Vodafone, WindTre, سرعت 20-100 مگابیت): €25-40 در ماه. بسته‌های موبایل (10-50 گیگ): €10-15 در ماه. پوشش در مرکز پروجا خوبه، ولی در حومه ممکنه ضعیف باشه.",
+                    "  - **مالیات زباله (Rifiuti)**: سالیانه €100-200، معمولاً در اجاره گنجانده می‌شه.",
+                    "  - **مدیریت زباله**: تفکیک زباله (پلاستیک، کاغذ، شیشه، زباله تر) در پروجا اجباریه. عدم رعایت ممکنه جریمه (€50-100) داشته باشه.",
+                    "💡 **نحوه پرداخت قبض‌ها**:",
+                    "  - **آنلاین**: از طریق اپلیکیشن‌های بانکی (Intesa Sanpaolo, UniCredit) یا PostePay (Via Baglioni 10, پروجا, +39 075 500 1111).",
+                    "  - **حضوری**: در دفاتر پستی (Poste Italiane, Via Mario Angeloni 68, پروجا) یا بانک‌ها (UniCredit, Via Mario Angeloni 80).",
+                    "  - **اتوماتیک**: تنظیم پرداخت خودکار از حساب بانکی (نیاز به Codice Fiscale).",
+                    "💡 **مدارک لازم برای قراردادها**:",
+                    "  - Codice Fiscale (Agenzia delle Entrate, Via Canali 12, پروجا, +39 800 90 96 96).",
+                    "  - کپی پاسپورت (ترجمه رسمی به ایتالیایی یا انگلیسی، در تهران €20-50، در پروجا: Studio Traduzioni, Via XIV Settembre 15, €50-100).",
+                    "  - قرارداد اجاره برای اثبات آدرس.",
+                    "💡 **نکات برای ایرانی‌ها**:",
+                    "  - به دلیل تحریم‌ها، کارت‌های ایرانی کار نمی‌کنن. حساب بانکی در UniCredit (Via Mario Angeloni 80) یا Poste Italiane باز کنید یا از Western Union (Corso Vannucci 25, پروجا) استفاده کنید.",
+                    "  - قبض‌ها رو قبل از سررسید پرداخت کنید تا از جریمه (تا 10٪ مبلغ) جلوگیری بشه.",
+                    "  - قراردادهای اینترنت بدون تعهد بلندمدت (مثل Vodafone Red) انتخاب کنید.",
+                    "  - برای صرفه‌جویی، از لامپ‌های کم‌مصرف و خاموش کردن بخاری در زمان‌های غیرضروری استفاده کنید."
+                  ],
+                  "en": [
+                    "💡 **Types of Utility Bills and Public Services**:",
+                    "  - **Electricity (Elettricità)**: Provided by Enel or Acea. Bills every 2 months (€40-60 for a student apartment, 1-2 people). Winter costs may rise to €80 due to heating.",
+                    "  - **Gas**: For heating, cooking, hot water (€30-50 every 2 months). Perugia’s cold winters increase costs.",
+                    "  - **Water (Acqua)**: Low-cost (€15-25 every 2 months). Bills often quarterly.",
+                    "  - **Internet and Phone**: Home packages (TIM, Vodafone, WindTre, 20-100 Mbps): €25-40/month. Mobile plans (10-50 GB): €10-15/month. Central Perugia has good coverage, suburbs may be weaker.",
+                    "  - **Waste Tax (Rifiuti)**: Annual €100-200, usually included in rent.",
+                    "  - **Waste Management**: Sorting waste (plastic, paper, glass, organic) is mandatory in Perugia. Non-compliance may lead to fines (€50-100).",
+                    "💡 **How to Pay Bills**:",
+                    "  - **Online**: Via banking apps (Intesa Sanpaolo, UniCredit) or PostePay (Via Baglioni 10, Perugia, +39 075 500 1111).",
+                    "  - **In-Person**: At post offices (Poste Italiane, Via Mario Angeloni 68, Perugia) or banks (UniCredit, Via Mario Angeloni 80).",
+                    "  - **Automatic**: Set up direct debit (requires Codice Fiscale).",
+                    "💡 **Required Documents for Contracts**:",
+                    "  - Codice Fiscale (Agenzia delle Entrate, Via Canali 12, Perugia, +39 800 90 96 96).",
+                    "  - Passport copy (officially translated to Italian/English, in Tehran €20-50, in Perugia: Studio Traduzioni, Via XIV Settembre 15, €50-100).",
+                    "  - Rental contract for address proof.",
+                    "💡 **Tips for Iranians**:",
+                    "  - Due to sanctions, Iranian cards don’t work. Open an account with UniCredit (Via Mario Angeloni 80) or Poste Italiane, or use Western Union (Corso Vannucci 25, Perugia).",
+                    "  - Pay bills before due dates to avoid penalties (up to 10% of bill).",
+                    "  - Choose no-commitment internet plans (e.g., Vodafone Red) for flexibility.",
+                    "  - Save costs by using energy-efficient bulbs and turning off heaters when not needed."
+                  ],
+                  "it": [
+                    "💡 **Tipi di Bollette e Servizi Pubblici**:",
+                    "  - **Elettricità**: Fornita da Enel o Acea. Bollette ogni 2 mesi (€40-60 per appartamento studentesco, 1-2 persone). In inverno, i costi possono salire a €80 per il riscaldamento.",
+                    "  - **Gas**: Per riscaldamento, cucina, acqua calda (€30-50 ogni 2 mesi). Gli inverni freddi di Perugia aumentano i costi.",
+                    "  - **Acqua**: A basso costo (€15-25 ogni 2 mesi). Bollette spesso trimestrali.",
+                    "  - **Internet e Telefono**: Pacchetti domestici (TIM, Vodafone, WindTre, 20-100 Mbps): €25-40/mese. Piani mobili (10-50 GB): €10-15/mese. Perugia centro ha buona copertura, le periferie meno.",
+                    "  - **Tassa Rifiuti**: Annuale €100-200, solitamente inclusa nell’affitto.",
+                    "  - **Gestione Rifiuti**: La raccolta differenziata (plastica, carta, vetro, organico) è obbligatoria a Perugia. La mancata conformità può comportare multe (€50-100).",
+                    "💡 **Come Pagare le Bollette**:",
+                    "  - **Online**: Tramite app bancarie (Intesa Sanpaolo, UniCredit) o PostePay (Via Baglioni 10, Perugia, +39 075 500 1111).",
+                    "  - **Di Persona**: Presso uffici postali (Poste Italiane, Via Mario Angeloni 68, Perugia) o banche (UniCredit, Via Mario Angeloni 80).",
+                    "  - **Automatico**: Configura l’addebito diretto (richiede Codice Fiscale).",
+                    "💡 **Documenti Richiesti per i Contratti**:",
+                    "  - Codice Fiscale (Agenzia delle Entrate, Via Canali 12, Perugia, +39 800 90 96 96).",
+                    "  - Copia del passaporto (tradotto ufficialmente in italiano/inglese, a Teheran €20-50, a Perugia: Studio Traduzioni, Via XIV Settembre 15, €50-100).",
+                    "  - Contratto di locazione per prova di indirizzo.",
+                    "💡 **Consigli per Iraniani**:",
+                    "  - A causa delle sanzioni, le carte iraniane non funzionano. Apri un conto con UniCredit (Via Mario Angeloni 80) o Poste Italiane, o usa Western Union (Corso Vannucci 25, Perugia).",
+                    "  - Paga le bollette prima della scadenza per evitare penali (fino al 10% dell’importo).",
+                    "  - Scegli piani internet senza impegno a lungo termine (es. Vodafone Red) per flessibilità.",
+                    "  - Risparmia usando lampadine a risparmio energetico e spegnendo i riscaldamenti quando non necessari."
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "fa": "هزینه زندگی دانشجویی در پروجا",
+                  "en": "Cost of Student Living in Perugia",
+                  "it": "Costo della Vita Studentesca a Perugia"
+                },
+                "content": {
+                  "fa": [
+                    "💶 **هزینه‌های ماهانه در پروجا (2025)**:",
+                    "  - **اجاره**:",
+                    "    - اتاق اشتراکی: €200-300 (مناطق نزدیک دانشگاه مثل Via Pascoli یا Elce).",
+                    "    - آپارتمان تک‌نفره: €350-450 (مناطق دورتر مثل Ponte San Giovanni).",
+                    "    - خوابگاه DSU: €150-250 با بورسیه (ADiSU Umbria, Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "  - **غذا**:",
+                    "    - خرید از سوپرمارکت (Lidl, Via Eugenio Curiel 13, یا Coop, Via della Valtiera 181): €150-200.",
+                    "    - وعده در کافه دانشگاه (Mensa Universitaria, Via Pascoli 1): €5-7.",
+                    "    - غذا در رستوران‌های ارزان (مثل پیتزافروشی‌های Corso Vannucci): €8-15.",
+                    "  - **حمل‌ونقل**:",
+                    "    - بلیط ماهانه اتوبوس (ATAM Perugia, www.atam.pg.it): €38.",
+                    "    - دوچرخه (دست‌دوم: €50-100) یا پیاده‌روی در مرکز شهر.",
+                    "  - **قبض‌ها**: €40-80 (برق، گاز، آب، اینترنت). در آپارتمان‌های اشتراکی، هزینه‌ها تقسیم می‌شه.",
+                    "  - **تفریحات و سایر هزینه‌ها**:",
+                    "    - کافه (اسپرسو: €1-2، کاپوچینو: €1.5-3).",
+                    "    - بلیط سینما یا تئاتر: €7-10.",
+                    "    - جشنواره‌ها (مثل Umbria Jazz): رایگان تا €20.",
+                    "    - جمعاً: €50-100.",
+                    "  - **جمع کل**: €550-900 بدون بورسیه؛ €400-600 با بورسیه DSU (شامل خوابگاه و کمک‌هزینه €2,000-5,000 در سال).",
+                    "📍 **منابع اجاره در پروجا**:",
+                    "  - **سایت‌ها**: Idealista (www.idealista.it), Subito (www.subito.it).",
+                    "  - **آژانس‌های املاک**: Agenzia Immobiliare Perugia (Via XX Settembre 35, +39 075 573 1515).",
+                    "  - **خوابگاه**: ADiSU Umbria (Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "📌 **نکات برای ایرانی‌ها**:",
+                    "  - بورسیه DSU هزینه‌های اجاره و غذا رو تا 50٪ کاهش می‌ده. درخواست تا سپتامبر از www.universitaly.it ثبت بشه.",
+                    "  - قرارداد اجاره رسمی (Contratto di Locazione) امضا کنید و با وکیل مهاجرتی (Studio Legale, Via del Rastro 10, +39 075 573 4823) بررسی کنید.",
+                    "  - خرید از سوپرمارکت‌های تخفیفی (Lidl, Coop) و پخت غذا در خانه هزینه‌ها رو کم می‌کنه.",
+                    "  - برای اجاره، مناطق نزدیک دانشگاه (Elce, Via Pascoli) رو اولویت بدید تا در هزینه حمل‌ونقل صرفه‌جویی کنید."
+                  ],
+                  "en": [
+                    "💶 **Monthly Costs in Perugia (2025)**:",
+                    "  - **Rent**:",
+                    "    - Shared room: €200-300 (near university areas like Via Pascoli or Elce).",
+                    "    - Single apartment: €350-450 (further areas like Ponte San Giovanni).",
+                    "    - DSU dormitory: €150-250 with scholarship (ADiSU Umbria, Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "  - **Food**:",
+                    "    - Groceries (Lidl, Via Eugenio Curiel 13, or Coop, Via della Valtiera 181): €150-200.",
+                    "    - University canteen (Mensa Universitaria, Via Pascoli 1): €5-7 per meal.",
+                    "    - Cheap restaurants (e.g., pizzerias on Corso Vannucci): €8-15.",
+                    "  - **Transportation**:",
+                    "    - Monthly bus pass (ATAM Perugia, www.atam.pg.it): €38.",
+                    "    - Second-hand bike (€50-100) or walking in the compact city center.",
+                    "  - **Utilities**: €40-80 (electricity, gas, water, internet). Split in shared apartments.",
+                    "  - **Leisure and Miscellaneous**:",
+                    "    - Cafes (espresso: €1-2, cappuccino: €1.5-3).",
+                    "    - Cinema or theater tickets: €7-10.",
+                    "    - Festivals (e.g., Umbria Jazz): free to €20.",
+                    "    - Total: €50-100.",
+                    "  - **Total**: €550-900 without DSU; €400-600 with DSU (includes dormitory and €2,000-5,000/year grant).",
+                    "📍 **Rental Resources in Perugia**:",
+                    "  - **Websites**: Idealista (www.idealista.it), Subito (www.subito.it).",
+                    "  - **Real Estate Agencies**: Agenzia Immobiliare Perugia (Via XX Settembre 35, +39 075 573 1515).",
+                    "  - **Dormitories**: ADiSU Umbria (Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "📌 **Tips for Iranians**:",
+                    "  - DSU scholarship cuts rent and food costs by up to 50%. Apply by September via www.universitaly.it.",
+                    "  - Sign official rental contracts (Contratto di Locazione) and verify with an immigration lawyer (Studio Legale, Via del Rastro 10, +39 075 573 4823).",
+                    "  - Shop at discount supermarkets (Lidl, Coop) and cook at home to save money.",
+                    "  - Prioritize areas near the university (Elce, Via Pascoli) to reduce transport costs."
+                  ],
+                  "it": [
+                    "💶 **Costi Mensili a Perugia (2025)**:",
+                    "  - **Affitto**:",
+                    "    - Stanza condivisa: €200-300 (zone vicine all’università come Via Pascoli o Elce).",
+                    "    - Appartamento singolo: €350-450 (zone più lontane come Ponte San Giovanni).",
+                    "    - Dormitorio DSU: €150-250 con borsa di studio (ADiSU Umbria, Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "  - **Cibo**:",
+                    "    - Spesa (Lidl, Via Eugenio Curiel 13, o Coop, Via della Valtiera 181): €150-200.",
+                    "    - Mensa universitaria (Mensa Universitaria, Via Pascoli 1): €5-7 a pasto.",
+                    "    - Ristoranti economici (es. pizzerie su Corso Vannucci): €8-15.",
+                    "  - **Trasporti**:",
+                    "    - Abbonamento mensile autobus (ATAM Perugia, www.atam.pg.it): €38.",
+                    "    - Bicicletta usata (€50-100) o camminare nel centro compatto.",
+                    "  - **Utenze**: €40-80 (elettricità, gas, acqua, internet). Divise negli appartamenti condivisi.",
+                    "  - **Svago e Varie**:",
+                    "    - Bar (espresso: €1-2, cappuccino: €1.5-3).",
+                    "    - Biglietti cinema o teatro: €7-10.",
+                    "    - Festival (es. Umbria Jazz): gratuito fino a €20.",
+                    "    - Totale: €50-100.",
+                    "  - **Totale**: €550-900 senza DSU; €400-600 con DSU (include dormitorio e contributo di €2,000-5,000/anno).",
+                    "📍 **Risorse per l’Affitto a Perugia**:",
+                    "  - **Siti Web**: Idealista (www.idealista.it), Subito (www.subito.it).",
+                    "  - **Agenzie Immobiliari**: Agenzia Immobiliare Perugia (Via XX Settembre 35, +39 075 573 1515).",
+                    "  - **Dormitori**: ADiSU Umbria (Via Benedetta 14, +39 075 332 211, www.adisu.umbria.it).",
+                    "📌 **Consigli per Iraniani**:",
+                    "  - La borsa DSU riduce i costi di affitto e cibo fino al 50%. Richiedi entro settembre tramite www.universitaly.it.",
+                    "  - Firma contratti di locazione ufficiali (Contratto di Locazione) e verifica con un avvocato per l’immigrazione (Studio Legale, Via del Rastro 10, +39 075 573 4823).",
+                    "  - Acquista nei supermercati scontati (Lidl, Coop) e cucina a casa per risparmiare.",
+                    "  - Dai priorità alle zone vicine all’università (Elce, Via Pascoli) per ridurre i costi di trasporto."
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "fa": "مقایسه هزینه ماهانه زندگی دانشجویی در ایتالیا با سایر کشورها",
+                  "en": "Comparison of Monthly Student Living Costs in Italy with Other Countries",
+                  "it": "Confronto dei Costi Mensili di Vita Studentesca in Italia con Altri Paesi"
+                },
+                "content": {
+                  "fa": [
+                    "📊 **مقایسه هزینه‌ها (2025)**:",
+                    "  - **ایتالیا (پروجا)**: €550-900 (با DSU: €400-600).",
+                    "    - اجاره: €200-450. غذا: €150-250. حمل‌ونقل: €30-50.",
+                    "    - مزایا: بورسیه DSU (خوابگاه و کمک‌هزینه €2,000-5,000/سال)، هزینه پایین در شهرهای کوچک.",
+                    "    - معایب: تحریم‌های بانکی، نیاز به زبان ایتالیایی برای زندگی روزمره.",
+                    "  - **آلمان (برلین)**: €800-1,200.",
+                    "    - اجاره: €400-700. غذا: €200-300. حمل‌ونقل: €50-80.",
+                    "    - مزایا: بورسیه DAAD، حمل‌ونقل عمومی قوی.",
+                    "    - معایب: اجاره بالا، رقابت برای بورسیه.",
+                    "  - **فرانسه (پاریس)**: €1,000-1,500.",
+                    "    - اجاره: €600-900. غذا: €200-300. حمل‌ونقل: €70-100.",
+                    "    - مزایا: کمک‌هزینه CAF (€100-200/ماه)، دانشگاه‌های معتبر.",
+                    "    - معایب: هزینه بالا، مشکلات بانکی برای ایرانی‌ها.",
+                    "  - **کانادا (تورنتو)**: €1,200-2,000 (CAD 1,800-3,000).",
+                    "    - اجاره: €700-1,200. غذا: €300-500. حمل‌ونقل: €80-120.",
+                    "    - مزایا: کیفیت بالای زندگی، فرصت‌های شغلی.",
+                    "    - معایب: هزینه بسیار بالا، مشکلات انتقال پول.",
+                    "  - **ترکیه (استانبول)**: €400-700.",
+                    "    - اجاره: €200-400. غذا: €100-200. حمل‌ونقل: €20-40.",
+                    "    - مزایا: نزدیکی به ایران، بدون نیاز به ویزا، هزینه پایین.",
+                    "    - معایب: کیفیت دانشگاه‌ها پایین‌تر، تورم بالا.",
+                    "📌 **نکات برای ایرانی‌ها**:",
+                    "  - ایتالیا با DSU اقتصادی‌ترین گزینه‌ست. درخواست بورسیه تا سپتامبر ثبت بشه.",
+                    "  - ترکیه به دلیل نزدیکی و ارز ارزان‌تر گزینه خوبی برای بودجه محدودتره.",
+                    "  - کانادا و فرانسه به دلیل هزینه بالا و مشکلات بانکی کمتر توصیه می‌شن.",
+                    "  - در ایتالیا، شهرهای کوچک مثل پروجا (برخلاف رم: €800-1,200) مقرون‌به‌صرفه‌ترن.",
+                    "  - برای انتقال پول، از صرافی‌های معتبر (Western Union, Corso Vannucci 25, پروجا) استفاده کنید."
+                  ],
+                  "en": [
+                    "📊 **Cost Comparison (2025)**:",
+                    "  - **Italy (Perugia)**: €550-900 (with DSU: €400-600).",
+                    "    - Rent: €200-450. Food: €150-250. Transport: €30-50.",
+                    "    - Pros: DSU scholarship (dormitory and €2,000-5,000/year grant), low costs in small cities.",
+                    "    - Cons: Banking sanctions, need for Italian language skills.",
+                    "  - **Germany (Berlin)**: €800-1,200.",
+                    "    - Rent: €400-700. Food: €200-300. Transport: €50-80.",
+                    "    - Pros: DAAD scholarships, strong public transport.",
+                    "    - Cons: High rent, competitive scholarships.",
+                    "  - **France (Paris)**: €1,000-1,500.",
+                    "    - Rent: €600-900. Food: €200-300. Transport: €70-100.",
+                    "    - Pros: CAF housing aid (€100-200/month), prestigious universities.",
+                    "    - Cons: High costs, banking issues for Iranians.",
+                    "  - **Canada (Toronto)**: €1,200-2,000 (CAD 1,800-3,000).",
+                    "    - Rent: €700-1,200. Food: €300-500. Transport: €80-120.",
+                    "    - Pros: High quality of life, job opportunities.",
+                    "    - Cons: Very high costs, money transfer issues.",
+                    "  - **Turkey (Istanbul)**: €400-700.",
+                    "    - Rent: €200-400. Food: €100-200. Transport: €20-40.",
+                    "    - Pros: Proximity to Iran, no visa needed, low costs.",
+                    "    - Cons: Lower university quality, high inflation.",
+                    "📌 **Tips for Iranians**:",
+                    "  - Italy with DSU is the most cost-effective. Apply for scholarships by September via www.universitaly.it.",
+                    "  - Turkey is a good option for limited budgets due to proximity and cheaper currency.",
+                    "  - Canada and France are less recommended due to high costs and banking issues.",
+                    "  - In Italy, small cities like Perugia (unlike Rome: €800-1,200) are more affordable.",
+                    "  - Use trusted exchange services (Western Union, Corso Vannucci 25, Perugia) for money transfers."
+                  ],
+                  "it": [
+                    "📊 **Confronto dei Costi (2025)**:",
+                    "  - **Italia (Perugia)**: €550-900 (con DSU: €400-600).",
+                    "    - Affitto: €200-450. Cibo: €150-250. Trasporti: €30-50.",
+                    "    - Pro: Borsa DSU (dormitorio e contributo €2,000-5,000/anno), costi bassi nelle città piccole.",
+                    "    - Contro: Sanzioni bancarie, necessità di conoscere l’italiano.",
+                    "  - **Germania (Berlino)**: €800-1,200.",
+                    "    - Affitto: €400-700. Cibo: €200-300. Trasporti: €50-80.",
+                    "    - Pro: Borse DAAD, trasporti pubblici efficienti.",
+                    "    - Contro: Affitto alto, competizione per borse di studio.",
+                    "  - **Francia (Parigi)**: €1,000-1,500.",
+                    "    - Affitto: €600-900. Cibo: €200-300. Trasporti: €70-100.",
+                    "    - Pro: Aiuto abitativo CAF (€100-200/mese), università prestigiose.",
+                    "    - Contro: Costi elevati, problemi bancari per iraniani.",
+                    "  - **Canada (Toronto)**: €1,200-2,000 (CAD 1,800-3,000).",
+                    "    - Affitto: €700-1,200. Cibo: €300-500. Trasporti: €80-120.",
+                    "    - Pro: Alta qualità della vita, opportunità lavorative.",
+                    "    - Contro: Costi molto alti, problemi di trasferimento denaro.",
+                    "  - **Turchia (Istanbul)**: €400-700.",
+                    "    - Affitto: €200-400. Cibo: €100-200. Trasporti: €20-40.",
+                    "    - Pro: Vicinanza all’Iran, nessun visto richiesto, costi bassi.",
+                    "    - Contro: Qualità universitaria inferiore, alta inflazione.",
+                    "📌 **Consigli per Iraniani**:",
+                    "  - L’Italia con DSU è l’opzione più economica. Richiedi la borsa entro settembre tramite www.universitaly.it.",
+                    "  - La Turchia è una buona opzione per budget limitati grazie alla vicinanza e alla valuta più economica.",
+                    "  - Canada e Francia sono meno consigliati per costi elevati e problemi bancari.",
+                    "  - In Italia, città piccole come Perugia (a differenza di Roma: €800-1,200) sono più economiche.",
+                    "  - Usa servizi di cambio affidabili (Western Union, Corso Vannucci 25, Perugia) per trasferimenti di denaro."
+                  ]
+                }
+              },
+              {
+                "title": {
+                  "fa": "تفاوت‌های فرهنگی رایج برای جلوگیری از سوءتفاهم با ایتالیایی‌ها",
+                  "en": "Common Cultural Differences to Avoid Misunderstandings with Italians",
+                  "it": "Differenze Culturali Comuni per Evitare Fraintendimenti con gli Italiani"
+                },
+                "content": {
+                  "fa": [
+                    "🤝 **تفاوت‌های فرهنگی کلیدی**:",
+                    "  - **تماس چشمی**: ایتالیایی‌ها تماس چشمی مستقیم رو نشانه صداقت و احترام می‌دونن. اجتناب ازش ممکنه بی‌ادبی یا بی‌اعتمادی تلقی بشه.",
+                    "  - **سلام و احوال‌پرسی**: همیشه با Buongiorno (تا ظهر) یا Buonasera (بعدازظهر) شروع کنید. در پروجا، حتی در مغازه‌ها یا کافه‌ها، سلام نکردن ممکنه سرد به نظر بیاد.",
+                    "  - **لحن و سبک صحبت**: ایتالیایی‌ها بلند و با هیجان صحبت می‌کنن، ولی این عصبانیت نیست. ایرانی‌ها که آروم‌ترن، ممکنه بی‌علاقه به نظر بیان. در بحث‌های گروهی فعال باشید.",
+                    "  - **زمان‌بندی**: تأخیر 5-10 دقیقه در موقعیت‌های غیررسمی (مثل دیدار دوستانه) قابل قبوله، ولی برای کلاس‌های دانشگاه، امتحانات یا قرارهای کاری سر وقت باشید.",
+                    "  - **مهمانی و دعوت**: اگر به خونه ایتالیایی دعوت شدید، سر وقت برسید و هدیه کوچیک (شیرینی، شکلات، گل) ببرید. نپذیرفتن غذا یا نوشیدنی ممکنه بی‌ادبی تلقی بشه.",
+                    "  - **موضوعات حساس**: از شوخی یا بحث درباره دین، سیاست یا مسائل خانوادگی پرهیز کنید، چون ممکنه حساسیت‌برانگیز باشه.",
+                    "  - **فرهنگ محلی پروجا**: پروجا شهری آرام و دانشجوییه. شرکت در Umbria Jazz (جولای) یا Eurochocolate (اکتبر) به ادغام در فرهنگ محلی کمک می‌کنه.",
+                    "📌 **نکات برای ایرانی‌ها**:",
+                    "  - در فعالیت‌های دانشجویی (مثل گروه‌های دانشگاه پروجا) شرکت کنید تا با فرهنگ محلی آشنا بشید.",
+                    "  - گروه‌های تلگرامی مثل 'Iranian Students in Perugia' یا 'Iranian Students in Italy' برای تبادل تجربه مفیده.",
+                    "  - اگه سوءتفاهم پیش اومد، با لبخند و عذرخواهی ساده (Scusa, non volevo offenderti) موضوع رو حل کنید.",
+                    "  - با یادگیری فرهنگ اومبریا (مثل آداب غذا یا جشنواره‌ها) روابط بهتری بسازید."
+                  ],
+                  "en": [
+                    "🤝 **Key Cultural Differences**:",
+                    "  - **Eye Contact**: Italians see direct eye contact as a sign of honesty and respect. Avoiding it may seem rude or untrustworthy.",
+                    "  - **Greetings**: Always start with Buongiorno (until noon) or Buonasera (afternoon). In Perugia, not greeting in shops or cafes may seem cold.",
+                    "  - **Conversation Style**: Italians speak loudly and animatedly, but this isn’t anger. Quieter Iranian tones may seem disinterested. Be active in group discussions.",
+                    "  - **Timing**: 5-10 minute delays are acceptable in casual settings, but be punctual for university classes, exams, or professional meetings.",
+                    "  - **Invitations**: Arrive on time to Italian homes and bring a small gift (sweets, chocolate, flowers). Refusing food or drinks may seem impolite.",
+                    "  - **Sensitive Topics**: Avoid jokes or discussions about religion, politics, or sensitive family matters, as they may cause offense.",
+                    "  - **Perugia’s Local Culture**: Perugia is a calm, student-friendly city. Joining Umbria Jazz (July) or Eurochocolate (October) helps integrate into local culture.",
+                    "📌 **Tips for Iranians**:",
+                    "  - Participate in student activities (e.g., University of Perugia groups) to learn local culture.",
+                    "  - Join Telegram groups like 'Iranian Students in Perugia' or 'Iranian Students in Italy' for shared experiences.",
+                    "  - If a misunderstanding occurs, resolve it with a smile and simple apology (Scusa, non volevo offenderti).",
+                    "  - Build better relationships by learning Umbrian culture (e.g., food customs or festivals)."
+                  ],
+                  "it": [
+                    "🤝 **Differenze Culturali Chiave**:",
+                    "  - **Contatto Visivo**: Gli italiani vedono il contatto visivo diretto come segno di onestà e rispetto. Evitarlo può sembrare scortese o poco affidabile.",
+                    "  - **Saluti**: Inizia sempre con Buongiorno (fino a mezzogiorno) o Buonasera (pomeriggio). A Perugia, non salutare nei negozi o bar può sembrare freddo.",
+                    "  - **Stile di Conversazione**: Gli italiani parlano ad alta voce e con entusiasmo, ma non è rabbia. Toni più calmi iraniani possono sembrare disinteresse. Sii attivo nelle discussioni di gruppo.",
+                    "  - **Puntualità**: Ritardi di 5-10 minuti sono accettabili in contesti informali, ma sii puntuale per lezioni universitarie, esami o incontri professionali.",
+                    "  - **Inviti**: Arriva in orario a casa di un italiano e porta un piccolo regalo (dolci, cioccolato, fiori). Rifiutare cibo o bevande può sembrare scortese.",
+                    "  - **Temi Sensibili**: Evita battute o discussioni su religione, politica o questioni familiari delicate, poiché possono causare offese.",
+                    "  - **Cultura Locale di Perugia**: Perugia è una città tranquilla e studentesca. Partecipare a Umbria Jazz (luglio) o Eurochocolate (ottobre) aiuta a integrarsi nella cultura locale.",
+                    "📌 **Consigli per Iraniani**:",
+                    "  - Partecipa ad attività studentesche (es. gruppi dell’Università di Perugia) per conoscere la cultura locale.",
+                    "  - Unisciti a gruppi Telegram come 'Iranian Students in Perugia' o 'Iranian Students in Italy' per condividere esperienze.",
+                    "  - In caso di fraintendimenti, risolvili con un sorriso e una scusa semplice (Scusa, non volevo offenderti).",
+                    "  - Costruisci migliori relazioni imparando la cultura umbra (es. usanze culinarie o festival)."
+                  ]
+                }
+              }
+            ]
           }
         ]
       }
     ]
   }
 }
->>>>>>> REPLACE
+[end of studentbot/knowledge_base_guide.json]
