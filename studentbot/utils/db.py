@@ -181,6 +181,25 @@ def get_user(user_id):
         if conn:
             conn.close()
 
+def add_points(user_id, points):
+    """Adds points to a user's score."""
+    conn = None
+    cur = None
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute("UPDATE users SET points = points + %s WHERE user_id = %s", (points, user_id))
+        conn.commit()
+        logger.info(f"Added {points} points to user_id: {user_id}")
+    except Exception as e:
+        logger.error(f"Failed to add points for user_id {user_id}: {e}")
+        raise
+    finally:
+        if cur:
+            cur.close()
+        if conn:
+            conn.close()
+
 def get_redis_connection():
     """Establishes a connection to the Redis server."""
     try:
