@@ -497,6 +497,11 @@
               "en": "🎓 Comprehensive Guide to Regional Scholarship (ADiSU Umbria) 2025/2026",
               "it": "🎓 Guida Completa alla Borsa Regionale (ADiSU Umbria) 2025/2026"
             },
+            "description": {
+              "fa": "راهنمای کامل شرایط، مدارک، و تغییرات بورسیه استانی ADiSU Umbria برای دانشجویان بین‌المللی در سال تحصیلی 2025/2026.",
+              "en": "Complete guide to eligibility, required documents, and changes for the ADiSU Umbria regional scholarship for international students in 2025/2026.",
+              "it": "Guida completa su requisiti, documenti richiesti e cambiamenti della borsa regionale ADiSU Umbria per studenti internazionali nel 2025/2026."
+            },
             "content": {
               "fa": [
                 "بورسیه استانی ADiSU Umbria برای حمایت از دانشجویان با وضعیت اقتصادی ضعیف طراحی شده و شامل کمک‌هزینه نقدی، خوابگاه رایگان، و غذای یارانه‌ای است.",
@@ -795,6 +800,391 @@
               ]
             }
           }
+        ]
+      },
+      {
+        "id": "housing_and_daily_life",
+        "title": {
+          "fa": "مسکن و زندگی روزمره",
+          "en": "Housing and Daily Life",
+          "it": "Alloggio e Vita Quotidiana"
+        },
+        "subsections": [
+    {
+      "name": {
+        "fa": "خوابگاه‌های دانشجویی (ADiSU و سایر گزینه‌ها)",
+        "en": "Student Dormitories (ADiSU and Other Options)",
+        "it": "Dormitori Studenteschi (ADiSU e Altre Opzioni)"
+      },
+      "content": {
+        "fa": [
+          "خوابگاه‌های دانشجویی تو پروجا عمدتاً توسط **ADiSU Umbria** (سازمان خدمات دانشجویی منطقه اومبریا) مدیریت می‌شن و گزینه‌ای مقرون‌به‌صرفه برای دانشجوهای بین‌المللی هستن.",
+          "مراحل درخواست خوابگاه ADiSU:",
+          "1. **ثبت‌نام آنلاین**: از سایت ADiSU (https://www.adisu.umbria.it) فرم درخواست خوابگاه رو پر کن. معمولاً از ژوئن تا آگوست برای ترم پاییز بازه.",
+          "2. **مدارک لازم**:",
+          "- کپی پاسپورت و ویزای تحصیلی (Tipo D).",
+          "- کدیچه فیسکاله (باید قبلش از Agenzia delle Entrate بگیری).",
+          "- نامه پذیرش دانشگاه پروجا یا مدرک ثبت‌نام.",
+          "- گواهی تمکن مالی (برای اثبات توانایی پرداخت هزینه خوابگاه).",
+          "3. **پرداخت هزینه درخواست**: حدود €10-20 (نقدی یا از طریق حواله بانکی، چون کارت‌های ایرانی کار نمی‌کنن).",
+          "4. **انتخاب خوابگاه**: ADiSU چند خوابگاه تو پروجا داره، مثل Collegio di Merito یا Casa dello Studente. اولویت‌بندی خوابگاه‌ها رو تو فرم مشخص کن.",
+          "5. **تأیید و قرارداد**: بعد از تأیید (معمولاً 1-2 ماه بعد)، قرارداد خوابگاه (Contratto di Locazione) بهت داده می‌شه. قرارداد رو با دقت بخون و امضا کن.",
+          "هزینه خوابگاه: ماهانه €200-350 (بسته به نوع اتاق: تک‌نفره، دونفره، یا آپارتمان مشترک).",
+          "مزایا: اینترنت رایگان، امکانات آشپزخانه، و نزدیکی به دانشگاه (مثلاً خوابگاه Via del Giochetto نزدیک پردیس اصلیه).",
+          "معایب: تعداد محدود، رقابت بالا، و قوانین سخت (مثل ممنوعیت مهمانی شبانه).",
+          "خوابگاه‌های خصوصی: اگه ADiSU پر باشه، می‌تونی از خوابگاه‌های خصوصی (مثل Camplus یا Residenza Universitaria) استفاده کنی. هزینه: €300-500 در ماه."
+        ],
+        "en": [
+          "Student dormitories in Perugia are primarily managed by **ADiSU Umbria**, offering affordable housing for international students.",
+          "Steps to apply for ADiSU dorms:",
+          "1. **Online application**: Fill out the dorm application form on the ADiSU website (https://www.adisu.umbria.it), typically open from June to August for the fall semester.",
+          "2. **Required documents**:",
+          "- Copy of passport and study visa (Tipo D).",
+          "- Codice Fiscale (obtained from Agenzia delle Entrate).",
+          "- University of Perugia acceptance letter or enrollment proof.",
+          "- Proof of financial means (to show ability to pay dorm fees).",
+          "3. **Pay the application fee**: Approx. €10-20 (cash or bank transfer, as Iranian cards don’t work).",
+          "4. **Choose a dorm**: ADiSU offers several dorms in Perugia, like Collegio di Merito or Casa dello Studente. Specify preferences in the form.",
+          "5. **Confirmation and contract**: After approval (usually 1-2 months), you’ll receive a lease contract (Contratto di Locazione). Read and sign carefully.",
+          "Dorm costs: €200-350/month (depending on room type: single, double, or shared apartment).",
+          "Pros: Free Wi-Fi, kitchen facilities, and proximity to the university (e.g., Via del Giochetto dorm is near the main campus).",
+          "Cons: Limited spots, high competition, and strict rules (e.g., no overnight guests).",
+          "Private dorms: If ADiSU is full, consider private options like Camplus or Residenza Universitaria. Costs: €300-500/month."
+        ],
+        "it": [
+          "I dormitori studenteschi a Perugia sono gestiti principalmente da **ADiSU Umbria**, offrendo alloggi economici per studenti internazionali.",
+          "Fasi per richiedere i dormitori ADiSU:",
+          "1. **Domanda online**: Compila il modulo di richiesta sul sito ADiSU (https://www.adisu.umbria.it), di solito aperto da giugno ad agosto per il semestre autunnale.",
+          "2. **Documenti richiesti**:",
+          "- Copia del passaporto e visto di studio (Tipo D).",
+          "- Codice Fiscale (ottenuto presso l’Agenzia delle Entrate).",
+          "- Lettera di accettazione dell’Università di Perugia o prova di iscrizione.",
+          "- Prova di mezzi finanziari (per dimostrare la capacità di pagare le spese del dormitorio).",
+          "3. **Pagamento della tassa di domanda**: Circa €10-20 (in contanti o bonifico bancario, poiché le carte iraniane non funzionano).",
+          "4. **Scelta del dormitorio**: ADiSU offre diversi dormitori a Perugia, come il Collegio di Merito o la Casa dello Studente. Specifica le preferenze nel modulo.",
+          "5. **Conferma e contratto**: Dopo l’approvazione (di solito 1-2 mesi), riceverai un contratto di locazione. Leggilo attentamente e firmalo.",
+          "Costi del dormitorio: €200-350/mese (a seconda del tipo di stanza: singola, doppia o appartamento condiviso).",
+          "Vantaggi: Wi-Fi gratuito, strutture cucina e vicinanza all’università (es. il dormitorio di Via del Giochetto è vicino al campus principale).",
+          "Svantaggi: Posti limitati, alta competizione e regole rigide (es. divieto di ospiti notturni).",
+          "Dormitori privati: Se ADiSU è pieno, considera opzioni private come Camplus o Residenza Universitaria. Costi: €300-500/mese."
+        ]
+      },
+      "resources": {
+        "links": [
+          "ADiSU Umbria: https://www.adisu.umbria.it",
+          "دانشگاه پروجا (دفتر بین‌الملل): https://www.unipg.it/en/international-students",
+          "Camplus Perugia: https://www.camplus.it/en/perugia"
+        ],
+        "apps": [
+          "ADiSU App: برای پیگیری درخواست خوابگاه (Google Play/App Store).",
+          "Idealista: برای جستجوی خوابگاه‌ها و آپارتمان‌های خصوصی (Google Play/App Store)."
+        ],
+        "contacts": [
+          "ADiSU Umbria: +39 075 577 4011, info@adisu.umbria.it",
+          "دفتر بین‌الملل دانشگاه پروجا: +39 075 585 2526, international@unipg.it"
+        ]
+      },
+      "tips": {
+        "fa": [
+          "درخواست خوابگاه ADiSU رو زود (ترجیحاً ژوئن) بفرست، چون رقابت زیاده.",
+          "قرارداد خوابگاه رو با دقت بخون، چون قوانین سختگیرانه‌ای (مثل ممنوعیت سیگار) داره.",
+          "اگه خوابگاه نگرفتی، از سایت Idealista یا گروه‌های تلگرامی برای پیدا کردن خوابگاه خصوصی کمک بگیر."
+        ],
+        "en": [
+          "Apply for ADiSU dorms early (preferably June), as competition is high.",
+          "Read the dorm contract carefully, as it has strict rules (e.g., no smoking).",
+          "If you don’t get a dorm, use Idealista or Telegram groups to find private options."
+        ],
+        "it": [
+          "Invia la domanda per i dormitori ADiSU presto (preferibilmente a giugno), poiché la competizione è alta.",
+          "Leggi attentamente il contratto del dormitorio, poiché ha regole rigide (es. divieto di fumare).",
+          "Se non ottieni un dormitorio, usa Idealista o gruppi Telegram per trovare opzioni private."
+        ]
+      },
+      "faqs": {
+        "fa": [
+          "سؤال: اگه خوابگاه ADiSU پر باشه چی؟ پاسخ: به خوابگاه‌های خصوصی (مثل Camplus) یا اجاره آپارتمان فکر کن.",
+          "سؤال: هزینه خوابگاه شامل قبض‌ها می‌شه؟ پاسخ: بله، معمولاً آب، برق، و اینترنت تو هزینه ADiSU گنجانده شده.",
+          "سؤال: می‌تونم بدون کدیچه فیسکاله خوابگاه بگیرم؟ پاسخ: برای ADiSU خیر، ولی بعضی خوابگاه‌های خصوصی ممکنه قبول کنن."
+        ],
+        "en": [
+          "FAQ: What if ADiSU dorms are full? Answer: Consider private dorms (e.g., Camplus) or renting an apartment.",
+          "FAQ: Do dorm costs include utilities? Answer: Yes, ADiSU dorms usually include water, electricity, and internet.",
+          "FAQ: Can I get a dorm without a Codice Fiscale? Answer: No for ADiSU, but some private dorms may accept."
+        ],
+        "it": [
+          "Domanda: Cosa succede se i dormitori ADiSU sono pieni? Risposta: Considera dormitori privati (es. Camplus) o l’affitto di un appartamento.",
+          "Domanda: I costi del dormitorio includono le utenze? Risposta: SÌ, i dormitori ADiSU di solito includono acqua, elettricità e internet.",
+          "Domanda: Posso ottenere un dormitorio senza Codice Fiscale? Risposta: No per ADiSU, ma alcuni dormitori privati potrebbero accettare."
+        ]
+      },
+      "tips_for_iranians": {
+        "fa": [
+          "برای پرداخت هزینه درخواست ADiSU، از حساب بانکی ایتالیایی (مثل UniCredit) استفاده کن، چون کارت‌های ایرانی کار نمی‌کنن.",
+          "تو گروه‌های تلگرامی مثل 'Iranian Students in Perugia' از دانشجوهای قدیمی‌تر درباره خوابگاه‌های خلوت‌تر بپرس.",
+          "برای قرارداد خوابگاه، از دفتر بین‌الملل دانشگاه کمک بگیر تا بندهای حقوقی رو خوب بفهمی."
+        ],
+        "en": [
+          "For ADiSU application fees, use an Italian bank account (e.g., UniCredit), as Iranian cards don’t work.",
+          "Ask senior students in Telegram groups like 'Iranian Students in Perugia' about less crowded dorms.",
+          "Get help from the university’s international office to understand dorm contract terms."
+        ],
+        "it": [
+          "Per le spese di domanda ADiSU, usa un conto bancario italiano (es. UniCredit), poiché le carte iraniane non funzionano.",
+          "Chiedi agli studenti senior nei gruppi Telegram come 'Iranian Students in Perugia' informazioni sui dormitori meno affollati.",
+          "Chiedi aiuto all’ufficio internazionale dell’università per comprendere i termini del contratto del dormitorio."
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🍽️ سلف‌های دانشگاهی در پروجا",
+        "en": "🍽️ University Canteens in Perugia",
+        "it": "🍽️ Mense Universitarie a Perugia"
+      },
+      "content": {
+        "fa": [
+          "در پروجا سه سلف اصلی وجود دارد: Mensa Elce، Mensa Via Pascoli، و Mensa Ingegneria.",
+          "⏰ ساعات کاری معمول: دوشنبه تا جمعه، ۱۲:۰۰ تا ۱۴:۳۰ و ۱۹:۰۰ تا ۲۱:۰۰.",
+          "💰 قیمت غذا: بین ۱ تا ۳ یورو بر اساس سطح ISEE.",
+          "📱 رزرو غذا از طریق اپلیکیشن ADiSU امکان‌پذیر است: https://www.adisu.umbria.it",
+          "📍 آدرس نمونه: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
+        ],
+        "en": [
+          "There are three main canteens in Perugia: Mensa Elce, Mensa Via Pascoli, and Mensa Ingegneria.",
+          "⏰ Opening hours: Monday to Friday, 12:00–14:30 and 19:00–21:00.",
+          "💰 Food cost: €1–3 depending on your ISEE level.",
+          "📱 You can book meals via the ADiSU app: https://www.adisu.umbria.it",
+          "📍 Example address: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
+        ],
+        "it": [
+          "Ci sono tre mense principali a Perugia: Mensa Elce, Mensa Via Pascoli e Mensa Ingegneria.",
+          "⏰ Orari di apertura: lunedì-venerdì, 12:00–14:30 e 19:00–21:00.",
+          "💰 Prezzo: €1–3 a seconda del livello ISEE.",
+          "📱 Prenotazioni tramite l'app ADiSU: https://www.adisu.umbria.it",
+          "📍 Indirizzo esempio: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🏠 اجاره خانه و اتاق در پروجا",
+        "en": "🏠 Renting Apartments and Rooms in Perugia",
+        "it": "🏠 Affitti di Case e Stanze a Perugia"
+      },
+      "content": {
+        "fa": [
+          "رایج‌ترین مناطق دانشجویی برای اجاره: Elce، Monteluce، Madonna Alta.",
+          "سایت‌های پیشنهادی: idealista.it، subito.it، Facebook Groups.",
+          "قیمت اتاق دانشجویی: بین 250 تا 400 یورو بسته به منطقه و امکانات.",
+          "توصیه: قرارداد اجاره را حتماً مکتوب و با شماره کد مالیاتی ببندید.",
+          "برای اینترنت، مودم خانگی معمولاً با 25-30 یورو در ماه قابل تهیه است.",
+          "📝 قرارداد باید شامل مدت اجاره، مبلغ اجاره، نام صاحب‌خانه و کد مالیاتی او باشد.",
+          "⚖️ حتماً نسخه‌ای از قرارداد را نزد خود نگه دارید و از پرداخت نقدی بدون رسید خودداری کنید.",
+          "🧑‍🤝‍🧑 می‌توانید هم‌خانه پیدا کنید از طریق گروه‌های تلگرامی ایرانیان پروجا یا اپلیکیشن‌های Erasmus.",
+          "❗ در زمان دیدن خانه حضوری، از تطابق آدرس و مدارک مالک مطمئن شوید.",
+          "📌 برخی صاحب‌خانه‌ها نیاز به ضمانت‌نامه بانکی یا ضامن ایتالیایی دارند. از قبل بررسی کنید."
+        ],
+        "en": [
+          "Most common student neighborhoods: Elce, Monteluce, Madonna Alta.",
+          "Recommended websites: idealista.it, subito.it, Facebook housing groups.",
+          "Average room prices: €250–400 depending on area and facilities.",
+          "Tip: Always sign a written rental contract with your Codice Fiscale.",
+          "Home internet: €25–30/month via standard providers.",
+          "📝 The rental contract should include duration, rent amount, landlord's name, and Codice Fiscale.",
+          "⚖️ Keep a copy of the contract and avoid paying in cash without a receipt.",
+          "🧑‍🤝‍🧑 You can find roommates via Iranian Telegram groups in Perugia or Erasmus platforms.",
+          "❗ When visiting, make sure the address and landlord identity match the documents.",
+          "📌 Some landlords may require a bank guarantee or Italian guarantor. Check in advance."
+        ],
+        "it": [
+          "Quartieri studenteschi più comuni: Elce, Monteluce, Madonna Alta.",
+          "Siti consigliati: idealista.it, subito.it, gruppi Facebook per affitti.",
+          "Prezzo medio stanza: €250–400 a seconda della zona e servizi.",
+          "Consiglio: firma sempre un contratto scritto con il Codice Fiscale.",
+          "Internet domestico: €25–30/mese tramite fornitori locali.",
+          "📝 Il contratto d'affitto deve includere durata, importo, nome del proprietario e Codice Fiscale.",
+          "⚖️ Conserva una copia del contratto ed evita pagamenti in contanti senza ricevuta.",
+          "🧑‍🤝‍🧑 Puoi trovare coinquilini tramite gruppi Telegram iraniani a Perugia o piattaforme Erasmus.",
+          "❗ Quando visiti l'appartamento, verifica l'indirizzo e i documenti del proprietario.",
+          "📌 Alcuni proprietari possono richiedere una garanzia bancaria o un garante italiano. Verifica prima."
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🚍 حمل‌ونقل شهری در پروجا",
+        "en": "🚍 Urban Transport in Perugia",
+        "it": "🚍 Trasporto Urbano a Perugia"
+      },
+      "content": {
+        "fa": [
+          "اتوبوس‌های شهری توسط Umbria Mobilità اداره می‌شوند.",
+          "برای مسیر کوتاه از Minimetrò استفاده کنید (ایستگاه Piazzale Cupa نزدیک Elce).",
+          "اپلیکیشن‌های مفید: Moovit (مسیرها و زمان حرکت)، MyCicero (خرید بلیت).",
+          "کارت دانشجویی Umbria Mobilità با تخفیف برای سفرهای ماهانه ارائه می‌شود.",
+          "سایت رسمی: https://www.fsbusitalia.it/"
+        ],
+        "en": [
+          "Urban buses are operated by Umbria Mobilità.",
+          "Use Minimetrò for quick travel (Piazzale Cupa station near Elce).",
+          "Useful apps: Moovit (routes and timing), MyCicero (ticket purchase).",
+          "Student transport card by Umbria Mobilità offers monthly discounts.",
+          "Official site: https://www.fsbusitalia.it/"
+        ],
+        "it": [
+          "Gli autobus urbani sono gestiti da Umbria Mobilità.",
+          "Per viaggi rapidi usa il Minimetrò (stazione Piazzale Cupa vicino a Elce).",
+          "App utili: Moovit (percorso e orari), MyCicero (acquisto biglietti).",
+          "Carta studenti Umbria Mobilità offre sconti mensili.",
+          "Sito ufficiale: https://www.fsbusitalia.it/"
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🏦 افتتاح حساب بانکی",
+        "en": "🏦 Opening a Bank Account",
+        "it": "🏦 Apertura di un Conto Bancario"
+      },
+      "content": {
+        "fa": [
+          "برای افتتاح حساب بانکی در ایتالیا به مدارک زیر نیاز دارید:",
+          "- کد فیسکاله (Codice Fiscale)",
+          "- پاسپورت",
+          "- مدرک ثبت‌نام در دانشگاه یا پرمسو (Permesso di soggiorno)",
+          "بانک‌های پیشنهادی برای دانشجویان بین‌المللی:",
+          "- UniCredit، Intesa Sanpaolo، Poste Italiane، N26 (آنلاین)",
+          "برخی بانک‌ها ممکن است هزینه ماهانه دریافت کنند، ولی حساب دانشجویی اغلب رایگان است."
+        ],
+        "en": [
+          "To open a bank account in Italy, you need:",
+          "- Codice Fiscale",
+          "- Passport",
+          "- University enrollment proof or Permesso di soggiorno",
+          "Suggested banks for international students:",
+          "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
+          "Some banks may charge monthly fees, but student accounts are usually free."
+        ],
+        "it": [
+          "Per aprire un conto bancario in Italia hai bisogno di:",
+          "- Codice Fiscale",
+          "- Passaporto",
+          "- Iscrizione all’università o Permesso di soggiorno",
+          "Banche consigliate per studenti internazionali:",
+          "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
+          "Alcune banche possono applicare commissioni mensili, ma i conti studenti sono spesso gratuiti."
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "📶 سیم‌کارت و اینترنت",
+        "en": "📶 SIM Card & Internet",
+        "it": "📶 SIM e Internet"
+      },
+      "content": {
+        "fa": [
+          "شرکت‌های معروف فروش سیم‌کارت در ایتالیا:",
+          "- Iliad، TIM، Vodafone، WindTre، Ho.",
+          "مدارک مورد نیاز: پاسپورت + کد فیسکاله",
+          "تعرفه‌های متداول: از 5 تا 15 یورو برای اینترنت نامحدود و تماس",
+          "Iliad برای دانشجویان گزینه‌ای ارزان و پرسرعت است."
+        ],
+        "en": [
+          "Popular SIM providers in Italy:",
+          "- Iliad, TIM, Vodafone, WindTre, Ho.",
+          "Required documents: Passport + Codice Fiscale",
+          "Typical plans: €5–15 for unlimited data and calls",
+          "Iliad is a cheap and fast option for students."
+        ],
+        "it": [
+          "Operatori SIM più popolari in Italia:",
+          "- Iliad, TIM, Vodafone, WindTre, Ho.",
+          "Documenti richiesti: Passaporto + Codice Fiscale",
+          "Tariffe tipiche: €5–15 per dati e chiamate illimitate",
+          "Iliad è un'opzione economica e veloce per studenti."
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🏥 خدمات درمانی و سلامت",
+        "en": "🏥 Health & Medical Services",
+        "it": "🏥 Servizi Sanitari"
+      },
+      "content": {
+        "fa": [
+          "مراکز درمانی مهم در پروجا:",
+          "- بیمارستان Santa Maria della Misericordia",
+          "- کلینیک‌های خصوصی و داروخانه‌ها در مرکز شهر",
+          "شماره اورژانس: 112",
+          "اپلیکیشن‌های مفید: Doctoralia، MioDottore"
+        ],
+        "en": [
+          "Key medical centers in Perugia:",
+          "- Santa Maria della Misericordia Hospital",
+          "- Private clinics and pharmacies in city center",
+          "Emergency number: 112",
+          "Useful apps: Doctoralia, MioDottore"
+        ],
+        "it": [
+          "Centri sanitari principali a Perugia:",
+          "- Ospedale Santa Maria della Misericordia",
+          "- Cliniche private e farmacie in centro",
+          "Numero d'emergenza: 112",
+          "App utili: Doctoralia, MioDottore"
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "📚 خدمات دانشجویی",
+        "en": "📚 Student Services",
+        "it": "📚 Servizi Studenteschi"
+      },
+      "content": {
+        "fa": [
+          "کتابخانه‌های اصلی دانشگاهی: Biblioteca Umanistica، Biblioteca di Ingegneria",
+          "مراکز ورزشی: CUS Perugia امکانات ورزشی با تخفیف برای دانشجویان دارد.",
+          "مرکز مشاوره دانشجویی: سرویس رایگان ADiSU و ESN برای پشتیبانی روانی و آموزشی"
+        ],
+        "en": [
+          "Main university libraries: Biblioteca Umanistica, Engineering Library",
+          "Sports centers: CUS Perugia offers discounts for students.",
+          "Student counseling: Free services from ADiSU and ESN for psychological and academic support"
+        ],
+        "it": [
+          "Biblioteche principali: Biblioteca Umanistica, Biblioteca di Ingegneria",
+          "Centri sportivi: CUS Perugia offre sconti agli studenti.",
+          "Supporto psicologico: Servizi gratuiti di ADiSU e ESN per studenti"
+        ]
+      }
+    },
+    {
+      "name": {
+        "fa": "🏘️ آدرس دقیق خوابگاه‌ها",
+        "en": "🏘️ Dormitory Addresses",
+        "it": "🏘️ Indirizzi Dormitori"
+      },
+      "content": {
+        "fa": [
+          "خوابگاه ADiSU Monteluce: Via Faina, 06123 Perugia",
+          "خوابگاه ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
+          "خوابگاه ADiSU Elce: Via Innamorati, 06123 Perugia"
+        ],
+        "en": [
+          "ADiSU Monteluce Dorm: Via Faina, 06123 Perugia",
+          "ADiSU Ingegneria Dorm: Via Goffredo Duranti, 06125 Perugia",
+          "ADiSU Elce Dorm: Via Innamorati, 06123 Perugia"
+        ],
+        "it": [
+          "Residenza ADiSU Monteluce: Via Faina, 06123 Perugia",
+          "Residenza ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
+          "Residenza ADiSU Elce: Via Innamorati, 06123 Perugia"
+        ]
+      }
+    }
         ]
       }
     ]
