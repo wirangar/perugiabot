@@ -55,5 +55,10 @@
   "edit_country": "Modifica paese",
   "ask_new_value": "Per favore, inserisci il nuovo valore:",
   "profile_updated": "Il tuo profilo è stato aggiornato con successo.",
-  "edit_cancelled": "Modifica annullata."
+  "edit_cancelled": "Modifica annullata.",
+  "ask_question_prompt": "Per favore, fai la tua domanda:",
+  "question_sent": "La tua domanda è stata inviata con successo. Verrà data una risposta a breve.",
+  "question_cancelled": "La richiesta di fare una domanda è stata annullata.",
+  "voice_transcribed": "Il tuo messaggio vocale trascritto:",
+  "voice_error": "Si è verificato un errore durante l'elaborazione del messaggio vocale."
 }

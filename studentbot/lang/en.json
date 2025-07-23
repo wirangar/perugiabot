@@ -55,5 +55,10 @@
   "edit_country": "Edit Country",
   "ask_new_value": "Please enter the new value:",
   "profile_updated": "Your profile has been updated successfully.",
-  "edit_cancelled": "Edit cancelled."
+  "edit_cancelled": "Edit cancelled.",
+  "ask_question_prompt": "Please ask your question:",
+  "question_sent": "Your question has been sent successfully. It will be answered soon.",
+  "question_cancelled": "Asking a question has been cancelled.",
+  "voice_transcribed": "Your voice message transcribed:",
+  "voice_error": "An error occurred while processing the voice message."
 }

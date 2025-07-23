@@ -25,6 +25,16 @@ from handlers.isee_handler import (
     PROPERTY_STATUS,
     PROPERTY_SIZE,
 )
+from handlers.voice_handler import transcribe_voice
+from handlers.question_handler import (
+    start_ask_question,
+    save_question,
+    cancel_question,
+    ASK_QUESTION,
+)
+from handlers.weather_handler import get_weather
+from handlers.file_handler import send_pdf, send_video
+from handlers.menu_handler import scholarships_menu, immigration_menu, housing_menu
 from handlers.profile_handler import (
     start_registration,
     get_name,
@@ -100,9 +110,25 @@ def main() -> None:
         fallbacks=[CommandHandler("cancel", cancel_edit)],
     )
     application.add_handler(edit_profile_handler)
+
+    question_handler = ConversationHandler(
+        entry_points=[CallbackQueryHandler(start_ask_question, pattern='^ask_question$')],
+        states={
+            ASK_QUESTION: [MessageHandler(filters.TEXT & ~filters.COMMAND, save_question)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_question)],
+    )
+    application.add_handler(question_handler)
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CallbackQueryHandler(button, pattern='^lang_'))
     application.add_handler(CallbackQueryHandler(show_profile, pattern='^profile$'))
+    application.add_handler(CallbackQueryHandler(scholarships_menu, pattern='^scholarships$'))
+    application.add_handler(CallbackQueryHandler(immigration_menu, pattern='^immigration$'))
+    application.add_handler(CallbackQueryHandler(housing_menu, pattern='^housing$'))
+    application.add_handler(CommandHandler("pdf", send_pdf))
+    application.add_handler(CommandHandler("video", send_video))
+    application.add_handler(CommandHandler("weather", get_weather))
+    application.add_handler(MessageHandler(filters.VOICE, transcribe_voice))
 
     # Start the Bot
     application.run_polling()

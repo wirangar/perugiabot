@@ -55,5 +55,10 @@
   "edit_country": "ویرایش کشور",
   "ask_new_value": "لطفا مقدار جدید را وارد کنید:",
   "profile_updated": "پروفایل شما با موفقیت به روز شد.",
-  "edit_cancelled": "ویرایش لغو شد."
+  "edit_cancelled": "ویرایش لغو شد.",
+  "ask_question_prompt": "لطفا سوال خود را بپرسید:",
+  "question_sent": "سوال شما با موفقیت ارسال شد. به زودی پاسخ داده خواهد شد.",
+  "question_cancelled": "ارسال سوال لغو شد.",
+  "voice_transcribed": "متن پیام صوتی شما:",
+  "voice_error": "خطایی در پردازش پیام صوتی رخ داد."
 }
