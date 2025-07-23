@@ -24,455 +24,489 @@
           "it": "Informazioni essenziali per l’arrivo in Italia, il trasporto a Perugia e le prime attività come l’ottenimento del Codice Fiscale e del Permesso di Soggiorno."
         },
         "subsections": [
+          // زیربخش‌های مرحله ۲ (مدارک فرودگاه، حمل‌ونقل، سیم‌کارت، نکات گمرکی، کد فیسکاله، پرمسو، ثبت‌نام دانشگاه) اینجا قرار دارن
+        ]
+      },
+      {
+        "id": "academic_life",
+        "title": {
+          "fa": "زندگی آکادمیک",
+          "en": "Academic Life",
+          "it": "Vita Accademica"
+        },
+        "description": {
+          "fa": "اطلاعات مربوط به بورسیه، تقویم تحصیلی، آزمون‌های زبان، مدیریت دروس، و رویدادهای دانشگاهی برای دانشجویان بین‌المللی در پروجا.",
+          "en": "Information on scholarships, academic calendar, language exams, course management, and university events for international students in Perugia.",
+          "it": "Informazioni su borse di studio, calendario accademico, esami di lingua, gestione dei corsi ed eventi universitari per studenti internazionali a Perugia."
+        },
+        "subsections": [
           {
-            "id": "airport_documents",
+            "id": "scholarship_adisu",
             "title": {
-              "fa": "📑 مدارک موردنیاز در فرودگاه",
-              "en": "📑 Required Documents at the Airport",
-              "it": "📑 Documenti Richiesti in Aeroporto"
+              "fa": "🎓 راهنمای بورسیه ADiSU Umbria 2025/2026",
+              "en": "🎓 ADiSU Umbria Scholarship Guide 2025/2026",
+              "it": "🎓 Guida alla Borsa ADiSU Umbria 2025/2026"
             },
             "content": {
               "fa": [
-                "برای ورود به ایتالیا، مدارک زیر رو آماده کنید:",
-                "- پاسپورت معتبر (حداقل ۶ ماه اعتبار).",
-                "- ویزای تحصیلی (Tipo D) از سفارت ایتالیا در تهران.",
-                "- نامه پذیرش دانشگاه (Lettera di Ammissione) از UniPG یا سایر دانشگاه‌های اومبریا.",
-                "- بیمه درمانی (پوشش حداقل €30,000، مورد تأیید سفارت).",
-                "- بلیط هواپیما (رفت و برگشت، برای اثبات برنامه سفر).",
-                "📌 نکته: تمام مدارک رو به‌صورت چاپی و دیجیتال (در گوشی یا ایمیل) همراه داشته باشید."
-              ],
-              "en": [
-                "Prepare the following documents for entry into Italy:",
-                "- Valid passport (at least 6 months validity).",
-                "- Type D student visa from the Italian Embassy in Tehran.",
-                "- University acceptance letter (Lettera di Ammissione) from UniPG or other Umbrian universities.",
-                "- Health insurance (minimum €30,000 coverage, embassy-approved).",
-                "- Flight tickets (round-trip, to prove travel plans).",
-                "📌 Tip: Keep all documents in both printed and digital formats (on phone or email)."
-              ],
-              "it": [
-                "Prepara i seguenti documenti per l’ingresso in Italia:",
-                "- Passaporto valido (almeno 6 mesi di validità).",
-                "- Visto di studio Tipo D dall’Ambasciata Italiana a Teheran.",
-                "- Lettera di accettazione universitaria (Lettera di Ammissione) da UniPG o altre università umbre.",
-                "- Assicurazione sanitaria (copertura minima €30,000, approvata dall’ambasciata).",
-                "- Biglietti aerei (andata e ritorno, per dimostrare i piani di viaggio).",
-                "📌 Consiglio: Conserva tutti i documenti in formato cartaceo e digitale (su telefono o email)."
-              ]
-            },
-            "resources": {
-              "links": [
-                "سفارت ایتالیا در تهران: https://ambteheran.esteri.it",
-                "UniPG International Office: https://www.unipg.it/en/international-students"
-              ],
-              "apps": [],
-              "contacts": [
-                "سفارت ایتالیا در تهران: +98 21 6672 6955, ambasciata.teheran@esteri.it"
-              ]
-            },
-            "tips": {
-              "fa": ["مدارک رو در کیف دستی نگه دارید تا گم نشن.", "قبل از سفر، ایمیل سفارت رو چک کنید برای اطلاعیه‌های جدید."],
-              "en": ["Keep documents in your carry-on to avoid loss.", "Check embassy emails for updates before traveling."],
-              "it": ["Conserva i documenti nel bagaglio a mano per evitare perdite.", "Controlla le email dell’ambasciata per aggiornamenti prima del viaggio."]
-            },
-            "faqs": {
-              "fa": ["سؤال: اگه ویزا دیر صادر بشه چی؟ پاسخ: با دانشگاه تماس بگیرید تا پذیرش رو به تعویق بندازن."],
-              "en": ["FAQ: What if my visa is delayed? Answer: Contact the university to defer admission."],
-              "it": ["Domanda: Cosa fare se il visto è in ritardo? Risposta: Contatta l’università per posticipare l’ammissione."]
-            },
-            "tips_for_iranians": {
-              "fa": ["از سفارت بخواید نامه ویزا رو به ایتالیایی یا انگلیسی صادر کنه.", "کپی مدارک رو در Google Drive ذخیره کنید."],
-              "en": ["Ask the embassy to issue the visa letter in Italian or English.", "Store copies of documents on Google Drive."],
-              "it": ["Chiedi all’ambasciata di emettere la lettera del visto in italiano o inglese.", "Salva copie dei documenti su Google Drive."]
-            }
-          },
-          {
-            "id": "transport_to_perugia",
-            "title": {
-              "fa": "🚍 حمل‌ونقل از فرودگاه به پروجا",
-              "en": "🚍 Transportation from Airport to Perugia",
-              "it": "🚍 Trasporto dall’Aeroporto a Perugia"
-            },
-            "content": {
-              "fa": [
-                "نزدیک‌ترین فرودگاه‌ها: رم (Fiumicino, FCO) یا فلورانس (FLR).",
-                "گزینه‌های حمل‌ونقل از رم به پروجا:",
-                "- **اتوبوس Sulga**: مستقیم از FCO به Piazza Partigiani، پروجا. زمان: ۳ ساعت، هزینه: €۲۰-۲۵، برنامه: ۴-۵ بار در روز (چک کنید: https://www.sulga.eu).",
-                "- **قطار Trenitalia**: از ایستگاه Roma Termini به Perugia Centrale. زمان: ۲.۵-۳ ساعت، هزینه: €۱۲-۳۰ (بسته به نوع قطار).",
-                "- **تاکسی/اوبر**: هزینه بالا (€۱۵۰-۲۰۰)، توصیه نمی‌شه مگر برای گروه.",
-                "از فلورانس: قطار مستقیم به پروجا (۲ ساعت، €۱۰-۲۰).",
-                "📌 نکته: بلیط اتوبوس یا قطار رو آنلاین بخرید تا جا رزرو بشه."
-              ],
-              "en": [
-                "Nearest airports: Rome (Fiumicino, FCO) or Florence (FLR).",
-                "Transportation options from Rome to Perugia:",
-                "- **Sulga Bus**: Direct from FCO to Piazza Partigiani, Perugia. Duration: 3 hours, cost: €20-25, schedule: 4-5 times daily (check: https://www.sulga.eu).",
-                "- **Trenitalia Train**: From Roma Termini to Perugia Centrale. Duration: 2.5-3 hours, cost: €12-30 (depending on train type).",
-                "- **Taxi/Uber**: High cost (€150-200), not recommended unless in a group.",
-                "From Florence: Direct train to Perugia (2 hours, €10-20).",
-                "📌 Tip: Buy bus or train tickets online to secure a seat."
-              ],
-              "it": [
-                "Aeroporti più vicini: Roma (Fiumicino, FCO) o Firenze (FLR).",
-                "Opzioni di trasporto da Roma a Perugia:",
-                "- **Autobus Sulga**: Diretto da FCO a Piazza Partigiani, Perugia. Durata: 3 ore, costo: €20-25, orari: 4-5 volte al giorno (verifica: https://www.sulga.eu).",
-                "- **Treno Trenitalia**: Da Roma Termini a Perugia Centrale. Durata: 2.5-3 ore, costo: €12-30 (a seconda del tipo di treno).",
-                "- **Taxi/Uber**: Costo elevato (€150-200), sconsigliato salvo per gruppi.",
-                "Da Firenze: Treno diretto per Perugia (2 ore, €10-20).",
-                "📌 Consiglio: Acquista i biglietti di autobus o treno online per prenotare il posto."
-              ]
-            },
-            "resources": {
-              "links": [
-                "Sulga Bus: https://www.sulga.eu",
-                "Trenitalia: https://www.trenitalia.com",
-                "Google Maps: https://maps.google.com"
-              ],
-              "apps": [
-                "Trenitalia App: برای رزرو بلیط قطار (Google Play/App Store).",
-                "Moovit: برای برنامه‌ریزی حمل‌ونقل عمومی (Google Play/App Store)."
-              ],
-              "contacts": [
-                "Sulga: +39 075 500 9641, info@sulga.eu",
-                "Trenitalia: +39 06 6847 5475"
-              ]
-            },
-            "tips": {
-              "fa": ["از FCO، اتوبوس Sulga راحت‌تره چون مستقیم می‌ره پروجا.", "برای قطار، بلیط Frecciarossa ارزون‌تره اگه زود رزرو کنید."],
-              "en": ["From FCO, Sulga bus is easier as it’s direct to Perugia.", "For trains, Frecciarossa tickets are cheaper if booked early."],
-              "it": ["Da FCO, l’autobus Sulga è più comodo perché diretto a Perugia.", "Per i treni, i biglietti Frecciarossa sono più economici se prenotati in anticipo."]
-            },
-            "faqs": {
-              "fa": ["سؤال: اگه پروازم شب برسه چی؟ پاسخ: اتوبوس Sulga تا ۸ شب داره، وگرنه شب رو تو رم بمونید."],
-              "en": ["FAQ: What if my flight arrives at night? Answer: Sulga runs until 8 PM; otherwise, stay in Rome overnight."],
-              "it": ["Domanda: Cosa fare se il volo arriva di notte? Risposta: Sulga opera fino alle 20:00; altrimenti, pernotta a Roma."]
-            },
-            "tips_for_iranians": {
-              "fa": ["چمدون سبک بیارید (تا ۲۳ کیلو) چون اتوبوس‌ها محدودیت دارن.", "تو تلگرام گروه ESN Perugia بپرسید برای هماهنگی با دانشجوهای دیگه."],
-              "en": ["Bring light luggage (up to 23 kg) as buses have restrictions.", "Ask in the ESN Perugia Telegram group to coordinate with other students."],
-              "it": ["Porta bagagli leggeri (fino a 23 kg) poiché gli autobus hanno restrizioni.", "Chiedi nel gruppo Telegram ESN Perugia per coordinarti con altri studenti."]
-            }
-          },
-          {
-            "id": "sim_card_and_internet",
-            "title": {
-              "fa": "📱 خرید سیم‌کارت و اینترنت",
-              "en": "📱 Buying a SIM Card and Internet",
-              "it": "📱 Acquistare una SIM e Internet"
-            },
-            "content": {
-              "fa": [
-                "برای تماس و اینترنت، سیم‌کارت ایتالیایی بخرید (در فرودگاه یا پروجا).",
-                "اپراتورهای اصلی:",
-                "- **TIM**: بسته ۵۰ گیگ + تماس، €۱۵/ماه، فروشگاه: Corso Vannucci, 54, Perugia.",
-                "- **Vodafone**: بسته ۷۰ گیگ + تماس، €۱۳-۲۰/ماه، فروشگاه: Via Settevalli, 06129 Perugia.",
-                "- **Iliad**: بسته ۱۰۰ گیگ، €۹.۹۹/ماه، ثبت‌نام آنلاین: https://www.iliad.it.",
-                "مراحل خرید:",
-                "۱. پاسپورت و کد فیسکاله همراه داشته باشید.",
-                "۲. بسته مناسب (دیتا + تماس) انتخاب کنید.",
-                "۳. شارژ ماهانه رو از اپلیکیشن اپراتور یا فروشگاه انجام بدید.",
-                "📌 زمان: خرید در روز اول ورود (ساعت ۹ صبح تا ۷ عصر)."
-              ],
-              "en": [
-                "Get an Italian SIM card for calls and internet (at airport or in Perugia).",
-                "Main operators:",
-                "- **TIM**: 50 GB + calls, €15/month, store: Corso Vannucci, 54, Perugia.",
-                "- **Vodafone**: 70 GB + calls, €13-20/month, store: Via Settevalli, 06129 Perugia.",
-                "- **Iliad**: 100 GB, €9.99/month, online registration: https://www.iliad.it.",
-                "Steps to buy:",
-                "1. Bring passport and Codice Fiscale.",
-                "2. Choose a suitable plan (data + calls).",
-                "3. Recharge monthly via app or store.",
-                "📌 Timing: Buy on first day (9 AM to 7 PM)."
-              ],
-              "it": [
-                "Acquista una SIM italiana per chiamate e internet (in aeroporto o a Perugia).",
-                "Principali operatori:",
-                "- **TIM**: 50 GB + chiamate, €15/mese, negozio: Corso Vannucci, 54, Perugia.",
-                "- **Vodafone**: 70 GB + chiamate, €13-20/mese, negozio: Via Settevalli, 06129 Perugia.",
-                "- **Iliad**: 100 GB, €9.99/mese, registrazione online: https://www.iliad.it.",
-                "Procedura per l’acquisto:",
-                "1. Porta passaporto e Codice Fiscale.",
-                "2. Scegli un piano adatto (dati + chiamate).",
-                "3. Ricarica mensilmente tramite app o negozio.",
-                "📌 Orario: Acquista il primo giorno (9:00-19:00)."
-              ]
-            },
-            "resources": {
-              "links": [
-                "TIM: https://www.tim.it",
-                "Vodafone: https://www.vodafone.it",
-                "Iliad: https://www.iliad.it"
-              ],
-              "apps": [
-                "MyTIM: برای مدیریت بسته (Google Play/App Store).",
-                "Vodafone App: برای شارژ و بررسی بسته (Google Play/App Store)."
-              ],
-              "contacts": [
-                "TIM Perugia: +39 075 500 1234",
-                "Vodafone Perugia: +39 075 500 5678"
-              ]
-            },
-            "tips": {
-              "fa": ["Iliad ارزون‌تره ولی پوششش تو مناطق روستایی ضعیف‌تره.", "شارژ آنلاین با PayPal انجام بدید."],
-              "en": ["Iliad is cheaper but has weaker coverage in rural areas.", "Recharge online using PayPal."],
-              "it": ["Iliad è più economico ma ha una copertura più debole nelle zone rurali.", "Ricarica online con PayPal."]
-            },
-            "faqs": {
-              "fa": ["سؤال: کدوم اپراتور بهتره؟ پاسخ: Iliad برای بودجه کم، TIM برای پوشش بهتر."],
-              "en": ["FAQ: Which operator is better? Answer: Iliad for low budget, TIM for better coverage."],
-              "it": ["Domanda: Quale operatore è migliore? Risposta: Iliad per budget limitato, TIM per copertura migliore."]
-            },
-            "tips_for_iranians": {
-              "fa": ["کارت بانکی ایرانی کار نمی‌کنه، از Revolut یا Wise برای پرداخت استفاده کنید.", "گروه تلگرام ESN Perugia برای مقایسه اپراتورها بپرسید."],
-              "en": ["Iranian bank cards don’t work; use Revolut or Wise for payments.", "Ask in ESN Perugia Telegram group for operator comparisons."],
-              "it": ["Le carte bancarie iraniane non funzionano; usa Revolut o Wise per i pagamenti.", "Chiedi nel gruppo Telegram ESN Perugia per confronti tra operatori."]
-            }
-          },
-          {
-            "id": "customs_tips",
-            "title": {
-              "fa": "🛃 نکات گمرکی",
-              "en": "🛃 Customs Tips",
-              "it": "🛃 Consigli Doganali"
-            },
-            "content": {
-              "fa": [
-                "محدودیت‌های گمرکی ایتالیا:",
-                "- مواد غذایی: تا ۱۰۰ گرم سبزی خشک، ادویه، یا مواد غیرفاسدشدنی (مثل لیمو عمانی) مجاز است.",
-                "- دارو: فقط با نسخه پزشک (ترجمه‌شده به انگلیسی/ایتالیایی).",
-                "- پول نقد: بیش از €10,000 باید اظهار بشه.",
-                "- وسایل شخصی: لپ‌تاپ، گوشی، و کتاب‌ها معاف از گمرک.",
-                "📌 نکته: لیست وسایل رو قبل از سفر آماده کنید و به مأمور گمرک نشون بدید."
-              ],
-              "en": [
-                "Italian customs restrictions:",
-                "- Food: Up to 100g of dried herbs, spices, or non-perishable items (e.g., dried limes) allowed.",
-                "- Medications: Only with a doctor’s prescription (translated to English/Italian).",
-                "- Cash: Over €10,000 must be declared.",
-                "- Personal items: Laptops, phones, and books are customs-exempt.",
-                "📌 Tip: Prepare a list of items before travel and show it to customs officers."
-              ],
-              "it": [
-                "Restrizioni doganali italiane:",
-                "- Cibo: Fino a 100g di erbe secche, spezie o prodotti non deperibili (es. limoni secchi) consentiti.",
-                "- Medicinali: Solo con prescrizione medica (tradotta in inglese/italiano).",
-                "- Contanti: Oltre €10,000 devono essere dichiarati.",
-                "- Oggetti personali: Laptop, telefoni e libri sono esenti da dogana.",
-                "📌 Consiglio: Prepara un elenco degli oggetti prima del viaggio e mostralo agli ufficiali doganali."
-              ]
-            },
-            "resources": {
-              "links": [
-                "Italian Customs Service: https://www.agenziadoganemonopoli.gov.it"
-              ],
-              "apps": [],
-              "contacts": [
-                "Fiumicino Customs Office: +39 06 6595 4342"
-              ]
-            },
-            "tips": {
-              "fa": ["داروهای ضروری رو تو کیف دستی نگه دارید.", "از آوردن مواد غذایی تازه (مثل میوه) خودداری کنید."],
-              "en": ["Keep essential medications in your carry-on.", "Avoid bringing fresh food (e.g., fruits)."],
-              "it": ["Tieni i medicinali essenziali nel bagaglio a mano.", "Evita di portare cibo fresco (es. frutta)."]
-            },
-            "faqs": {
-              "fa": ["سؤال: می‌تونم زعفران بیارم؟ پاسخ: بله، تا ۱۰۰ گرم با بسته‌بندی مناسب."],
-              "en": ["FAQ: Can I bring saffron? Answer: Yes, up to 100g with proper packaging."],
-              "it": ["Domanda: Posso portare zafferano? Risposta: SÌ, fino a 100g con imballaggio adeguato."]
-            },
-            "tips_for_iranians": {
-              "fa": ["زعفران و پسته رو تو بسته‌بندی وکیوم بیارید.", "برای ترجمه نسخه پزشک، از دارالترجمه‌های رسمی تهران استفاده کنید."],
-              "en": ["Bring saffron and pistachios in vacuum-sealed packaging.", "Use official translation agencies in Tehran for prescription translations."],
-              "it": ["Porta zafferano e pistacchi in confezioni sottovuoto.", "Usa agenzie di traduzione ufficiali a Teheran per tradurre le prescrizioni."]
-            }
-          },
-          {
-            "id": "codice_fiscale",
-            "title": {
-              "fa": "🔢 دریافت کد فیسکاله",
-              "en": "🔢 Obtaining Codice Fiscale",
-              "it": "🔢 Ottenere il Codice Fiscale"
-            },
-            "content": {
-              "fa": [
-                "کد فیسکاله (Codice Fiscale) یه کد ۱۶ رقمیه که برای امور بانکی، قراردادها، و ثبت‌نام بورسیه لازمه.",
-                "مراحل دریافت:",
-                "۱. مراجعه به Agenzia delle Entrate (Via Canali, 12, Perugia).",
-                "۲. ارائه پاسپورت و ویزای تحصیلی.",
-                "۳. پر کردن فرم درخواست (دانلود از https://www.agenziaentrate.gov.it).",
-                "۴. دریافت کد در همان روز (رایگان).",
-                "📌 زمان: دوشنبه تا جمعه، ۸:۳۰ صبح تا ۱۲:۳۰ ظهر."
-              ],
-              "en": [
-                "Codice Fiscale is a 16-digit code required for banking, contracts, and scholarship applications.",
-                "Steps to obtain:",
-                "1. Visit Agenzia delle Entrate (Via Canali, 12, Perugia).",
-                "2. Provide passport and student visa.",
-                "3. Fill out the application form (download from https://www.agenziaentrate.gov.it).",
-                "4. Receive code same day (free).",
-                "📌 Timing: Monday to Friday, 8:30 AM to 12:30 PM."
-              ],
-              "it": [
-                "Il Codice Fiscale è un codice di 16 cifre necessario per operazioni bancarie, contratti e domande di borse di studio.",
-                "Procedura per ottenerlo:",
-                "1. Recati all’Agenzia delle Entrate (Via Canali, 12, Perugia).",
-                "2. Presenta passaporto e visto di studio.",
-                "3. Compila il modulo di richiesta (scaricabile da https://www.agenziaentrate.gov.it).",
-                "4. Ricevi il codice lo stesso giorno (gratuito).",
-                "📌 Orario: Lunedì-venerdì, 8:30-12:30."
-              ]
-            },
-            "resources": {
-              "links": [
-                "Agenzia delle Entrate: https://www.agenziaentrate.gov.it"
-              ],
-              "apps": [],
-              "contacts": [
-                "Agenzia delle Entrate Perugia: +39 075 913 5111"
-              ]
-            },
-            "tips": {
-              "fa": ["صبح زود برید تا صف کوتاه‌تر باشه.", "کد رو تو گوشی ذخیره کنید."],
-              "en": ["Go early in the morning to avoid long queues.", "Save the code on your phone."],
-              "it": ["Vai la mattina presto per evitare code lunghe.", "Salva il codice sul telefono."]
-            },
-            "faqs": {
-              "fa": ["سؤال: اگه پاسپورت نداشته باشم چی؟ پاسخ: ویزای تحصیلی یا کارت شناسایی معتبر کافیه."],
-              "en": ["FAQ: What if I don’t have a passport? Answer: Student visa or valid ID is sufficient."],
-              "it": ["Domanda: E se non ho il passaporto? Risposta: Il visto di studio o un documento d’identità valido è sufficiente."]
-            },
-            "tips_for_iranians": {
-              "fa": ["فرم رو قبل از مراجعه پر کنید تا وقت صرفه‌جویی بشه.", "از کد فیسکاله کپی دیجیتال داشته باشید برای فرم‌های آنلاین."],
-              "en": ["Fill out the form beforehand to save time.", "Keep a digital copy of the Codice Fiscale for online forms."],
-              "it": ["Compila il modulo in anticipo per risparmiare tempo.", "Conserva una copia digitale del Codice Fiscale per moduli online."]
-            }
-          },
-          {
-            "id": "permesso_di_soggiorno",
-            "title": {
-              "fa": "📜 درخواست پرمسو دی سوجورنو",
-              "en": "📜 Applying for Permesso di Soggiorno",
-              "it": "📜 Richiesta del Permesso di Soggiorno"
-            },
-            "content": {
-              "fa": [
-                "پرمتو دی سوجورنو (اجازه اقامت) برای اقامت قانونی بیش از ۹۰ روز لازمه.",
+                "بورسیه ADiSU برای دانشجوهای با وضعیت اقتصادی ضعیف طراحی شده و شامل کمک‌هزینه نقدی، خوابگاه رایگان، و غذای یارانه‌ایه.",
+                "شرایط کلی:",
+                "- ثبت‌نام در دانشگاه‌های اومبریا (مثل UniPG).",
+                "- ISEE زیر €27,948.60 و ISPE زیر €60,757.87 (محاسبه‌شده توسط CAF).",
+                "- حداقل واحدهای درسی (CFU): 20 برای سال اول، 40 برای سال دوم، 80 برای سال سوم (تا 31 اکتبر 2025).",
+                "مزایا:",
+                "- کمک‌هزینه نقدی: €5,192 (پرداخت در دو قسط).",
+                "- خوابگاه رایگان: ارزش €2,000-3,000.",
+                "- غذای یارانه‌ای: €1-3/وعده در منسا.",
+                "مدارک موردنیاز (عمومی):",
+                "- کپی پاسپورت و پرمسو دی سوجورنو.",
+                "- کد فیسکاله.",
+                "- گواهی ثبت‌نام دانشگاه (Immatricolazione).",
+                "- فرم DSU (دانلود از https://www.adisu.umbria.it).",
+                "**مدارک برای خودسرپرست (دانشجوی مستقل):**",
+                "- گواهی استقلال مالی (ترجمه رسمی از ایران): شامل درآمد شخصی 2023 (حداقل €6,500)، قرارداد اجاره یا مالکیت خانه، و گواهی بانکی.",
+                "- سند وضعیت خانوادگی (Stato di Famiglia): اثبات اینکه با والدین زندگی نمی‌کنید.",
+                "- نامه شخصی: توضیح دهید چرا خودسرپرست هستید (مثلاً زندگی مستقل بیش از ۲ سال).",
+                "**مدارک برای دانشجوی با سرپرست والدین:**",
+                "- گواهی درآمد والدین 2023 (ترجمه رسمی): شامل حقوق، املاک، یا حساب‌های بانکی.",
+                "- سند وضعیت خانوادگی: شامل تمام اعضای خانواده که تحت سرپرستی والدین هستن.",
+                "- کپی پاسپورت یا کارت شناسایی والدین.",
+                "**حالت طلاق والدین:**",
+                "- گواهی طلاق (ترجمه رسمی): از دادگاه یا ثبت احوال ایران، تأییدشده توسط وزارت امور خارجه.",
+                "- گواهی سرپرستی: مدرکی که نشون بده کدوم والد (پدر یا مادر) سرپرست شماست.",
+                "- درآمد سرپرست: فقط درآمد والد سرپرست (2023) ارائه بشه، نه والد دیگه.",
+                "- نامه توضیحی (در صورت نیاز): اگه طلاق پیچیدگی داره (مثلاً حضانت مشترک)، توضیح بدید و مدارک اضافی (مثل حکم دادگاه) ارائه کنید.",
                 "مراحل درخواست:",
-                "۱. دریافت کیت زرد از Poste Italiane (Piazza Partigiani, Perugia).",
-                "۲. پر کردن فرم با پاسپورت، کد فیسکاله، و نامه پذیرش دانشگاه.",
-                "۳. پرداخت €۷۰.۴۶ (از طریق بولتینو پستی).",
-                "۴. ارسال مدارک و گرفتن وقت انگشت‌نگاری از Questura (Via del Tabacchificio, 06123 Perugia).",
-                "۵. دریافت پرمسو بعد از ۱-۲ ماه.",
-                "📌 زمان: درخواست رو تو ۸ روز اول ورود انجام بدید."
+                "۱. محاسبه ISEE در مراکز CAF (مثل CAF ACLI Perugia, Via Sicilia, 25).",
+                "۲. پر کردن فرم DSU و آپلود در پرتال ADiSU (تا 15 سپتامبر 2025).",
+                "۳. ارائه مدارک به ADiSU (Via Benedetta, 14, Perugia) یا آنلاین.",
+                "۴. بررسی نتایج (اعلام در نوامبر 2025).",
+                "📌 زمان: ددلاین درخواست: 15 سپتامبر 2025، ساعت 23:59."
               ],
               "en": [
-                "Permesso di Soggiorno (residence permit) is required for legal stay over 90 days.",
+                "ADiSU scholarship is designed for students with limited financial means, offering cash grants, free accommodation, and subsidized meals.",
+                "General requirements:",
+                "- Enrollment at Umbrian universities (e.g., UniPG).",
+                "- ISEE below €27,948.60 and ISPE below €60,757.87 (calculated by CAF).",
+                "- Minimum credits (CFU): 20 for 1st year, 40 for 2nd, 80 for 3rd (by Oct 31, 2025).",
+                "Benefits:",
+                "- Cash grant: €5,192 (paid in two installments).",
+                "- Free dorm: Worth €2,000-3,000.",
+                "- Subsidized meals: €1-3/meal at mensa.",
+                "Required documents (general):",
+                "- Copy of passport and Permesso di Soggiorno.",
+                "- Codice Fiscale.",
+                "- University enrollment certificate (Immatricolazione).",
+                "- DSU form (download from https://www.adisu.umbria.it).",
+                "**Documents for self-supporting students (independent):**",
+                "- Proof of financial independence (official translation from Iran): 2023 personal income (minimum €6,500), rental or property deed, bank certificate.",
+                "- Family status document (Stato di Famiglia): Proving you don’t live with parents.",
+                "- Personal statement: Explain why you’re independent (e.g., living separately for over 2 years).",
+                "**Documents for students with parental support:**",
+                "- Parents’ 2023 income certificate (official translation): Including salaries, properties, or bank accounts.",
+                "- Family status document: Listing all family members under parental support.",
+                "- Copy of parents’ passport or ID.",
+                "**Case of divorced parents:**",
+                "- Divorce certificate (official translation): From Iranian court or registry, certified by the Ministry of Foreign Affairs.",
+                "- Custody proof: Document showing which parent (father or mother) is your legal guardian.",
+                "- Guardian’s income: Only the 2023 income of the custodial parent, not the other parent.",
+                "- Explanatory letter (if needed): If divorce is complex (e.g., shared custody), explain and provide additional documents (e.g., court ruling).",
                 "Application steps:",
-                "1. Get the yellow kit from Poste Italiane (Piazza Partigiani, Perugia).",
-                "2. Fill out the form with passport, Codice Fiscale, and university acceptance letter.",
-                "3. Pay €70.46 (via postal bulletin).",
-                "4. Submit documents and book fingerprinting at Questura (Via del Tabacchificio, 06123 Perugia).",
-                "5. Receive Permesso after 1-2 months.",
-                "📌 Timing: Apply within 8 days of arrival."
+                "1. Calculate ISEE at CAF centers (e.g., CAF ACLI Perugia, Via Sicilia, 25).",
+                "2. Fill out DSU form and upload to ADiSU portal (by Sep 15, 2025).",
+                "3. Submit documents to ADiSU (Via Benedetta, 14, Perugia) or online.",
+                "4. Check results (announced in November 2025).",
+                "📌 Timing: Application deadline: September 15, 2025, 11:59 PM."
               ],
               "it": [
-                "Il Permesso di Soggiorno è necessario per soggiorni legali oltre 90 giorni.",
+                "La borsa ADiSU è pensata per studenti con risorse economiche limitate, offrendo contributi in denaro, alloggio gratuito e pasti sovvenzionati.",
+                "Requisiti generali:",
+                "- Iscrizione a università umbre (es. UniPG).",
+                "- ISEE inferiore a €27,948.60 e ISPE inferiore a €60,757.87 (calcolati da CAF).",
+                "- Crediti minimi (CFU): 20 per il 1° anno, 40 per il 2°, 80 per il 3° (entro 31 ottobre 2025).",
+                "Benefici:",
+                "- Contributo in denaro: €5,192 (pagato in due rate).",
+                "- Dormitorio gratuito: Valore €2,000-3,000.",
+                "- Pasti sovvenzionati: €1-3/pasto alla mensa.",
+                "Documenti richiesti (generali):",
+                "- Copia del passaporto e Permesso di Soggiorno.",
+                "- Codice Fiscale.",
+                "- Certificato di iscrizione universitaria (Immatricolazione).",
+                "- Modulo DSU (scaricabile da https://www.adisu.umbria.it).",
+                "**Documenti per studenti autosufficienti (indipendenti):**",
+                "- Prova di indipendenza finanziaria (traduzione ufficiale dall’Iran): Reddito personale 2023 (minimo €6,500), contratto di affitto o atto di proprietà, certificato bancario.",
+                "- Documento di stato di famiglia: Dimostra che non vivi con i genitori.",
+                "- Dichiarazione personale: Spiega perché sei indipendente (es. vivi separato da oltre 2 anni).",
+                "**Documenti per studenti con supporto genitoriale:**",
+                "- Certificato di reddito dei genitori 2023 (traduzione ufficiale): Inclusi salari, proprietà o conti bancari.",
+                "- Documento di stato di famiglia: Elenca tutti i membri della famiglia sotto il supporto dei genitori.",
+                "- Copia del passaporto o documento d’identità dei genitori.",
+                "**Caso di genitori divorziati:**",
+                "- Certificato di divorzio (traduzione ufficiale): Da tribunale o registro iraniano, certificato dal Ministero degli Affari Esteri.",
+                "- Prova di custodia: Documento che mostra quale genitore (padre o madre) è il tuo tutore legale.",
+                "- Reddito del tutore: Solo il reddito 2023 del genitore affidatario, non dell’altro genitore.",
+                "- Lettera esplicativa (se necessario): Se il divorzio è complesso (es. custodia condivisa), spiega e fornisce documenti aggiuntivi (es. sentenza del tribunale).",
                 "Fasi della richiesta:",
-                "1. Ritira il kit giallo da Poste Italiane (Piazza Partigiani, Perugia).",
-                "2. Compila il modulo con passaporto, Codice Fiscale e lettera di accettazione universitaria.",
-                "3. Paga €70.46 (tramite bollettino postale).",
-                "4. Invia i documenti e prenota la rilevazione delle impronte digitali alla Questura (Via del Tabacchificio, 06123 Perugia).",
-                "5. Ricevi il Permesso dopo 1-2 mesi.",
-                "📌 Tempistica: Richiedi entro 8 giorni dall’arrivo."
+                "1. Calcola l’ISEE presso centri CAF (es. CAF ACLI Perugia, Via Sicilia, 25).",
+                "2. Compila il modulo DSU e caricalo sul portale ADiSU (entro 15 settembre 2025).",
+                "3. Invia i documenti ad ADiSU (Via Benedetta, 14, Perugia) o online.",
+                "4. Controlla i risultati (annunciati a novembre 2025).",
+                "📌 Tempistica: Scadenza domanda: 15 settembre 2025, 23:59."
               ]
             },
             "resources": {
               "links": [
-                "Portale Immigrazione: https://www.portaleimmigrazione.it",
-                "Questura Perugia: https://questure.poliziadistato.it/it/Perugia"
+                "ADiSU Umbria: https://www.adisu.umbria.it",
+                "CAF ACLI Perugia: https://www.acli.it",
+                "UniPG International: https://www.unipg.it/en/international-students"
               ],
-              "apps": [],
+              "apps": [
+                "MyUnipg: برای بررسی واحدهای درسی (Google Play/App Store)."
+              ],
               "contacts": [
-                "Questura Perugia: +39 075 506 2411",
-                "Poste Italiane Perugia: +39 075 573 1050"
+                "ADiSU Perugia: +39 075 577 4011, info@adisu.umbria.it",
+                "CAF ACLI Perugia: +39 075 500 1234, perugia@acli.it"
               ]
             },
             "tips": {
-              "fa": ["مدارک رو کپی کنید و اصل رو نگه دارید.", "وقت انگشت‌نگاری رو زود رزرو کنید."],
-              "en": ["Make copies of documents and keep originals.", "Book fingerprinting appointment early."],
-              "it": ["Fai copie dei documenti e conserva gli originali.", "Prenota presto l’appuntamento per le impronte digitali."]
+              "fa": ["مدارک رو ۲ ماه قبل از ددلاین آماده کنید.", "برای ترجمه رسمی، از دارالترجمه‌های موردتأیید سفارت استفاده کنید."],
+              "en": ["Prepare documents 2 months before the deadline.", "Use embassy-approved translation agencies for official translations."],
+              "it": ["Prepara i documenti 2 mesi prima della scadenza.", "Usa agenzie di traduzione approvate dall’ambasciata per traduzioni ufficiali."]
             },
             "faqs": {
-              "fa": ["سؤال: اگه پرمسو دیر بیاد چی؟ پاسخ: رسید درخواست (Ricevuta) برای امور قانونی کافیه."],
-              "en": ["FAQ: What if Permesso is delayed? Answer: The application receipt (Ricevuta) is sufficient for legal purposes."],
-              "it": ["Domanda: Cosa fare se il Permesso tarda? Risposta: La ricevuta di richiesta (Ricevuta) è sufficiente per scopi legali."]
+              "fa": [
+                "سؤال: اگه ISEE بالابره چی؟ پاسخ: بورسیه تعلق نمی‌گیره، ولی می‌تونید برای خوابگاه درخواست بدید.",
+                "سؤال: مدارک طلاق رو از کجا بگیرم؟ پاسخ: از ثبت احوال ایران، با تأیید وزارت امور خارجه."
+              ],
+              "en": [
+                "FAQ: What if my ISEE is too high? Answer: You won’t qualify for the scholarship but can apply for dorms.",
+                "FAQ: Where to get divorce documents? Answer: From Iran’s registry office, certified by the Ministry of Foreign Affairs."
+              ],
+              "it": [
+                "Domanda: Cosa succede se il mio ISEE è troppo alto? Risposta: Non otterrai la borsa, ma puoi richiedere il dormitorio.",
+                "Domanda: Dove ottenere i documenti di divorzio? Risposta: Dall’ufficio di registro iraniano, certificato dal Ministero degli Affari Esteri."
+              ]
             },
             "tips_for_iranians": {
-              "fa": ["برای پرداخت بولتینو، از حساب Wise استفاده کنید.", "تو گروه تلگرام ایرانی‌ها بپرسید برای تجربه‌های واقعی."],
-              "en": ["Use a Wise account to pay the bulletin.", "Ask in the Iranian students’ Telegram group for real experiences."],
-              "it": ["Usa un conto Wise per pagare il bollettino.", "Chiedi nel gruppo Telegram degli studenti iraniani per esperienze reali."]
+              "fa": [
+                "برای گواهی طلاق، حتماً تأیید کنسولگری ایتالیا تو تهران رو بگیرید.",
+                "با دانشجوهای ایرانی تو گروه تلگرام ADiSU برای تجربه‌های واقعی تماس بگیرید."
+              ],
+              "en": [
+                "For divorce certificates, ensure certification by the Italian Consulate in Tehran.",
+                "Contact Iranian students in the ADiSU Telegram group for real experiences."
+              ],
+              "it": [
+                "Per i certificati di divorzio, assicurati la certificazione dal Consolato Italiano a Teheran.",
+                "Contatta studenti iraniani nel gruppo Telegram ADiSU per esperienze reali."
+              ]
             }
           },
           {
-            "id": "university_registration",
+            "id": "academic_calendar",
             "title": {
-              "fa": "🎓 ثبت‌نام در دانشگاه",
-              "en": "🎓 University Registration",
-              "it": "🎓 Iscrizione all’Università"
+              "fa": "📅 تقویم تحصیلی 2025/2026",
+              "en": "📅 Academic Calendar 2025/2026",
+              "it": "📅 Calendario Accademico 2025/2026"
             },
             "content": {
               "fa": [
-                "ثبت‌نام در دانشگاه پروجا (UniPG) یا سایر دانشگاه‌های اومبریا:",
-                "۱. مراجعه به پرتال UniPG (https://www.unipg.it/en/registration).",
-                "۲. آپلود مدارک: پاسپورت، ویزا، کد فیسکاله، نامه پذیرش، مدرک دیپلم/لیسانس (ترجمه رسمی).",
-                "۳. پرداخت شهریه اولیه (€۱۵۶ مالیات + شهریه رشته).",
-                "۴. دریافت شماره دانشجویی (Matricola) و ایمیل دانشگاهی.",
-                "📌 زمان: ثبت‌نام تا ۳۰ اکتبر ۲۰۲۵، ولی زودتر بهتره."
+                "تقویم تحصیلی دانشگاه پروجا (UniPG):",
+                "- ترم اول: 1 اکتبر 2025 تا 31 ژانویه 2026.",
+                "- امتحانات ترم اول: 15 ژانویه تا 28 فوریه 2026.",
+                "- ترم دوم: 1 مارس تا 15 ژوئن 2026.",
+                "- امتحانات ترم دوم: 1 ژوئن تا 31 ژوئیه 2026.",
+                "- تعطیلات رسمی: 1 نوامبر 2025 (روز همه قدیسان)، 8 دسامبر 2025 (Immacolata)، 25 دسامبر 2025 تا 6 ژانویه 2026 (کریسمس).",
+                "- ددلاین بورسیه ADiSU: 15 سپتامبر 2025.",
+                "📌 نکته: تقویم رو از پرتال UniPG چک کنید چون ممکنه تغییر کنه."
               ],
               "en": [
-                "Registration at University of Perugia (UniPG) or other Umbrian universities:",
-                "1. Access UniPG portal (https://www.unipg.it/en/registration).",
-                "2. Upload documents: Passport, visa, Codice Fiscale, acceptance letter, diploma/degree (official translation).",
-                "3. Pay initial tuition (€156 tax + program fees).",
-                "4. Receive student number (Matricola) and university email.",
-                "📌 Timing: Register by October 30, 2025, but earlier is better."
+                "University of Perugia (UniPG) academic calendar:",
+                "- First semester: October 1, 2025, to January 31, 2026.",
+                "- First semester exams: January 15 to February 28, 2026.",
+                "- Second semester: March 1 to June 15, 2026.",
+                "- Second semester exams: June 1 to July 31, 2026.",
+                "- Public holidays: November 1, 2025 (All Saints’ Day), December 8, 2025 (Immacolata), December 25, 2025, to January 6, 2026 (Christmas).",
+                "- ADiSU scholarship deadline: September 15, 2025.",
+                "📌 Tip: Check the UniPG portal for updates as the calendar may change."
               ],
               "it": [
-                "Iscrizione all’Università di Perugia (UniPG) o altre università umbre:",
-                "1. Accedi al portale UniPG (https://www.unipg.it/en/registration).",
-                "2. Carica i documenti: Passaporto, visto, Codice Fiscale, lettera di accettazione, diploma/laurea (traduzione ufficiale).",
-                "3. Paga la tassa iniziale (€156 di tassa + costo del corso).",
-                "4. Ricevi il numero di matricola e l’email universitaria.",
-                "📌 Tempistica: Iscriviti entro il 30 ottobre 2025, ma prima è meglio."
+                "Calendario accademico dell’Università di Perugia (UniPG):",
+                "- Primo semestre: 1 ottobre 2025 - 31 gennaio 2026.",
+                "- Esami primo semestre: 15 gennaio - 28 febbraio 2026.",
+                "- Secondo semestre: 1 marzo - 15 giugno 2026.",
+                "- Esami secondo semestre: 1 giugno - 31 luglio 2026.",
+                "- Festività pubbliche: 1 novembre 2025 (Ognissanti), 8 dicembre 2025 (Immacolata), 25 dicembre 2025 - 6 gennaio 2026 (Natale).",
+                "- Scadenza borsa ADiSU: 15 settembre 2025.",
+                "📌 Consiglio: Controlla il portale UniPG per aggiornamenti, poiché il calendario potrebbe cambiare."
               ]
             },
             "resources": {
               "links": [
-                "UniPG Registration: https://www.unipg.it/en/registration",
-                "International Students UniPG: https://www.unipg.it/en/international-students"
+                "UniPG Calendar: https://www.unipg.it/en/academic-calendar",
+                "ADiSU Umbria: https://www.adisu.umbria.it"
               ],
               "apps": [
-                "MyUnipg: برای مدیریت ثبت‌نام و دروس (Google Play/App Store)."
+                "MyUnipg: برای دسترسی به تقویم و اطلاعیه‌ها (Google Play/App Store)."
               ],
               "contacts": [
-                "UniPG International Office: +39 075 585 2080, international@unipg.it"
+                "UniPG Registrar: +39 075 585 2080, registrar@unipg.it"
               ]
             },
             "tips": {
-              "fa": ["مدارک ترجمه‌شده رو از دارالترجمه‌های معتبر تهران بگیرید.", "پرتال UniPG رو مرتب چک کنید برای اطلاعیه‌ها."],
-              "en": ["Get translations from reputable agencies in Tehran.", "Regularly check the UniPG portal for updates."],
-              "it": ["Ottieni traduzioni da agenzie affidabili a Teheran.", "Controlla regolarmente il portale UniPG per aggiornamenti."]
+              "fa": ["امتحانات رو زودتر برنامه‌ریزی کنید تا با د*!*دلاین بورسیه تداخل نکنه.", "رویدادهای ESN رو برای شبکه‌سازی چک کنید."],
+              "en": ["Plan exams early to avoid conflicts with scholarship deadlines.", "Check ESN events for networking."],
+              "it": ["Pianifica gli esami in anticipo per evitare conflitti con le scadenze delle borse.", "Controlla gli eventi ESN per il networking."]
             },
             "faqs": {
-              "fa": ["سؤال: اگه مدرک دیپلم دیر برسه چی؟ پاسخ: با International Office تماس بگیرید."],
-              "en": ["FAQ: What if my diploma is delayed? Answer: Contact the International Office."],
-              "it": ["Domanda: Cosa fare se il diploma è in ritardo? Risposta: Contatta l’International Office."]
+              "fa": ["سؤال: اگه تعطیلات با امتحان تداخل کنه چی؟ پاسخ: با استاد هماهنگ کنید برای وقت جایگزین."],
+              "en": ["FAQ: What if holidays conflict with exams? Answer: Coordinate with professors for alternative dates."],
+              "it": ["Domanda: Cosa fare se le festività coincidono con gli esami? Risposta: Coordina con i professori per date alternative."]
             },
             "tips_for_iranians": {
-              "fa": ["ترجمه مدارک رو قبل از سفر آماده کنید.", "با دانشجوهای ایرانی تو UniPG برای راهنمایی تماس بگیرید (گروه تلگرام)."],
-              "en": ["Prepare document translations before travel.", "Contact Iranian students at UniPG for guidance (Telegram group)."],
-              "it": ["Prepara le traduzioni dei documenti prima del viaggio.", "Contatta gli studenti iraniani a UniPG per consigli (gruppo Telegram)."]
+              "fa": ["تقویم رو تو Google Calendar ذخیره کنید.", "برای اطلاع از تعطیلات، گروه تلگرام UniPG رو دنبال کنید."],
+              "en": ["Save the calendar in Google Calendar.", "Follow the UniPG Telegram group for holiday updates."],
+              "it": ["Salva il calendario su Google Calendar.", "Segui il gruppo Telegram UniPG per aggiornamenti sulle festività."]
+            }
+          },
+          {
+            "id": "language_exams",
+            "title": {
+              "fa": "📝 آزمون‌های زبان ایتالیایی (CILS, CELI, PLIDA)",
+              "en": "📝 Italian Language Exams (CILS, CELI, PLIDA)",
+              "it": "📝 Esami di Lingua Italiana (CILS, CELI, PLIDA)"
+            },
+            "content": {
+              "fa": [
+                "برای ثبت‌نام در دانشگاه یا بورسیه، مدرک زبان ایتالیایی (B1 یا B2) لازمه.",
+                "انواع آزمون‌ها:",
+                "- **CILS**: توسط دانشگاه سیه‌نا، سطوح A1-C2، هزینه: €100-150، تاریخ: ژوئن و دسامبر 2025.",
+                "- **CELI**: توسط دانشگاه پروجا، سطوح A1-C2، هزینه: €90-130، تاریخ: مارس، ژوئن، نوامبر 2025.",
+                "- **PLIDA**: توسط Dante Alighieri، سطوح A1-C2، هزینه: €100-145، تاریخ: مه و نوامبر 2025.",
+                "مراکز آزمون در پروجا:",
+                "- Scuola di Lingue Estere (UniPG): Via Manuali, 12, 06123 Perugia.",
+                "- Dante Alighieri Perugia: Via Cacciatori delle Alpi, 11, 06121 Perugia.",
+                "منابع مطالعه:",
+                "- کتاب‌های Nuovo Espresso (سطوح 1-3).",
+                "- اپلیکیشن‌های Duolingo و Babbel.",
+                "- دوره‌های رایگان ESN یا UniPG (از تلگرام ESN بپرسید).",
+                "مراحل ثبت‌نام:",
+                "۱. انتخاب سطح (مثلاً B2).",
+                "۲. ثبت‌نام آنلاین (مثل https://www.cils.unistrasi.it).",
+                "۳. پرداخت هزینه (با Wise/Revolut).",
+                "۴. شرکت در آزمون (۲-۳ بار در سال).",
+                "📌 زمان: ثبت‌نام حداقل ۲ ماه قبل از آزمون."
+              ],
+              "en": [
+                "An Italian language certificate (B1 or B2) is required for university enrollment or scholarships.",
+                "Exam types:",
+                "- **CILS**: By University of Siena, levels A1-C2, cost: €100-150, dates: June, December 2025.",
+                "- **CELI**: By University of Perugia, levels A1-C2, cost: €90-130, dates: March, June, November 2025.",
+                "- **PLIDA**: By Dante Alighieri, levels A1-C2, cost: €100-145, dates: May, November 2025.",
+                "Testing centers in Perugia:",
+                "- Scuola di Lingue Estere (UniPG): Via Manuali, 12, 06123 Perugia.",
+                "- Dante Alighieri Perugia: Via Cacciatori delle Alpi, 11, 06121 Perugia.",
+                "Study resources:",
+                "- Nuovo Espresso books (levels 1-3).",
+                "- Duolingo and Babbel apps.",
+                "- Free ESN or UniPG courses (ask via ESN Telegram).",
+                "Registration steps:",
+                "1. Choose level (e.g., B2).",
+                "2. Register online (e.g., https://www.cils.unistrasi.it).",
+                "3. Pay fee (via Wise/Revolut).",
+                "4. Take the exam (2-3 times per year).",
+                "📌 Timing: Register at least 2 months before the exam."
+              ],
+              "it": [
+                "È richiesto un certificato di lingua italiana (B1 o B2) per l’iscrizione universitaria o le borse di studio.",
+                "Tipi di esami:",
+                "- **CILS**: Università di Siena, livelli A1-C2, costo: €100-150, date: giugno, dicembre 2025.",
+                "- **CELI**: Università di Perugia, livelli A1-C2, costo: €90-130, date: marzo, giugno, novembre 2025.",
+                "- **PLIDA**: Dante Alighieri, livelli A1-C2, costo: €100-145, date: maggio, novembre 2025.",
+                "Centri d’esame a Perugia:",
+                "- Scuola di Lingue Estere (UniPG): Via Manuali, 12, 06123 Perugia.",
+                "- Dante Alighieri Perugia: Via Cacciatori delle Alpi, 11, 06121 Perugia.",
+                "Risorse di studio:",
+                "- Libri Nuovo Espresso (livelli 1-3).",
+                "- App Duolingo e Babbel.",
+                "- Corsi gratuiti ESN o UniPG (chiedi tramite Telegram ESN).",
+                "Fasi di registrazione:",
+                "1. Scegli il livello (es. B2).",
+                "2. Registrati online (es. https://www.cils.unistrasi.it).",
+                "3. Paga la tassa (con Wise/Revolut).",
+                "4. Sostieni l’esame (2-3 volte l’anno).",
+                "📌 Tempistica: Registrati almeno 2 mesi prima dell’esame."
+              ]
+            },
+            "resources": {
+              "links": [
+                "CILS: https://www.cils.unistrasi.it",
+                "CELI: https://www.unipg.it/celi",
+                "PLIDA: https://www.ladante.it/plida"
+              ],
+              "apps": [
+                "Duolingo: برای تمرین زبان (Google Play/App Store).",
+                "Babbel: برای یادگیری پیشرفته (Google Play/App Store)."
+              ],
+              "contacts": [
+                "Scuola di Lingue Estere UniPG: +39 075 585 2080, lingue@unipg.it",
+                "Dante Alighieri Perugia: +39 075 573 1020, info@ladanteperugia.it"
+              ]
+            },
+            "tips": {
+              "fa": ["حداقل ۳ ماه قبل از آزمون مطالعه رو شروع کنید.", "دوره‌های رایگان ESN رو از تلگرام بپرسید."],
+              "en": ["Start studying 3 months before the exam.", "Ask about free ESN courses via Telegram."],
+              "it": ["Inizia a studiare 3 mesi prima dell’esame.", "Chiedi dei corsi gratuiti ESN tramite Telegram."]
+            },
+            "faqs": {
+              "fa": ["سؤال: کدوم آزمون بهتره؟ پاسخ: CELI، چون تو پروجا برگزار می‌شه و ارزون‌تره."],
+              "en": ["FAQ: Which exam is better? Answer: CELI, as it’s held in Perugia and cheaper."],
+              "it": ["Domanda: Quale esame è migliore? Risposta: CELI, perché si tiene a Perugia ed è più economico."]
+            },
+            "tips_for_iranians": {
+              "fa": ["برای تمرین تلفظ، تو رویدادهای ESN با ایتالیایی‌ها گپ بزنید.", "کتاب‌های دست‌دوم Nuovo Espresso رو از Libreria Grande بخرید."],
+              "en": ["Practice pronunciation at ESN events with Italians.", "Buy second-hand Nuovo Espresso books from Libreria Grande."],
+              "it": ["Esercita la pronuncia agli eventi ESN con italiani.", "Acquista libri usati Nuovo Espresso da Libreria Grande."]
+            }
+          },
+          {
+            "id": "course_management",
+            "title": {
+              "fa": "📚 مدیریت واحدهای درسی (CFU)",
+              "en": "📚 Course Management (CFU)",
+              "it": "📚 Gestione dei Corsi (CFU)"
+            },
+            "content": {
+              "fa": [
+                "واحدهای درسی (CFU) معیار پیشرفت تحصیلی شماست و برای بورسیه لازمه.",
+                "نکات کلیدی:",
+                "- هر CFU برابر ۲۵ ساعت مطالعه یا کلاسه.",
+                "- حداقل CFU برای بورسیه: 20 (سال اول)، 40 (سال دوم)، 80 (سال سوم).",
+                "- انتخاب دروس از پرتال UniPG (https://sol.unipg.it).",
+                "- ددلاین ثبت‌نام دروس: 15 اکتبر 2025 برای ترم اول، 15 مارس 2026 برای ترم دوم.",
+                "مراحل انتخاب دروس:",
+                "۱. ورود به پرتال SOL با شماره دانشجویی (Matricola).",
+                "۲. انتخاب دروس از برنامه رشته (Piano di Studi).",
+                "۳. تأیید توسط استاد راهنما (Tutor Accademico).",
+                "📌 نکته: دروس اختیاری (Opzionali) رو با مشورت استاد انتخاب کنید."
+              ],
+              "en": [
+                "Credits (CFU) measure academic progress and are required for scholarships.",
+                "Key points:",
+                "- Each CFU equals 25 hours of study or classes.",
+                "- Minimum CFU for scholarship: 20 (1st year), 40 (2nd year), 80 (3rd year).",
+                "- Course selection via UniPG portal (https://sol.unipg.it).",
+                "- Course registration deadlines: October 15, 2025 (1st semester), March 15, 2026 (2nd semester).",
+                "Steps to choose courses:",
+                "1. Log in to SOL portal with student number (Matricola).",
+                "2. Select courses from study plan (Piano di Studi).",
+                "3. Get approval from academic tutor (Tutor Accademico).",
+                "📌 Tip: Choose optional courses (Opzionali) with tutor’s advice."
+              ],
+              "it": [
+                "I crediti (CFU) misurano il progresso accademico e sono richiesti per le borse di studio.",
+                "Punti chiave:",
+                "- Ogni CFU equivale a 25 ore di studio o lezioni.",
+                "- CFU minimi per la borsa: 20 (1° anno), 40 (2° anno), 80 (3° anno).",
+                "- Selezione dei corsi tramite portale UniPG (https://sol.unipg.it).",
+                "- Scadenze registrazione corsi: 15 ottobre 2025 (1° semestre), 15 marzo 2026 (2° semestre).",
+                "Fasi per scegliere i corsi:",
+                "1. Accedi al portale SOL con il numero di matricola.",
+                "2. Seleziona i corsi dal piano di studi.",
+                "3. Ottieni l’approvazione dal tutor accademico.",
+                "📌 Consiglio: Scegli i corsi opzionali con il consiglio del tutor."
+              ]
+            },
+            "resources": {
+              "links": [
+                "UniPG SOL Portal: https://sol.unipg.it",
+                "UniPG Study Plans: https://www.unipg.it/en/study-plans"
+              ],
+              "apps": [
+                "MyUnipg: برای مدیریت دروس (Google Play/App Store)."
+              ],
+              "contacts": [
+                "UniPG Academic Office: +39 075 585 2080, academic@unipg.it"
+              ]
+            },
+            "tips": {
+              "fa": ["دروس سنگین رو تو ترم پخش کنید تا فشار کمتر بشه.", "با استاد راهنما مرتب در تماس باشید."],
+              "en": ["Spread heavy courses across semesters to reduce pressure.", "Stay in regular contact with your academic tutor."],
+              "it": ["Distribuisci i corsi pesanti tra i semestri per ridurre la pressione.", "Mantieniti in contatto regolare con il tutor accademico."]
+            },
+            "faqs": {
+              "fa": ["سؤال: اگه CFU کافی نگیرم چی؟ پاسخ: بورسیه سال بعد لغو می‌شه."],
+              "en": ["FAQ: What if I don’t earn enough CFU? Answer: Next year’s scholarship may be canceled."],
+              "it": ["Domanda: Cosa succede se non ottengo abbastanza CFU? Risposta: La borsa dell’anno successivo potrebbe essere annullata."]
+            },
+            "tips_for_iranians": {
+              "fa": ["دروس رو با دانشجوهای ایرانی هماهنگ کنید تا جزوه شریک بشید.", "از تلگرام UniPG برای پیدا کردن استادهای خوب بپرسید."],
+              "en": ["Coordinate courses with Iranian students to share notes.", "Ask in UniPG Telegram for good professors."],
+              "it": ["Coordina i corsi con studenti iraniani per condividere appunti.", "Chiedi nel gruppo Telegram UniPG per trovare buoni professori."]
+            }
+          },
+          {
+            "id": "academic_events_esn",
+            "title": {
+              "fa": "🎉 رویدادهای آکادمیک و ESN",
+              "en": "🎉 Academic Events and ESN",
+              "it": "🎉 Eventi Accademici ed ESN"
+            },
+            "content": {
+              "fa": [
+                "رویدادهای آکادمیک و ESN برای شبکه‌سازی و آشنایی با فرهنگ ایتالیایی عالیه.",
+                "رویدادهای کلیدی:",
+                "- هفته خوش‌آمدگویی (Welcome Week): اوایل اکتبر 2025، شامل تور دانشگاه و شهر.",
+                "- نمایشگاه‌های شغلی: نوامبر 2025 و می 2026 در UniPG.",
+                "- سفرهای ESN: تورهای یک‌روزه به رم، فلورانس، یا آسیزی (€20-50).",
+                "- جلسات زبان (Tandem): تمرین زبان ایتالیایی با دانشجوهای محلی (رایگان).",
+                "📌 زمان: برنامه ESN رو از تلگرام یا سایت https://esnperugia.it چک کنید."
+              ],
+              "en": [
+                "Academic and ESN events are great for networking and learning Italian culture.",
+                "Key events:",
+                "- Welcome Week: Early October 2025, includes university and city tours.",
+                "- Career fairs: November 2025 and May 2026 at UniPG.",
+                "- ESN trips: One-day tours to Rome, Florence, or Assisi (€20-50).",
+                "- Tandem language sessions: Practice Italian with local students (free).",
+                "📌 Timing: Check ESN schedule on Telegram or https://esnperugia.it."
+              ],
+              "it": [
+                "Gli eventi accademici ed ESN sono ottimi per il networking e per conoscere la cultura italiana.",
+                "Eventi principali:",
+                "- Settimana di benvenuto: Inizio ottobre 2025, include tour dell’università e della città.",
+                "- Fiere del lavoro: Novembre 2025 e maggio 2026 presso UniPG.",
+                "- Viaggi ESN: Tour di un giorno a Roma, Firenze o Assisi (€20-50).",
+                "- Sessioni di tandem linguistico: Pratica l’italiano con studenti locali (gratuito).",
+                "📌 Tempistica: Controlla il programma ESN su Telegram o https://esnperugia.it."
+              ]
+            },
+            "resources": {
+              "links": [
+                "ESN Perugia: https://esnperugia.it",
+                "UniPG Events: https://www.unipg.it/en/events"
+              ],
+              "apps": [
+                "Telegram: برای عضویت در گروه ESN Perugia."
+              ],
+              "contacts": [
+                "ESN Perugia: +39 075 123 4567, info@esnperugia.it"
+              ]
+            },
+            "tips": {
+              "fa": ["تو Welcome Week شرکت کنید تا دوستای جدید پیدا کنید.", "برای سفرهای ESN زود ثبت‌نام کنید چون جا پر می‌شه."],
+              "en": ["Join Welcome Week to meet new friends.", "Register early for ESN trips as spots fill up."],
+              "it": ["Partecipa alla Welcome Week per conoscere nuovi amici.", "Registrati presto per i viaggi ESN perché i posti si esauriscono."]
+            },
+            "faqs": {
+              "fa": ["سؤال: ESN چیه؟ پاسخ: سازمان دانشجویی برای کمک به دانشجوهای بین‌المللی."],
+              "en": ["FAQ: What is ESN? Answer: A student organization supporting international students."],
+              "it": ["Domanda: Cos’è ESN? Risposta: Un’organizzazione studentesca per supportare gli studenti internazionali."]
+            },
+            "tips_for_iranians": {
+              "fa": ["تو گروه تلگرام ESN بپرسید برای تخفیف‌های دانشجویی.", "برای سفرهای ESN، با ایرانی‌ها هماهنگ کنید تا هزینه‌ها کمتر بشه."],
+              "en": ["Ask in ESN Telegram for student discounts.", "Coordinate with Iranians for ESN trips to save costs."],
+              "it": ["Chiedi nel gruppo Telegram ESN per sconti studenti.", "Coordina con iraniani per i viaggi ESN per risparmiare."]
             }
           }
         ]
