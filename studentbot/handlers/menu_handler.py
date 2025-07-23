@@ -23,10 +23,14 @@ async def guide_menu(update: Update, context: CallbackContext) -> None:
         keyboard.append([button])
 
     reply_markup = InlineKeyboardMarkup(keyboard)
+    # It's better to send a new message here instead of editing,
+    # because the user is coming from the main menu.
     await update.callback_query.message.reply_text(
         guide_data['guide']['title'][lang],
         reply_markup=reply_markup
     )
+    await update.callback_query.message.delete()
+
 
 async def guide_category_menu(update: Update, context: CallbackContext) -> None:
     """Displays the subsections of a guide category."""
@@ -45,6 +49,9 @@ async def guide_category_menu(update: Update, context: CallbackContext) -> None:
                 callback_data=f"guide_subsection_{category_id}_{subsection['id']}"
             )
             keyboard.append([button])
+
+        # Add a back button
+        keyboard.append([InlineKeyboardButton("⬅️ Back", callback_data="guide")])
 
         reply_markup = InlineKeyboardMarkup(keyboard)
         await query.edit_message_text(
@@ -80,13 +87,17 @@ async def guide_subsection_content(update: Update, context: CallbackContext) -> 
 
             faqs = ""
             if subsection.get('faqs'):
-                faqs = "\n\nFAQs:\n" + subsection['faqs'][lang]
+                faqs = "\n\nFAQs:\n" + "\n".join(subsection['faqs'][lang])
 
             tips_for_iranians = ""
             if subsection.get('tips_for_iranians'):
                 tips_for_iranians = "\n\nTips for Iranians:\n" + "\n".join(subsection['tips_for_iranians'][lang])
 
+            keyboard = [[InlineKeyboardButton("⬅️ Back", callback_data=f"guide_category_{category_id}")]]
+            reply_markup = InlineKeyboardMarkup(keyboard)
+
             await query.edit_message_text(
                 text=f"**{subsection['title'][lang]}**\n\n{content}{resources}{tips}{faqs}{tips_for_iranians}",
-                parse_mode='Markdown'
+                parse_mode='Markdown',
+                reply_markup=reply_markup
             )
