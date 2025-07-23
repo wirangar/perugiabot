@@ -7,3 +7,4 @@ oauth2client
 google-api-python-client
 openai
 requests
+telegram-inline-calendar

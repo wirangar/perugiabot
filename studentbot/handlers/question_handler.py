@@ -2,6 +2,7 @@ from telegram import Update
 from telegram.ext import CallbackContext, ConversationHandler
 
 from config import ADMIN_CHAT_ID
+from utils.db import add_points
 from utils.sheets import get_sheet
 from .cmd_start import get_translation
 
@@ -25,6 +26,8 @@ async def save_question(update: Update, context: CallbackContext) -> int:
     # Send to admin
     if ADMIN_CHAT_ID:
         await context.bot.send_message(chat_id=ADMIN_CHAT_ID, text=f"New question from {user_id}:\n\n{question}")
+
+    add_points(user_id, 5) # Award 5 points for asking a question
 
     lang = context.user_data.get('lang', 'fa')
     await update.message.reply_text(get_translation(lang, 'question_sent'))

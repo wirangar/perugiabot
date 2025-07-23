@@ -25,6 +25,16 @@ from handlers.isee_handler import (
     PROPERTY_STATUS,
     PROPERTY_SIZE,
 )
+from handlers.search_handler import search, generate_embeddings
+from handlers.live_chat_handler import (
+    start_live_chat,
+    forward_to_admin,
+    forward_to_user,
+    cancel_live_chat,
+    LIVE_CHAT,
+)
+from handlers.location_handler import send_university_location
+from handlers.calendar_handler import show_calendar, calendar_callback
 from handlers.voice_handler import transcribe_voice
 from handlers.question_handler import (
     start_ask_question,
@@ -71,6 +81,7 @@ def main() -> None:
     # Create the user table if it doesn't exist
     create_user_table()
     create_isee_calculations_table()
+    generate_embeddings()
 
     application = Application.builder().token(TELEGRAM_TOKEN).build()
 
@@ -129,6 +140,21 @@ def main() -> None:
     application.add_handler(CommandHandler("video", send_video))
     application.add_handler(CommandHandler("weather", get_weather))
     application.add_handler(MessageHandler(filters.VOICE, transcribe_voice))
+    application.add_handler(CommandHandler("calendar", show_calendar))
+    application.add_handler(CallbackQueryHandler(calendar_callback, pattern='^calendar_'))
+    application.add_handler(CommandHandler("university", send_university_location))
+
+    live_chat_handler = ConversationHandler(
+        entry_points=[CommandHandler("livechat", start_live_chat)],
+        states={
+            LIVE_CHAT: [MessageHandler(filters.TEXT & ~filters.COMMAND, forward_to_admin)],
+        },
+        fallbacks=[CommandHandler("cancel", cancel_live_chat)],
+    )
+    application.add_handler(live_chat_handler)
+
+    application.add_handler(MessageHandler(filters.REPLY, forward_to_user))
+    application.add_handler(CommandHandler("search", search))
 
     # Start the Bot
     application.run_polling()

@@ -60,5 +60,9 @@
   "question_sent": "La tua domanda è stata inviata con successo. Verrà data una risposta a breve.",
   "question_cancelled": "La richiesta di fare una domanda è stata annullata.",
   "voice_transcribed": "Il tuo messaggio vocale trascritto:",
-  "voice_error": "Si è verificato un errore durante l'elaborazione del messaggio vocale."
+  "voice_error": "Si è verificato un errore durante l'elaborazione del messaggio vocale.",
+  "live_chat_prompt": "Stai per connetterti al supporto dal vivo. Invia il tuo messaggio. Per uscire, invia /cancel.",
+  "live_chat_connected": "Sei ora connesso al supporto dal vivo.",
+  "live_chat_disconnected": "Sei stato disconnesso dal supporto dal vivo.",
+  "new_live_chat": "Nuova chat dal vivo dall'utente:"
 }

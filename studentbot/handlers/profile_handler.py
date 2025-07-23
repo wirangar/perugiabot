@@ -2,7 +2,7 @@ import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext, ConversationHandler
 
-from utils.db import save_user, get_user
+from utils.db import save_user, get_user, add_points
 from utils.sheets import save_user_to_sheet
 from .cmd_start import get_translation
 
@@ -66,6 +66,7 @@ async def get_country(update: Update, context: CallbackContext) -> int:
     lang = context.user_data.get('lang', 'fa')
     save_user(context.user_data)
     save_user_to_sheet(context.user_data)
+    add_points(update.effective_user.id, 10)  # Award 10 points for registration
     await update.message.reply_text(get_translation(lang, 'registration_complete'))
     return ConversationHandler.END
 
@@ -92,6 +93,7 @@ async def show_profile(update: Update, context: CallbackContext) -> None:
         {get_translation(lang, 'field_of_study')} {user['field_of_study']}
         {get_translation(lang, 'country')} {user['country']}
         {get_translation(lang, 'registration_date')} {user['created_at'].strftime('%Y-%m-%d %H:%M')}
+        Points: {user.get('points', 0)}
         """
         keyboard = [
             [InlineKeyboardButton(get_translation(lang, "edit_profile"), callback_data="edit_profile")]

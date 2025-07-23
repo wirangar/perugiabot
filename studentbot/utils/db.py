@@ -22,6 +22,7 @@ def create_user_table():
             field_of_study VARCHAR(255),
             country VARCHAR(255),
             language VARCHAR(10),
+            points INTEGER DEFAULT 0,
             created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
         );
     """)
@@ -113,6 +114,25 @@ def get_user(user_id):
     if user:
         return {
             "name": user[0],
+            "family_name": user[1],
+            "age": user[2],
+            "email": user[3],
+            "field_of_study": user[4],
+            "country": user[5],
+            "language": user[6],
+            "points": user[7],
+            "created_at": user[8]
+        }
+    return None
+
+def add_points(user_id, points):
+    """Adds points to a user's score."""
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("UPDATE users SET points = points + %s WHERE user_id = %s", (points, user_id))
+    conn.commit()
+    cur.close()
+    conn.close()
             "family_name": user[1],
             "age": user[2],
             "email": user[3],

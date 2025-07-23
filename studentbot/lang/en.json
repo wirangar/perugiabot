@@ -60,5 +60,9 @@
   "question_sent": "Your question has been sent successfully. It will be answered soon.",
   "question_cancelled": "Asking a question has been cancelled.",
   "voice_transcribed": "Your voice message transcribed:",
-  "voice_error": "An error occurred while processing the voice message."
+  "voice_error": "An error occurred while processing the voice message.",
+  "live_chat_prompt": "You are about to connect to live support. Please send your message. To exit, send /cancel.",
+  "live_chat_connected": "You are now connected to live support.",
+  "live_chat_disconnected": "You have been disconnected from live support.",
+  "new_live_chat": "New live chat from user:"
 }
