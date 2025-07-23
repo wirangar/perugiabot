@@ -810,381 +810,722 @@
           "it": "Alloggio e Vita Quotidiana"
         },
         "subsections": [
-    {
-      "name": {
-        "fa": "خوابگاه‌های دانشجویی (ADiSU و سایر گزینه‌ها)",
-        "en": "Student Dormitories (ADiSU and Other Options)",
-        "it": "Dormitori Studenteschi (ADiSU e Altre Opzioni)"
-      },
-      "content": {
-        "fa": [
-          "خوابگاه‌های دانشجویی تو پروجا عمدتاً توسط **ADiSU Umbria** (سازمان خدمات دانشجویی منطقه اومبریا) مدیریت می‌شن و گزینه‌ای مقرون‌به‌صرفه برای دانشجوهای بین‌المللی هستن.",
-          "مراحل درخواست خوابگاه ADiSU:",
-          "1. **ثبت‌نام آنلاین**: از سایت ADiSU (https://www.adisu.umbria.it) فرم درخواست خوابگاه رو پر کن. معمولاً از ژوئن تا آگوست برای ترم پاییز بازه.",
-          "2. **مدارک لازم**:",
-          "- کپی پاسپورت و ویزای تحصیلی (Tipo D).",
-          "- کدیچه فیسکاله (باید قبلش از Agenzia delle Entrate بگیری).",
-          "- نامه پذیرش دانشگاه پروجا یا مدرک ثبت‌نام.",
-          "- گواهی تمکن مالی (برای اثبات توانایی پرداخت هزینه خوابگاه).",
-          "3. **پرداخت هزینه درخواست**: حدود €10-20 (نقدی یا از طریق حواله بانکی، چون کارت‌های ایرانی کار نمی‌کنن).",
-          "4. **انتخاب خوابگاه**: ADiSU چند خوابگاه تو پروجا داره، مثل Collegio di Merito یا Casa dello Studente. اولویت‌بندی خوابگاه‌ها رو تو فرم مشخص کن.",
-          "5. **تأیید و قرارداد**: بعد از تأیید (معمولاً 1-2 ماه بعد)، قرارداد خوابگاه (Contratto di Locazione) بهت داده می‌شه. قرارداد رو با دقت بخون و امضا کن.",
-          "هزینه خوابگاه: ماهانه €200-350 (بسته به نوع اتاق: تک‌نفره، دونفره، یا آپارتمان مشترک).",
-          "مزایا: اینترنت رایگان، امکانات آشپزخانه، و نزدیکی به دانشگاه (مثلاً خوابگاه Via del Giochetto نزدیک پردیس اصلیه).",
-          "معایب: تعداد محدود، رقابت بالا، و قوانین سخت (مثل ممنوعیت مهمانی شبانه).",
-          "خوابگاه‌های خصوصی: اگه ADiSU پر باشه، می‌تونی از خوابگاه‌های خصوصی (مثل Camplus یا Residenza Universitaria) استفاده کنی. هزینه: €300-500 در ماه."
-        ],
-        "en": [
-          "Student dormitories in Perugia are primarily managed by **ADiSU Umbria**, offering affordable housing for international students.",
-          "Steps to apply for ADiSU dorms:",
-          "1. **Online application**: Fill out the dorm application form on the ADiSU website (https://www.adisu.umbria.it), typically open from June to August for the fall semester.",
-          "2. **Required documents**:",
-          "- Copy of passport and study visa (Tipo D).",
-          "- Codice Fiscale (obtained from Agenzia delle Entrate).",
-          "- University of Perugia acceptance letter or enrollment proof.",
-          "- Proof of financial means (to show ability to pay dorm fees).",
-          "3. **Pay the application fee**: Approx. €10-20 (cash or bank transfer, as Iranian cards don’t work).",
-          "4. **Choose a dorm**: ADiSU offers several dorms in Perugia, like Collegio di Merito or Casa dello Studente. Specify preferences in the form.",
-          "5. **Confirmation and contract**: After approval (usually 1-2 months), you’ll receive a lease contract (Contratto di Locazione). Read and sign carefully.",
-          "Dorm costs: €200-350/month (depending on room type: single, double, or shared apartment).",
-          "Pros: Free Wi-Fi, kitchen facilities, and proximity to the university (e.g., Via del Giochetto dorm is near the main campus).",
-          "Cons: Limited spots, high competition, and strict rules (e.g., no overnight guests).",
-          "Private dorms: If ADiSU is full, consider private options like Camplus or Residenza Universitaria. Costs: €300-500/month."
-        ],
-        "it": [
-          "I dormitori studenteschi a Perugia sono gestiti principalmente da **ADiSU Umbria**, offrendo alloggi economici per studenti internazionali.",
-          "Fasi per richiedere i dormitori ADiSU:",
-          "1. **Domanda online**: Compila il modulo di richiesta sul sito ADiSU (https://www.adisu.umbria.it), di solito aperto da giugno ad agosto per il semestre autunnale.",
-          "2. **Documenti richiesti**:",
-          "- Copia del passaporto e visto di studio (Tipo D).",
-          "- Codice Fiscale (ottenuto presso l’Agenzia delle Entrate).",
-          "- Lettera di accettazione dell’Università di Perugia o prova di iscrizione.",
-          "- Prova di mezzi finanziari (per dimostrare la capacità di pagare le spese del dormitorio).",
-          "3. **Pagamento della tassa di domanda**: Circa €10-20 (in contanti o bonifico bancario, poiché le carte iraniane non funzionano).",
-          "4. **Scelta del dormitorio**: ADiSU offre diversi dormitori a Perugia, come il Collegio di Merito o la Casa dello Studente. Specifica le preferenze nel modulo.",
-          "5. **Conferma e contratto**: Dopo l’approvazione (di solito 1-2 mesi), riceverai un contratto di locazione. Leggilo attentamente e firmalo.",
-          "Costi del dormitorio: €200-350/mese (a seconda del tipo di stanza: singola, doppia o appartamento condiviso).",
-          "Vantaggi: Wi-Fi gratuito, strutture cucina e vicinanza all’università (es. il dormitorio di Via del Giochetto è vicino al campus principale).",
-          "Svantaggi: Posti limitati, alta competizione e regole rigide (es. divieto di ospiti notturni).",
-          "Dormitori privati: Se ADiSU è pieno, considera opzioni private come Camplus o Residenza Universitaria. Costi: €300-500/mese."
-        ]
-      },
-      "resources": {
-        "links": [
-          "ADiSU Umbria: https://www.adisu.umbria.it",
-          "دانشگاه پروجا (دفتر بین‌الملل): https://www.unipg.it/en/international-students",
-          "Camplus Perugia: https://www.camplus.it/en/perugia"
-        ],
-        "apps": [
-          "ADiSU App: برای پیگیری درخواست خوابگاه (Google Play/App Store).",
-          "Idealista: برای جستجوی خوابگاه‌ها و آپارتمان‌های خصوصی (Google Play/App Store)."
-        ],
-        "contacts": [
-          "ADiSU Umbria: +39 075 577 4011, info@adisu.umbria.it",
-          "دفتر بین‌الملل دانشگاه پروجا: +39 075 585 2526, international@unipg.it"
-        ]
-      },
-      "tips": {
-        "fa": [
-          "درخواست خوابگاه ADiSU رو زود (ترجیحاً ژوئن) بفرست، چون رقابت زیاده.",
-          "قرارداد خوابگاه رو با دقت بخون، چون قوانین سختگیرانه‌ای (مثل ممنوعیت سیگار) داره.",
-          "اگه خوابگاه نگرفتی، از سایت Idealista یا گروه‌های تلگرامی برای پیدا کردن خوابگاه خصوصی کمک بگیر."
-        ],
-        "en": [
-          "Apply for ADiSU dorms early (preferably June), as competition is high.",
-          "Read the dorm contract carefully, as it has strict rules (e.g., no smoking).",
-          "If you don’t get a dorm, use Idealista or Telegram groups to find private options."
-        ],
-        "it": [
-          "Invia la domanda per i dormitori ADiSU presto (preferibilmente a giugno), poiché la competizione è alta.",
-          "Leggi attentamente il contratto del dormitorio, poiché ha regole rigide (es. divieto di fumare).",
-          "Se non ottieni un dormitorio, usa Idealista o gruppi Telegram per trovare opzioni private."
-        ]
-      },
-      "faqs": {
-        "fa": [
-          "سؤال: اگه خوابگاه ADiSU پر باشه چی؟ پاسخ: به خوابگاه‌های خصوصی (مثل Camplus) یا اجاره آپارتمان فکر کن.",
-          "سؤال: هزینه خوابگاه شامل قبض‌ها می‌شه؟ پاسخ: بله، معمولاً آب، برق، و اینترنت تو هزینه ADiSU گنجانده شده.",
-          "سؤال: می‌تونم بدون کدیچه فیسکاله خوابگاه بگیرم؟ پاسخ: برای ADiSU خیر، ولی بعضی خوابگاه‌های خصوصی ممکنه قبول کنن."
-        ],
-        "en": [
-          "FAQ: What if ADiSU dorms are full? Answer: Consider private dorms (e.g., Camplus) or renting an apartment.",
-          "FAQ: Do dorm costs include utilities? Answer: Yes, ADiSU dorms usually include water, electricity, and internet.",
-          "FAQ: Can I get a dorm without a Codice Fiscale? Answer: No for ADiSU, but some private dorms may accept."
-        ],
-        "it": [
-          "Domanda: Cosa succede se i dormitori ADiSU sono pieni? Risposta: Considera dormitori privati (es. Camplus) o l’affitto di un appartamento.",
-          "Domanda: I costi del dormitorio includono le utenze? Risposta: SÌ, i dormitori ADiSU di solito includono acqua, elettricità e internet.",
-          "Domanda: Posso ottenere un dormitorio senza Codice Fiscale? Risposta: No per ADiSU, ma alcuni dormitori privati potrebbero accettare."
-        ]
-      },
-      "tips_for_iranians": {
-        "fa": [
-          "برای پرداخت هزینه درخواست ADiSU، از حساب بانکی ایتالیایی (مثل UniCredit) استفاده کن، چون کارت‌های ایرانی کار نمی‌کنن.",
-          "تو گروه‌های تلگرامی مثل 'Iranian Students in Perugia' از دانشجوهای قدیمی‌تر درباره خوابگاه‌های خلوت‌تر بپرس.",
-          "برای قرارداد خوابگاه، از دفتر بین‌الملل دانشگاه کمک بگیر تا بندهای حقوقی رو خوب بفهمی."
-        ],
-        "en": [
-          "For ADiSU application fees, use an Italian bank account (e.g., UniCredit), as Iranian cards don’t work.",
-          "Ask senior students in Telegram groups like 'Iranian Students in Perugia' about less crowded dorms.",
-          "Get help from the university’s international office to understand dorm contract terms."
-        ],
-        "it": [
-          "Per le spese di domanda ADiSU, usa un conto bancario italiano (es. UniCredit), poiché le carte iraniane non funzionano.",
-          "Chiedi agli studenti senior nei gruppi Telegram come 'Iranian Students in Perugia' informazioni sui dormitori meno affollati.",
-          "Chiedi aiuto all’ufficio internazionale dell’università per comprendere i termini del contratto del dormitorio."
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🍽️ سلف‌های دانشگاهی در پروجا",
-        "en": "🍽️ University Canteens in Perugia",
-        "it": "🍽️ Mense Universitarie a Perugia"
-      },
-      "content": {
-        "fa": [
-          "در پروجا سه سلف اصلی وجود دارد: Mensa Elce، Mensa Via Pascoli، و Mensa Ingegneria.",
-          "⏰ ساعات کاری معمول: دوشنبه تا جمعه، ۱۲:۰۰ تا ۱۴:۳۰ و ۱۹:۰۰ تا ۲۱:۰۰.",
-          "💰 قیمت غذا: بین ۱ تا ۳ یورو بر اساس سطح ISEE.",
-          "📱 رزرو غذا از طریق اپلیکیشن ADiSU امکان‌پذیر است: https://www.adisu.umbria.it",
-          "📍 آدرس نمونه: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-        ],
-        "en": [
-          "There are three main canteens in Perugia: Mensa Elce, Mensa Via Pascoli, and Mensa Ingegneria.",
-          "⏰ Opening hours: Monday to Friday, 12:00–14:30 and 19:00–21:00.",
-          "💰 Food cost: €1–3 depending on your ISEE level.",
-          "📱 You can book meals via the ADiSU app: https://www.adisu.umbria.it",
-          "📍 Example address: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-        ],
-        "it": [
-          "Ci sono tre mense principali a Perugia: Mensa Elce, Mensa Via Pascoli e Mensa Ingegneria.",
-          "⏰ Orari di apertura: lunedì-venerdì, 12:00–14:30 e 19:00–21:00.",
-          "💰 Prezzo: €1–3 a seconda del livello ISEE.",
-          "📱 Prenotazioni tramite l'app ADiSU: https://www.adisu.umbria.it",
-          "📍 Indirizzo esempio: Mensa di Elce - Via Valentino, 1, 06123 Perugia."
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🏠 اجاره خانه و اتاق در پروجا",
-        "en": "🏠 Renting Apartments and Rooms in Perugia",
-        "it": "🏠 Affitti di Case e Stanze a Perugia"
-      },
-      "content": {
-        "fa": [
-          "رایج‌ترین مناطق دانشجویی برای اجاره: Elce، Monteluce، Madonna Alta.",
-          "سایت‌های پیشنهادی: idealista.it، subito.it، Facebook Groups.",
-          "قیمت اتاق دانشجویی: بین 250 تا 400 یورو بسته به منطقه و امکانات.",
-          "توصیه: قرارداد اجاره را حتماً مکتوب و با شماره کد مالیاتی ببندید.",
-          "برای اینترنت، مودم خانگی معمولاً با 25-30 یورو در ماه قابل تهیه است.",
-          "📝 قرارداد باید شامل مدت اجاره، مبلغ اجاره، نام صاحب‌خانه و کد مالیاتی او باشد.",
-          "⚖️ حتماً نسخه‌ای از قرارداد را نزد خود نگه دارید و از پرداخت نقدی بدون رسید خودداری کنید.",
-          "🧑‍🤝‍🧑 می‌توانید هم‌خانه پیدا کنید از طریق گروه‌های تلگرامی ایرانیان پروجا یا اپلیکیشن‌های Erasmus.",
-          "❗ در زمان دیدن خانه حضوری، از تطابق آدرس و مدارک مالک مطمئن شوید.",
-          "📌 برخی صاحب‌خانه‌ها نیاز به ضمانت‌نامه بانکی یا ضامن ایتالیایی دارند. از قبل بررسی کنید."
-        ],
-        "en": [
-          "Most common student neighborhoods: Elce, Monteluce, Madonna Alta.",
-          "Recommended websites: idealista.it, subito.it, Facebook housing groups.",
-          "Average room prices: €250–400 depending on area and facilities.",
-          "Tip: Always sign a written rental contract with your Codice Fiscale.",
-          "Home internet: €25–30/month via standard providers.",
-          "📝 The rental contract should include duration, rent amount, landlord's name, and Codice Fiscale.",
-          "⚖️ Keep a copy of the contract and avoid paying in cash without a receipt.",
-          "🧑‍🤝‍🧑 You can find roommates via Iranian Telegram groups in Perugia or Erasmus platforms.",
-          "❗ When visiting, make sure the address and landlord identity match the documents.",
-          "📌 Some landlords may require a bank guarantee or Italian guarantor. Check in advance."
-        ],
-        "it": [
-          "Quartieri studenteschi più comuni: Elce, Monteluce, Madonna Alta.",
-          "Siti consigliati: idealista.it, subito.it, gruppi Facebook per affitti.",
-          "Prezzo medio stanza: €250–400 a seconda della zona e servizi.",
-          "Consiglio: firma sempre un contratto scritto con il Codice Fiscale.",
-          "Internet domestico: €25–30/mese tramite fornitori locali.",
-          "📝 Il contratto d'affitto deve includere durata, importo, nome del proprietario e Codice Fiscale.",
-          "⚖️ Conserva una copia del contratto ed evita pagamenti in contanti senza ricevuta.",
-          "🧑‍🤝‍🧑 Puoi trovare coinquilini tramite gruppi Telegram iraniani a Perugia o piattaforme Erasmus.",
-          "❗ Quando visiti l'appartamento, verifica l'indirizzo e i documenti del proprietario.",
-          "📌 Alcuni proprietari possono richiedere una garanzia bancaria o un garante italiano. Verifica prima."
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🚍 حمل‌ونقل شهری در پروجا",
-        "en": "🚍 Urban Transport in Perugia",
-        "it": "🚍 Trasporto Urbano a Perugia"
-      },
-      "content": {
-        "fa": [
-          "اتوبوس‌های شهری توسط Umbria Mobilità اداره می‌شوند.",
-          "برای مسیر کوتاه از Minimetrò استفاده کنید (ایستگاه Piazzale Cupa نزدیک Elce).",
-          "اپلیکیشن‌های مفید: Moovit (مسیرها و زمان حرکت)، MyCicero (خرید بلیت).",
-          "کارت دانشجویی Umbria Mobilità با تخفیف برای سفرهای ماهانه ارائه می‌شود.",
-          "سایت رسمی: https://www.fsbusitalia.it/"
-        ],
-        "en": [
-          "Urban buses are operated by Umbria Mobilità.",
-          "Use Minimetrò for quick travel (Piazzale Cupa station near Elce).",
-          "Useful apps: Moovit (routes and timing), MyCicero (ticket purchase).",
-          "Student transport card by Umbria Mobilità offers monthly discounts.",
-          "Official site: https://www.fsbusitalia.it/"
-        ],
-        "it": [
-          "Gli autobus urbani sono gestiti da Umbria Mobilità.",
-          "Per viaggi rapidi usa il Minimetrò (stazione Piazzale Cupa vicino a Elce).",
-          "App utili: Moovit (percorso e orari), MyCicero (acquisto biglietti).",
-          "Carta studenti Umbria Mobilità offre sconti mensili.",
-          "Sito ufficiale: https://www.fsbusitalia.it/"
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🏦 افتتاح حساب بانکی",
-        "en": "🏦 Opening a Bank Account",
-        "it": "🏦 Apertura di un Conto Bancario"
-      },
-      "content": {
-        "fa": [
-          "برای افتتاح حساب بانکی در ایتالیا به مدارک زیر نیاز دارید:",
-          "- کد فیسکاله (Codice Fiscale)",
-          "- پاسپورت",
-          "- مدرک ثبت‌نام در دانشگاه یا پرمسو (Permesso di soggiorno)",
-          "بانک‌های پیشنهادی برای دانشجویان بین‌المللی:",
-          "- UniCredit، Intesa Sanpaolo، Poste Italiane، N26 (آنلاین)",
-          "برخی بانک‌ها ممکن است هزینه ماهانه دریافت کنند، ولی حساب دانشجویی اغلب رایگان است."
-        ],
-        "en": [
-          "To open a bank account in Italy, you need:",
-          "- Codice Fiscale",
-          "- Passport",
-          "- University enrollment proof or Permesso di soggiorno",
-          "Suggested banks for international students:",
-          "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
-          "Some banks may charge monthly fees, but student accounts are usually free."
-        ],
-        "it": [
-          "Per aprire un conto bancario in Italia hai bisogno di:",
-          "- Codice Fiscale",
-          "- Passaporto",
-          "- Iscrizione all’università o Permesso di soggiorno",
-          "Banche consigliate per studenti internazionali:",
-          "- UniCredit, Intesa Sanpaolo, Poste Italiane, N26 (online)",
-          "Alcune banche possono applicare commissioni mensili, ma i conti studenti sono spesso gratuiti."
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "📶 سیم‌کارت و اینترنت",
-        "en": "📶 SIM Card & Internet",
-        "it": "📶 SIM e Internet"
-      },
-      "content": {
-        "fa": [
-          "شرکت‌های معروف فروش سیم‌کارت در ایتالیا:",
-          "- Iliad، TIM، Vodafone، WindTre، Ho.",
-          "مدارک مورد نیاز: پاسپورت + کد فیسکاله",
-          "تعرفه‌های متداول: از 5 تا 15 یورو برای اینترنت نامحدود و تماس",
-          "Iliad برای دانشجویان گزینه‌ای ارزان و پرسرعت است."
-        ],
-        "en": [
-          "Popular SIM providers in Italy:",
-          "- Iliad, TIM, Vodafone, WindTre, Ho.",
-          "Required documents: Passport + Codice Fiscale",
-          "Typical plans: €5–15 for unlimited data and calls",
-          "Iliad is a cheap and fast option for students."
-        ],
-        "it": [
-          "Operatori SIM più popolari in Italia:",
-          "- Iliad, TIM, Vodafone, WindTre, Ho.",
-          "Documenti richiesti: Passaporto + Codice Fiscale",
-          "Tariffe tipiche: €5–15 per dati e chiamate illimitate",
-          "Iliad è un'opzione economica e veloce per studenti."
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🏥 خدمات درمانی و سلامت",
-        "en": "🏥 Health & Medical Services",
-        "it": "🏥 Servizi Sanitari"
-      },
-      "content": {
-        "fa": [
-          "مراکز درمانی مهم در پروجا:",
-          "- بیمارستان Santa Maria della Misericordia",
-          "- کلینیک‌های خصوصی و داروخانه‌ها در مرکز شهر",
-          "شماره اورژانس: 112",
-          "اپلیکیشن‌های مفید: Doctoralia، MioDottore"
-        ],
-        "en": [
-          "Key medical centers in Perugia:",
-          "- Santa Maria della Misericordia Hospital",
-          "- Private clinics and pharmacies in city center",
-          "Emergency number: 112",
-          "Useful apps: Doctoralia, MioDottore"
-        ],
-        "it": [
-          "Centri sanitari principali a Perugia:",
-          "- Ospedale Santa Maria della Misericordia",
-          "- Cliniche private e farmacie in centro",
-          "Numero d'emergenza: 112",
-          "App utili: Doctoralia, MioDottore"
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "📚 خدمات دانشجویی",
-        "en": "📚 Student Services",
-        "it": "📚 Servizi Studenteschi"
-      },
-      "content": {
-        "fa": [
-          "کتابخانه‌های اصلی دانشگاهی: Biblioteca Umanistica، Biblioteca di Ingegneria",
-          "مراکز ورزشی: CUS Perugia امکانات ورزشی با تخفیف برای دانشجویان دارد.",
-          "مرکز مشاوره دانشجویی: سرویس رایگان ADiSU و ESN برای پشتیبانی روانی و آموزشی"
-        ],
-        "en": [
-          "Main university libraries: Biblioteca Umanistica, Engineering Library",
-          "Sports centers: CUS Perugia offers discounts for students.",
-          "Student counseling: Free services from ADiSU and ESN for psychological and academic support"
-        ],
-        "it": [
-          "Biblioteche principali: Biblioteca Umanistica, Biblioteca di Ingegneria",
-          "Centri sportivi: CUS Perugia offre sconti agli studenti.",
-          "Supporto psicologico: Servizi gratuiti di ADiSU e ESN per studenti"
-        ]
-      }
-    },
-    {
-      "name": {
-        "fa": "🏘️ آدرس دقیق خوابگاه‌ها",
-        "en": "🏘️ Dormitory Addresses",
-        "it": "🏘️ Indirizzi Dormitori"
-      },
-      "content": {
-        "fa": [
-          "خوابگاه ADiSU Monteluce: Via Faina, 06123 Perugia",
-          "خوابگاه ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
-          "خوابگاه ADiSU Elce: Via Innamorati, 06123 Perugia"
-        ],
-        "en": [
-          "ADiSU Monteluce Dorm: Via Faina, 06123 Perugia",
-          "ADiSU Ingegneria Dorm: Via Goffredo Duranti, 06125 Perugia",
-          "ADiSU Elce Dorm: Via Innamorati, 06123 Perugia"
-        ],
-        "it": [
-          "Residenza ADiSU Monteluce: Via Faina, 06123 Perugia",
-          "Residenza ADiSU Ingegneria: Via Goffredo Duranti, 06125 Perugia",
-          "Residenza ADiSU Elce: Via Innamorati, 06123 Perugia"
-        ]
-      }
-    }
+          {
+            "id": "post_arrival_documents",
+            "title": {
+              "fa": "📑 مدارک رسمی پس از ورود به ایتالیا",
+              "en": "📑 Official Documents After Arrival in Italy",
+              "it": "📑 Documenti Ufficiali Dopo l’Arrivo in Italia"
+            },
+            "subsections": [
+              {
+                "name": {
+                  "fa": "📌 دریافت کد فیسکاله (Codice Fiscale)",
+                  "en": "📌 Getting Codice Fiscale",
+                  "it": "📌 Ottenere il Codice Fiscale"
+                },
+                "content": {
+                  "fa": [
+                    "کد فیسکاله یک کد شناسایی مالیاتی است که برای تمام فعالیت‌های رسمی لازم است.",
+                    "مدارک مورد نیاز:",
+                    "- پاسپورت",
+                    "- فرم درخواست",
+                    "محل درخواست: اداره مالیات (Agenzia delle Entrate)",
+                    "آدرس در پروجا: Via Canali, 1, 06124 Perugia",
+                    "نیاز به وقت قبلی نیست. حضور فیزیکی الزامی است.",
+                    "دریافت آن رایگان است و در همان روز انجام می‌شود."
+                  ],
+                  "en": [
+                    "Codice Fiscale is a tax identification code needed for almost all official tasks.",
+                    "Required documents:",
+                    "- Passport",
+                    "- Application form",
+                    "Where to apply: Agenzia delle Entrate (Tax Office)",
+                    "Address in Perugia: Via Canali, 1, 06124 Perugia",
+                    "No appointment needed. Physical presence required.",
+                    "It is free and usually issued on the same day."
+                  ],
+                  "it": [
+                    "Il Codice Fiscale è un codice identificativo fiscale richiesto per tutte le attività ufficiali.",
+                    "Documenti richiesti:",
+                    "- Passaporto",
+                    "- Modulo di richiesta",
+                    "Dove richiederlo: Agenzia delle Entrate",
+                    "Indirizzo a Perugia: Via Canali, 1, 06124 Perugia",
+                    "Non serve appuntamento. Presenza fisica richiesta.",
+                    "È gratuito e rilasciato solitamente nello stesso giorno."
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "🛂 درخواست پرمسو دی سوجورنو (Permesso di Soggiorno)",
+                  "en": "🛂 Requesting Permesso di Soggiorno",
+                  "it": "🛂 Richiedere il Permesso di Soggiorno"
+                },
+                "content": {
+                  "fa": [
+                    "برای اقامت بیش از ۹۰ روز، باید پرمسو درخواست دهید.",
+                    "مدارک مورد نیاز:",
+                    "- کپی و اصل پاسپورت و ویزا",
+                    "- کد فیسکاله",
+                    "- گواهی ثبت‌نام دانشگاه یا Pre-enrollment",
+                    "- عکس پرسنلی",
+                    "- رسید پرداخت مالیاتی (Marca da bollo و پرداخت پستی)",
+                    "محل تحویل: دفتر پست (با پاکت مخصوص کیت پرمسو)",
+                    "مراجعه بعدی: Questura برای انگشت‌نگاری و دریافت کارت اقامت"
+                  ],
+                  "en": [
+                    "For stays over 90 days, you must apply for the permesso.",
+                    "Required documents:",
+                    "- Passport and visa (original and copy)",
+                    "- Codice Fiscale",
+                    "- University enrollment certificate or Pre-enrollment",
+                    "- Passport-size photo",
+                    "- Tax stamp (Marca da bollo) and postal fee receipt",
+                    "Where: Post office (using the permesso application kit)",
+                    "Next: Go to Questura for fingerprints and receive the permit card"
+                  ],
+                  "it": [
+                    "Per soggiorni superiori a 90 giorni, è obbligatorio richiedere il permesso.",
+                    "Documenti richiesti:",
+                    "- Passaporto e visto (originale e copia)",
+                    "- Codice Fiscale",
+                    "- Iscrizione universitaria o pre-iscrizione",
+                    "- Foto formato tessera",
+                    "- Marca da bollo e ricevuta postale",
+                    "Dove: Ufficio Postale (con il kit per il permesso)",
+                    "Passaggio successivo: Questura per le impronte e il ritiro del permesso"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "🏛️ ثبت‌نام در دانشگاه (Immatricolazione)",
+                  "en": "🏛️ University Enrollment",
+                  "it": "🏛️ Iscrizione Universitaria"
+                },
+                "content": {
+                  "fa": [
+                    "پس از ورود باید مراحل ثبت‌نام حضوری را تکمیل کنید.",
+                    "مراحل:",
+                    "- تأیید مدارک (از جمله دیپلم، ترجمه رسمی، و پیش‌ثبت‌نام).",
+                    "- دریافت کدهای دسترسی پورتال دانشجویی (Unistudium).",
+                    "- پرداخت شهریه اولیه.",
+                    "- مراجعه به دفتر بین‌الملل یا دفتر پذیرش.",
+                    "برای اطلاعات بیشتر به سایت دانشگاه (https://www.unipg.it) مراجعه کنید."
+                  ],
+                  "en": [
+                    "After arrival, complete your in-person university enrollment.",
+                    "Steps:",
+                    "- Validate your documents (diploma, official translations, pre-enrollment).",
+                    "- Get your Unistudium portal access codes.",
+                    "- Pay the initial tuition fee.",
+                    "- Visit the international office or enrollment desk.",
+                    "More info at the university site: https://www.unipg.it"
+                  ],
+                  "it": [
+                    "Dopo l’arrivo, completa l’immatricolazione presso l’università.",
+                    "Fasi:",
+                    "- Verifica dei documenti (diploma, traduzioni ufficiali, pre-iscrizione).",
+                    "- Ricezione credenziali per il portale Unistudium.",
+                    "- Pagamento della prima rata.",
+                    "- Visita all’ufficio internazionale o alla segreteria.",
+                    "Maggiori info su: https://www.unipg.it"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "iran_italy_shipping_communication",
+            "title": {
+              "fa": "📦 راهنمای ارسال بسته و ارتباط بین ایران و ایتالیا",
+              "en": "📦 Guide to Parcel Shipping and Communication Between Iran and Italy",
+              "it": "📦 Guida alla Spedizione e Comunicazione tra Iran e Italia"
+            },
+            "subsections": [
+              {
+                "name": {
+                  "fa": "📤 ارسال بسته از ایران به ایتالیا",
+                  "en": "📤 Sending Parcels from Iran to Italy",
+                  "it": "📤 Spedizione dall’Iran all’Italia"
+                },
+                "content": {
+                  "fa": [
+                    "مراجعه به اداره پست ایران یا شرکت‌های خصوصی مانند تیپاکس، ماهکس یا DHL نمایندگی تهران.",
+                    "مدارک لازم: کارت ملی، پاسپورت (برای بسته‌های گران‌قیمت)، فاکتور رسمی.",
+                    "نکات گمرکی:",
+                    "- از ارسال دارو، مواد خوراکی فاسدشدنی، مایعات و باتری خودداری کنید.",
+                    "- بسته‌ها باید وزن و ارزش واقعی داشته باشند.",
+                    "هزینه بسته به وزن و نوع سرویس متغیر است (پیشتاز، اقتصادی، هوایی).",
+                    "مدت زمان معمول: ۷ تا ۲۰ روز کاری"
+                  ],
+                  "en": [
+                    "Use Iran Post or private couriers like Tipax, Mahex, or DHL Tehran branch.",
+                    "Required documents: ID card, passport (for high-value items), commercial invoice.",
+                    "Customs tips:",
+                    "- Avoid sending medicines, perishable food, liquids, or batteries.",
+                    "- Package must be honestly declared (weight and value).",
+                    "Cost varies based on weight and shipping method.",
+                    "Usual delivery time: 7 to 20 working days."
+                  ],
+                  "it": [
+                    "Usa Poste Iraniane o corrieri privati come Tipax, Mahex o DHL Tehran.",
+                    "Documenti richiesti: Carta d’identità, passaporto (per articoli di valore), fattura.",
+                    "Suggerimenti doganali:",
+                    "- Evita di spedire medicinali, cibo deperibile, liquidi o batterie.",
+                    "- Il peso e valore devono essere dichiarati onestamente.",
+                    "Costo varia in base al peso e al tipo di spedizione.",
+                    "Tempi di consegna: 7-20 giorni lavorativi."
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "📥 دریافت بسته در ایتالیا از ایران",
+                  "en": "📥 Receiving Parcels in Italy from Iran",
+                  "it": "📥 Ricevere Pacchi in Italia dall’Iran"
+                },
+                "content": {
+                  "fa": [
+                    "بسته‌ها ابتدا به گمرک مرکزی ایتالیا می‌روند و سپس به آدرس شما ارسال می‌شوند.",
+                    "ممکن است نیاز به پرداخت مالیات یا ارائه مدارک باشد.",
+                    "در صورت گم شدن یا تأخیر می‌توانید با کد رهگیری از طریق سایت Poste Italiane پیگیری کنید.",
+                    "برای بسته‌های مهم از خدمات بیمه استفاده کنید."
+                  ],
+                  "en": [
+                    "Parcels are processed through Italian customs and then delivered to your address.",
+                    "You may need to pay import tax or provide documents.",
+                    "Track using Poste Italiane website with tracking code.",
+                    "Use insurance for valuable parcels."
+                  ],
+                  "it": [
+                    "I pacchi passano prima dalla dogana italiana, poi vengono consegnati al tuo indirizzo.",
+                    "Potresti dover pagare tasse o fornire documenti.",
+                    "Traccia con codice su Poste Italiane.",
+                    "Usa l’assicurazione per pacchi di valore."
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "🏤 شرکت‌های پستی و نمایندگی‌ها در پروجا",
+                  "en": "🏤 Courier Companies and Offices in Perugia",
+                  "it": "🏤 Corrieri e Uffici a Perugia"
+                },
+                "content": {
+                  "fa": [
+                    "- Poste Italiane: دفتر اصلی در Viale Indipendenza, 06121 Perugia",
+                    "- DHL: Via Settevalli, 320, 06129 Perugia",
+                    "- GLS: Str. S. Lucia, 84, 06125 Perugia",
+                    "- Bartolini (BRT): Via dell’Industria, 13, 06135 Perugia",
+                    "- UPS Access Point: در برخی Tabacchi و فروشگاه‌ها فعال است.",
+                    "سایت‌ها:",
+                    "- poste.it",
+                    "- dhl.it",
+                    "- brt.it",
+                    "- gls-italy.com",
+                    "- ups.com"
+                  ],
+                  "en": [
+                    "- Poste Italiane: Main office at Viale Indipendenza, 06121 Perugia",
+                    "- DHL: Via Settevalli, 320, 06129 Perugia",
+                    "- GLS: Str. S. Lucia, 84, 06125 Perugia",
+                    "- Bartolini (BRT): Via dell’Industria, 13, 06135 Perugia",
+                    "- UPS Access Point: Available in some Tabacchi and stores",
+                    "Websites:",
+                    "- poste.it",
+                    "- dhl.it",
+                    "- brt.it",
+                    "- gls-italy.com",
+                    "- ups.com"
+                  ],
+                  "it": [
+                    "- Poste Italiane: sede principale in Viale Indipendenza, 06121 Perugia",
+                    "- DHL: Via Settevalli, 320, 06129 Perugia",
+                    "- GLS: Str. S. Lucia, 84, 06125 Perugia",
+                    "- Bartolini (BRT): Via dell’Industria, 13, 06135 Perugia",
+                    "- UPS Access Point: attivo in alcuni Tabacchi e negozi",
+                    "Siti web:",
+                    "- poste.it",
+                    "- dhl.it",
+                    "- brt.it",
+                    "- gls-italy.com",
+                    "- ups.com"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "academic_calendar_and_events",
+            "title": {
+              "fa": "📅 تقویم تحصیلی، تعطیلات و رویدادها در پروجا",
+              "en": "📅 Academic Calendar, Holidays & Events in Perugia",
+              "it": "📅 Calendario Accademico, Festività ed Eventi a Perugia"
+            },
+            "subsections": [
+              {
+                "name": {
+                  "fa": "🗓️ تقویم تحصیلی دانشگاه پروجا",
+                  "en": "🗓️ University of Perugia Academic Calendar",
+                  "it": "🗓️ Calendario Accademico Università di Perugia"
+                },
+                "content": {
+                  "fa": [
+                    "ترم اول: معمولاً از اواسط سپتامبر تا اواخر ژانویه",
+                    "ترم دوم: از اواسط فوریه تا اواخر ژوئن",
+                    "امتحانات پایان ترم: ژانویه-فوریه، ژوئن-جولای، سپتامبر",
+                    "پیشنهاد: برنامه‌ریزی مطالعه با توجه به هفته‌های آزاد امتحان"
+                  ],
+                  "en": [
+                    "First semester: Mid-September to late January",
+                    "Second semester: Mid-February to late June",
+                    "Exam sessions: January-February, June-July, September",
+                    "Tip: Plan study time based on exam breaks"
+                  ],
+                  "it": [
+                    "Primo semestre: metà settembre - fine gennaio",
+                    "Secondo semestre: metà febbraio - fine giugno",
+                    "Sessioni d’esame: gennaio-febbraio, giugno-luglio, settembre",
+                    "Suggerimento: pianifica lo studio in base alle sessioni d’esame"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "🎉 تعطیلات رسمی در ایتالیا",
+                  "en": "🎉 Public Holidays in Italy",
+                  "it": "🎉 Festività in Italia"
+                },
+                "content": {
+                  "fa": [
+                    "۱ ژانویه: سال نو",
+                    "۶ ژانویه: عید اپیفانی",
+                    "عید پاک (متغیر)",
+                    "۲۵ آوریل: روز آزادی",
+                    "۱ می: روز کارگر",
+                    "۲ ژوئن: روز جمهوری",
+                    "۱۵ آگوست: Ferragosto (عید مریم مقدس)",
+                    "۱ نوامبر: روز همه مقدسین",
+                    "۸ دسامبر: عید باکره مقدس",
+                    "۲۵ دسامبر: کریسمس",
+                    "۲۶ دسامبر: سنت استفان"
+                  ],
+                  "en": [
+                    "January 1: New Year's Day",
+                    "January 6: Epiphany",
+                    "Easter Sunday (variable)",
+                    "April 25: Liberation Day",
+                    "May 1: Labour Day",
+                    "June 2: Republic Day",
+                    "August 15: Ferragosto (Assumption of Mary)",
+                    "November 1: All Saints' Day",
+                    "December 8: Immaculate Conception",
+                    "December 25: Christmas",
+                    "December 26: St. Stephen's Day"
+                  ],
+                  "it": [
+                    "1 Gennaio: Capodanno",
+                    "6 Gennaio: Epifania",
+                    "Pasqua (data variabile)",
+                    "25 Aprile: Festa della Liberazione",
+                    "1 Maggio: Festa del Lavoro",
+                    "2 Giugno: Festa della Repubblica",
+                    "15 Agosto: Ferragosto (Assunzione di Maria)",
+                    "1 Novembre: Tutti i Santi",
+                    "8 Dicembre: Immacolata Concezione",
+                    "25 Dicembre: Natale",
+                    "26 Dicembre: Santo Stefano"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "📌 ددلاین‌های مهم بورسیه و دانشگاه",
+                  "en": "📌 Important Deadlines: Scholarships and University",
+                  "it": "📌 Scadenze Importanti: Borse di Studio e Università"
+                },
+                "content": {
+                  "fa": [
+                    "ثبت‌نام اولیه بورسیه آدیسو: معمولاً خرداد تا تیر (ژوئن-جولای)",
+                    "ارسال مدارک فیزیکی: حداکثر تا پایان جولای",
+                    "آپدیت ISEE: قبل از پایان آگوست",
+                    "اعلام نتایج اولیه: سپتامبر",
+                    "درخواست تجدید نظر: حدود مهر (اکتبر)",
+                    "ثبت‌نام در دانشگاه: از جولای تا سپتامبر (بسته به رشته)",
+                    "درخواست پرمسو: حداکثر ۸ روز پس از ورود"
+                  ],
+                  "en": [
+                    "ADiSU scholarship pre-registration: usually June-July",
+                    "Sending physical documents: before end of July",
+                    "ISEE update deadline: before end of August",
+                    "Initial results: September",
+                    "Appeal period: around October",
+                    "University enrollment: July to September (depending on degree)",
+                    "Permesso request: within 8 days of arrival"
+                  ],
+                  "it": [
+                    "Pre-iscrizione ADiSU: di solito giugno-luglio",
+                    "Invio documenti cartacei: entro fine luglio",
+                    "Aggiornamento ISEE: entro fine agosto",
+                    "Risultati iniziali: settembre",
+                    "Richiesta di ricorso: circa ottobre",
+                    "Iscrizione universitaria: da luglio a settembre (in base al corso)",
+                    "Richiesta permesso: entro 8 giorni dall’arrivo"
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "🎭 رویدادهای مهم سالانه در پروجا",
+                  "en": "🎭 Major Yearly Events in Perugia",
+                  "it": "🎭 Eventi Annuali Importanti a Perugia"
+                },
+                "content": {
+                  "fa": [
+                    "🎷 Umbria Jazz: فستیوال موسیقی جاز، جولای",
+                    "📚 Fiera del Libro: نمایشگاه کتاب، بهار",
+                    "🍫 Eurochocolate: فستیوال شکلات، اکتبر",
+                    "🎨 FestArchitettura: رویداد معماری، پاییز",
+                    "🌸 Primavera per i Giovani: نمایشگاه فرهنگی دانشجویی، بهار"
+                  ],
+                  "en": [
+                    "🎷 Umbria Jazz: Jazz festival, July",
+                    "📚 Fiera del Libro: Book fair, Spring",
+                    "🍫 Eurochocolate: Chocolate festival, October",
+                    "🎨 FestArchitettura: Architecture event, Fall",
+                    "🌸 Primavera per i Giovani: Student cultural expo, Spring"
+                  ],
+                  "it": [
+                    "🎷 Umbria Jazz: festival jazz, luglio",
+                    "📚 Fiera del Libro: fiera del libro, primavera",
+                    "🍫 Eurochocolate: festival del cioccolato, ottobre",
+                    "🎨 FestArchitettura: evento di architettura, autunno",
+                    "🌸 Primavera per i Giovani: esposizione culturale studentesca, primavera"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "health_psychology_services_perugia",
+            "title": {
+              "fa": "🏥 راهنمای خدمات درمانی و حمایت روانی برای دانشجویان در پروجا",
+              "en": "🏥 Guide to Healthcare and Psychological Support Services for Students in Perugia",
+              "it": "🏥 Guida ai Servizi Sanitari e di Supporto Psicologico per Studenti a Perugia"
+            },
+            "subsections": [
+              {
+                "name": {
+                  "fa": "بیمارستان‌ها و اپلیکیشن‌های درمانی در پروجا",
+                  "en": "Hospitals and Healthcare Apps in Perugia",
+                  "it": "Ospedali e App Sanitarie a Perugia"
+                },
+                "details": {
+                  "fa": [
+                    "بیمارستان اصلی: **Ospedale Santa Maria della Misericordia**، بیمارستان دانشگاهی پروجا، خدمات اورژانس، تخصصی و بستری ارائه می‌دهد.",
+                    "اپلیکیشن‌های درمانی: اپلیکیشن **ASL Umbria 1** برای رزرو نوبت، مشاهده سوابق پزشکی و اطلاعات خدمات درمانی (دانلود از Google Play/App Store).",
+                    "نوبت‌دهی آنلاین: از طریق سایت ASL Umbria 1 یا اپلیکیشن برای رزرو نوبت در بیمارستان‌ها و کلینیک‌ها.",
+                    "خدمات اورژانس: شماره **118** برای آمبولانس و موارد اضطراری (24/7)."
+                  ],
+                  "en": [
+                    "Main hospital: **Ospedale Santa Maria della Misericordia**, Perugia’s university hospital, offering emergency, specialized, and inpatient services.",
+                    "Healthcare apps: **ASL Umbria 1** app for booking appointments, viewing medical records, and accessing healthcare information (available on Google Play/App Store).",
+                    "Online booking: Through the ASL Umbria 1 website or app for hospital and clinic appointments.",
+                    "Emergency services: Call **118** for ambulance and emergencies (24/7)."
+                  ],
+                  "it": [
+                    "Ospedale principale: **Ospedale Santa Maria della Misericordia**, ospedale universitario di Perugia, offre servizi di emergenza, specialistici e di degenza.",
+                    "App sanitarie: App **ASL Umbria 1** per prenotare appuntamenti, visualizzare cartelle cliniche e accedere a informazioni sanitarie (disponibile su Google Play/App Store).",
+                    "Prenotazione online: Tramite il sito web di ASL Umbria 1 o l’app per appuntamenti in ospedali e cliniche.",
+                    "Servizi di emergenza: Chiama il **118** per ambulanza ed emergenze (24/7)."
+                  ]
+                },
+                "hospitals": [
+                  {
+                    "name": {
+                      "fa": "بیمارستان سانتا ماریا دلا میزریکوردیا",
+                      "en": "Santa Maria della Misericordia Hospital",
+                      "it": "Ospedale Santa Maria della Misericordia"
+                    },
+                    "services": {
+                      "fa": ["اورژانس، جراحی، داخلی، زنان و زایمان، آزمایشگاه، رادیولوژی"],
+                      "en": ["Emergency, surgery, internal medicine, gynecology, laboratory, radiology"],
+                      "it": ["Pronto soccorso, chirurgia, medicina interna, ginecologia, laboratorio, radiologia"]
+                    },
+                    "address": {
+                      "fa": "Via Dottori 1, 06132 Perugia PG, Italia",
+                      "en": "Via Dottori 1, 06132 Perugia PG, Italy",
+                      "it": "Via Dottori 1, 06132 Perugia PG, Italia"
+                    },
+                    "google_maps": "https://maps.app.goo.gl/9zX7vY2mW3Q1P8R6A",
+                    "website": "www.ospedale.perugia.it",
+                    "appointment_procedure": {
+                      "fa": [
+                        "رزرو نوبت از طریق اپلیکیشن **ASL Umbria 1** یا سایت www.aslumbria1.it.",
+                        "تماس: +39 075 5781 (دوشنبه تا جمعه، 08:00-14:00).",
+                        "مدارک لازم: کارت بیمه (SSN یا ADiSU)، Codice Fiscale، پاسپورت."
+                      ],
+                      "en": [
+                        "Book appointments via the **ASL Umbria 1** app or website www.aslumbria1.it.",
+                        "Contact: +39 075 5781 (Monday to Friday, 08:00-14:00).",
+                        "Required documents: Health insurance card (SSN or ADiSU), Codice Fiscale, passport."
+                      ],
+                      "it": [
+                        "Prenota appuntamenti tramite l’app **ASL Umbria 1** o il sito www.aslumbria1.it.",
+                        "Contatto: +39 075 5781 (lunedì-venerdì, 08:00-14:00).",
+                        "Documenti richiesti: Tessera sanitaria (SSN o ADiSU), Codice Fiscale, passaporto."
+                      ]
+                    }
+                  },
+                  {
+                    "name": {
+                      "fa": "کلینیک تخصصی ASL Umbria 1",
+                      "en": "ASL Umbria 1 Specialized Clinic",
+                      "it": "Clinica Specialistica ASL Umbria 1"
+                    },
+                    "services": {
+                      "fa": ["ویزیت عمومی، دندانپزشکی، آزمایش خون، خدمات تخصصی"],
+                      "en": ["General consultations, dentistry, blood tests, specialized services"],
+                      "it": ["Consulenze generali, odontoiatria, analisi del sangue, servizi specialistici"]
+                    },
+                    "address": {
+                      "fa": "Via XIV Settembre 75, 06124 Perugia PG, Italia",
+                      "en": "Via XIV Settembre 75, 06124 Perugia PG, Italy",
+                      "it": "Via XIV Settembre 75, 06124 Perugia PG, Italia"
+                    },
+                    "google_maps": "https://maps.app.goo.gl/3zT9vX8mY4Z2Q3P7A",
+                    "website": "www.aslumbria1.it",
+                    "appointment_procedure": {
+                      "fa": [
+                        "رزرو از طریق اپلیکیشن **ASL Umbria 1** یا سایت.",
+                        "تماس: +39 075 34051 (دوشنبه تا شنبه، 08:00-13:00).",
+                        "مدارک لازم: کارت بیمه، Codice Fiscale."
+                      ],
+                      "en": [
+                        "Book via **ASL Umbria 1** app or website.",
+                        "Contact: +39 075 34051 (Monday to Saturday, 08:00-13:00).",
+                        "Required documents: Health insurance card, Codice Fiscale."
+                      ],
+                      "it": [
+                        "Prenota tramite l’app **ASL Umbria 1** o il sito.",
+                        "Contatto: +39 075 34051 (lunedì-sabato, 08:00-13:00).",
+                        "Documenti richiesti: Tessera sanitaria, Codice Fiscale."
+                      ]
+                    }
+                  }
+                ],
+                "apps": {
+                  "fa": [
+                    "اپلیکیشن **ASL Umbria 1**: رزرو نوبت، مشاهده سوابق پزشکی، اطلاعات مراکز درمانی (Google Play/App Store).",
+                    "اپلیکیشن **Doctolib**: برای رزرو نوبت پزشکان خصوصی (www.doctolib.it)."
+                  ],
+                  "en": [
+                    "**ASL Umbria 1** app: Book appointments, view medical records, access healthcare center info (Google Play/App Store).",
+                    "**Doctolib** app: For booking private doctor appointments (www.doctolib.it)."
+                  ],
+                  "it": [
+                    "App **ASL Umbria 1**: Prenotazione appuntamenti, visualizzazione cartelle cliniche, informazioni sui centri sanitari (Google Play/App Store).",
+                    "App **Doctolib**: Per prenotare appuntamenti con medici privati (www.doctolib.it)."
+                  ]
+                },
+                "tips_for_iranians": {
+                  "fa": [
+                    "برای رزرو نوبت، اپلیکیشن **ASL Umbria 1** رو نصب کنید و Codice Fiscale رو وارد کنید.",
+                    "برای خدمات اورژانسی، مستقیماً به بیمارستان مراجعه کنید یا با 118 تماس بگیرید.",
+                    "ترجمه مدارک پزشکی (مثل سوابق بیماری) به ایتالیایی در ایران ارزون‌تره (€20-50)."
+                  ],
+                  "en": [
+                    "Install the **ASL Umbria 1** app and enter your Codice Fiscale for appointment booking.",
+                    "For emergencies, go directly to the hospital or call 118.",
+                    "Translate medical records to Italian in Iran (cheaper: €20-50)."
+                  ],
+                  "it": [
+                    "Installa l’app **ASL Umbria 1** e inserisci il tuo Codice Fiscale per prenotare appuntamenti.",
+                    "Per emergenze, vai direttamente in ospedale o chiama il 118.",
+                    "Traduci le cartelle cliniche in italiano in Iran (più economico: €20-50)."
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "حمایت روانی و مراکز روان‌شناسی رایگان دانشگاه",
+                  "en": "Psychological Support and Free University Counseling Centers",
+                  "it": "Supporto Psicologico e Centri di Consulenza Gratuiti dell’Università"
+                },
+                "details": {
+                  "fa": [
+                    "دانشگاه پروجا خدمات روان‌شناسی رایگان برای دانشجویان ارائه می‌دهد از طریق **Servizio di Supporto Psicologico** (مرکز حمایت روانی).",
+                    "خدمات: مشاوره فردی، گروه درمانی، کارگاه‌های مدیریت استرس و اضطراب (مخصوصاً برای دانشجویان بین‌المللی).",
+                    "مکان: دفتر اصلی در **Campus Santa Lucia**, Via Pascoli 1, پروجا.",
+                    "رزرو: از طریق ایمیل یا تماس با دفتر روان‌شناسی دانشگاه."
+                  ],
+                  "en": [
+                    "The University of Perugia offers free psychological services for students via the **Servizio di Supporto Psicologico** (Psychological Support Service).",
+                    "Services: Individual counseling, group therapy, workshops on stress and anxiety management (tailored for international students).",
+                    "Location: Main office at **Campus Santa Lucia**, Via Pascoli 1, Perugia.",
+                    "Booking: Via email or contacting the university’s psychology office."
+                  ],
+                  "it": [
+                    "L’Università di Perugia offre servizi psicologici gratuiti per gli studenti tramite il **Servizio di Supporto Psicologico**.",
+                    "Servizi: Consulenza individuale, terapia di gruppo, laboratori su gestione dello stress e dell’ansia (specifici per studenti internazionali).",
+                    "Ubicazione: Ufficio principale presso **Campus Santa Lucia**, Via Pascoli 1, Perugia.",
+                    "Prenotazione: Tramite email o contattando l’ufficio di psicologia dell’università."
+                  ]
+                },
+                "address": {
+                  "fa": "Via Pascoli 1, 06123 Perugia PG, Italia",
+                  "en": "Via Pascoli 1, 06123 Perugia PG, Italy",
+                  "it": "Via Pascoli 1, 06123 Perugia PG, Italia"
+                },
+                "google_maps": "https://maps.app.goo.gl/5zW8vX9mY7Z3Q2P8A",
+                "website": "www.unipg.it/servizi/supporto-psicologico",
+                "appointment_procedure": {
+                  "fa": [
+                    "ارسال ایمیل به: supporto.psicologico@unipg.it با ذکر نام، شماره دانشجویی، و نوع مشکل.",
+                    "تماس: +39 075 585 2011 (دوشنبه تا پنج‌شنبه، 09:00-13:00).",
+                    "بدون هزینه برای دانشجویان ثبت‌نام‌شده در دانشگاه پروجا."
+                  ],
+                  "en": [
+                    "Email: supporto.psicologico@unipg.it with your name, student ID, and issue description.",
+                    "Contact: +39 075 585 2011 (Monday to Thursday, 09:00-13:00).",
+                    "Free for enrolled University of Perugia students."
+                  ],
+                  "it": [
+                    "Invia un’email a: supporto.psicologico@unipg.it con nome, numero di matricola e descrizione del problema.",
+                    "Contatto: +39 075 585 2011 (lunedì-giovedì, 09:00-13:00).",
+                    "Gratuito per gli studenti iscritti all’Università di Perugia."
+                  ]
+                },
+                "tips_for_iranians": {
+                  "fa": [
+                    "برای مشاوره راحت‌تر، مشکلاتتون رو به انگلیسی یا ایتالیایی توضیح بدید.",
+                    "کارگاه‌های مدیریت استرس برای سازگاری با زندگی در ایتالیا بسیار مفیدن.",
+                    "اگر نیاز به مترجم دارید، از گروه‌های ایرانی در پروجا کمک بخواید (مثل 'Iranian Students in Perugia')."
+                  ],
+                  "en": [
+                    "Describe issues in English or Italian for easier communication.",
+                    "Stress management workshops are highly useful for adapting to life in Italy.",
+                    "If you need a translator, seek help from Iranian groups in Perugia (e.g., 'Iranian Students in Perugia')."
+                  ],
+                  "it": [
+                    "Descrivi i problemi in inglese o italiano per una comunicazione più facile.",
+                    "I laboratori di gestione dello stress sono molto utili per adattarsi alla vita in Italia.",
+                    "Se hai bisogno di un traduttore, chiedi aiuto ai gruppi iraniani a Perugia (es. 'Iranian Students in Perugia')."
+                  ]
+                }
+              },
+              {
+                "name": {
+                  "fa": "بیمه سلامت دانشجویی",
+                  "en": "Student Health Insurance",
+                  "it": "Assicurazione Sanitaria per Studenti"
+                },
+                "details": {
+                  "fa": [
+                    "**SSN (Servizio Sanitario Nazionale)**: بیمه سلامت ملی ایتالیا، رایگان برای دانشجویان غیراروپایی با ویزای تحصیلی (پس از دریافت Permesso di Soggiorno).",
+                    "**بیمه خصوصی**: اجباری برای دریافت ویزای تحصیلی (مثل INA Assitalia، هزینه سالانه €50-150).",
+                    "**ASL Umbria 1**: اداره محلی خدمات بهداشتی، ارائه خدمات پزشکی عمومی و تخصصی با SSN یا کارت ADiSU.",
+                    "**کارت بیمه ADiSU**: برای دانشجویان دریافت‌کننده بورسیه DSU، خدمات پزشکی رایگان یا کم‌هزینه ارائه می‌دهد."
+                  ],
+                  "en": [
+                    "**SSN (Servizio Sanitario Nazionale)**: Italy’s national health service, free for non-EU students with a study visa (after obtaining Permesso di Soggiorno).",
+                    "**Private insurance**: Mandatory for obtaining a study visa (e.g., INA Assitalia, annual cost €50-150).",
+                    "**ASL Umbria 1**: Local health authority, providing general and specialized medical services with SSN or ADiSU card.",
+                    "**ADiSU health card**: For DSU scholarship recipients, offers free or low-cost medical services."
+                  ],
+                  "it": [
+                    "**SSN (Servizio Sanitario Nazionale)**: Servizio sanitario nazionale italiano, gratuito per studenti non UE con visto di studio (dopo aver ottenuto il Permesso di Soggiorno).",
+                    "**Assicurazione privata**: Obbligatoria per ottenere il visto di studio (es. INA Assitalia, costo annuale €50-150).",
+                    "**ASL Umbria 1**: Autorità sanitaria locale, offre servizi medici generali e specialistici con SSN o tessera ADiSU.",
+                    "**Tessera sanitaria ADiSU**: Per i beneficiari della borsa DSU, offre servizi medici gratuiti o a basso costo."
+                  ]
+                },
+                "ssn_registration": {
+                  "fa": [
+                    "مراجعه به دفتر **ASL Umbria 1** (Via XIV Settembre 75, پروجا).",
+                    "مدارک لازم: Permesso di Soggiorno، Codice Fiscale، گواهی ثبت‌نام دانشگاه، پاسپورت.",
+                    "هزینه: رایگان برای دانشجویان با ویزای تحصیلی.",
+                    "زمان: پس از دریافت Permesso di Soggiorno (ظرف 8 روز پس از ورود)."
+                  ],
+                  "en": [
+                    "Visit the **ASL Umbria 1** office (Via XIV Settembre 75, Perugia).",
+                    "Required documents: Permesso di Soggiorno, Codice Fiscale, university enrollment certificate, passport.",
+                    "Cost: Free for students with a study visa.",
+                    "Timing: After obtaining Permesso di Soggiorno (within 8 days of arrival)."
+                  ],
+                  "it": [
+                    "Visita l’ufficio **ASL Umbria 1** (Via XIV Settembre 75, Perugia).",
+                    "Documenti richiesti: Permesso di Soggiorno, Codice Fiscale, certificato di iscrizione universitaria, passaporto.",
+                    "Costo: Gratuito per studenti con visto di studio.",
+                    "Tempistica: Dopo aver ottenuto il Permesso di Soggiorno (entro 8 giorni dall’arrivo)."
+                  ]
+                },
+                "private_insurance": {
+                  "fa": [
+                    "ارائه‌دهندگان: **INA Assitalia** یا **Allianz** (دفتر در Via Mario Angeloni 80, پروجا).",
+                    "هزینه: €50-150 در سال (بسته به پوشش).",
+                    "مدارک لازم: پاسپورت، ویزای تحصیلی، فرم درخواست بیمه.",
+                    "نکته: برای ویزای تحصیلی اجباریه، اما پس از ثبت SSN اختیاریه."
+                  ],
+                  "en": [
+                    "Providers: **INA Assitalia** or **Allianz** (office at Via Mario Angeloni 80, Perugia).",
+                    "Cost: €50-150 per year (depending on coverage).",
+                    "Required documents: Passport, study visa, insurance application form.",
+                    "Note: Mandatory for study visa, but optional after SSN registration."
+                  ],
+                  "it": [
+                    "Fornitori: **INA Assitalia** o **Allianz** (ufficio in Via Mario Angeloni 80, Perugia).",
+                    "Costo: €50-150 all’anno (a seconda della copertura).",
+                    "Documenti richiesti: Passaporto, visto di studio, modulo di richiesta assicurativa.",
+                    "Nota: Obbligatorio per il visto di studio, ma opzionale dopo la registrazione SSN."
+                  ]
+                },
+                "adisu_health_card": {
+                  "fa": [
+                    "برای دانشجویان بورسیه DSU از طریق **ADiSU Umbria** (Via Benedetta 14, پروجا).",
+                    "مدارک لازم: گواهی بورسیه DSU، Codice Fiscale، پاسپورت.",
+                    "خدمات: دسترسی به خدمات پزشکی رایگان یا کم‌هزینه در مراکز ASL.",
+                    "تماس: +39 075 332 211 (دوشنبه تا پنج‌شنبه، 09:00-13:00)."
+                  ],
+                  "en": [
+                    "For DSU scholarship recipients via **ADiSU Umbria** (Via Benedetta 14, Perugia).",
+                    "Required documents: DSU scholarship certificate, Codice Fiscale, passport.",
+                    "Services: Access to free or low-cost medical services at ASL centers.",
+                    "Contact: +39 075 332 211 (Monday to Thursday, 09:00-13:00)."
+                  ],
+                  "it": [
+                    "Per i beneficiari della borsa DSU tramite **ADiSU Umbria** (Via Benedetta 14, Perugia).",
+                    "Documenti richiesti: Certificato di borsa DSU, Codice Fiscale, passaporto.",
+                    "Servizi: Accesso a servizi medici gratuiti o a basso costo presso i centri ASL.",
+                    "Contatto: +39 075 332 211 (lunedì-giovedì, 09:00-13:00)."
+                  ]
+                },
+                "tips_for_iranians": {
+                  "fa": [
+                    "قبل از ورود به ایتالیا، بیمه خصوصی (مثل INA Assitalia) بخرید (€50-150 در سال).",
+                    "پس از دریافت Permesso di Soggiorno، سریعاً برای SSN ثبت‌نام کنید تا هزینه‌های درمانی کاهش پیدا کنه.",
+                    "کارت ADiSU رو همراه داشته باشید؛ برای دانشجویان DSU خدمات رایگان زیادی داره.",
+                    "مدارک پزشکی (مثل سوابق بیماری) رو در ایران به ایتالیایی ترجمه کنید (€20-50)."
+                  ],
+                  "en": [
+                    "Purchase private insurance (e.g., INA Assitalia) before arriving in Italy (€50-150/year).",
+                    "Register for SSN immediately after obtaining Permesso di Soggiorno to reduce medical costs.",
+                    "Always carry the ADiSU health card; it offers many free services for DSU students.",
+                    "Translate medical records to Italian in Iran (€20-50)."
+                  ],
+                  "it": [
+                    "Acquista un’assicurazione privata (es. INA Assitalia) prima di arrivare in Italia (€50-150/anno).",
+                    "Registrati per l’SSN subito dopo aver ottenuto il Permesso di Soggiorno per ridurre i costi medici.",
+                    "Porta sempre con te la tessera sanitaria ADiSU; offre molti servizi gratuiti per gli studenti DSU.",
+                    "Traduci le cartelle cliniche in italiano in Iran (€20-50)."
+                  ]
+                }
+              }
+            ]
+          }
         ]
       }
     ]
