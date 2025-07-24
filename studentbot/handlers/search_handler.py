@@ -3,6 +3,8 @@ import numpy as np
 from openai import OpenAI
 from telegram import Update
 from telegram.ext import ContextTypes
+import pickle
+import time
 from config import logger, OPENAI_API_KEY
 from handlers.cmd_start import get_translation
 
@@ -23,27 +25,68 @@ def load_knowledge_base():
         logger.error(f"Failed to load knowledge_base_guide.json: {e}")
         raise
 
+def save_embeddings(embeddings):
+    """Saves embeddings to a file."""
+    with open('embeddings.pkl', 'wb') as f:
+        pickle.dump(embeddings, f)
+    logger.info("Embeddings saved to embeddings.pkl")
+
+def load_embeddings():
+    """Loads embeddings from a file."""
+    try:
+        with open('embeddings.pkl', 'rb') as f:
+            embeddings = pickle.load(f)
+        logger.info("Embeddings loaded from embeddings.pkl")
+        return embeddings
+    except FileNotFoundError:
+        logger.info("No saved embeddings found, generating new ones")
+        return None
+
 def generate_embeddings():
     """Generates embeddings for the knowledge base."""
+    # ابتدا بررسی کنید که آیا embeddings قبلاً ذخیره شده‌اند
+    embeddings = load_embeddings()
+    if embeddings:
+        return embeddings
+
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         knowledge_base = load_knowledge_base()
         embeddings = []
-        for category in knowledge_base['guide']['categories']:
-            for subsection in category['subsections']:
+
+        def process_subsection(subsection, category_id, parent_id=None):
+            """Helper function to process subsections recursively."""
+            # تعیین id برای زیربخش
+            subsection_id = subsection.get('id', subsection.get('name', {}).get('en', 'unnamed'))
+            if parent_id:
+                subsection_id = f"{parent_id}_{subsection_id}"
+
+            if 'subsections' in subsection:
+                # پردازش زیربخش‌های داخلی
+                for sub in subsection['subsections']:
+                    process_subsection(sub, category_id, subsection_id)
+            else:
                 # بررسی وجود کلید content یا details
                 content_key = 'content' if 'content' in subsection else 'details'
                 if content_key in subsection:
-                    text = ' '.join(subsection[content_key]['en'])  # استفاده از محتوای انگلیسی برای embeddings
+                    text = ' '.join(subsection[content_key]['en'])
                     response = client.embeddings.create(input=text, model="text-embedding-ada-002")
                     embeddings.append({
-                        'id': subsection['id'],
-                        'category_id': category['id'],
+                        'id': subsection_id,
+                        'category_id': category_id,
                         'embedding': response.data[0].embedding
                     })
+                    time.sleep(0.5)  # تأخیر برای جلوگیری از خطای 429
                 else:
-                    logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection['id']}")
-        logger.info("Successfully generated embeddings")
+                    logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection_id}")
+
+        for category in knowledge_base['guide']['categories']:
+            for subsection in category['subsections']:
+                process_subsection(subsection, category['id'])
+
+        # ذخیره embeddings پس از تولید
+        save_embeddings(embeddings)
+        logger.info("Successfully generated and saved embeddings")
         return embeddings
     except Exception as e:
         logger.error(f"خطا در تولید embeddings: {e}")
@@ -72,22 +115,38 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
         top_result = max(similarities, key=lambda x: x['similarity'])
         knowledge_base = load_knowledge_base()
+
+        def find_content(subsection, target_id, parent_id=None):
+            """Helper function to find content recursively."""
+            subsection_id = subsection.get('id', subsection.get('name', {}).get('en', 'unnamed'))
+            if parent_id:
+                subsection_id = f"{parent_id}_{subsection_id}"
+
+            if subsection_id == target_id:
+                content_key = 'content' if 'content' in subsection else 'details'
+                if content_key in subsection:
+                    return subsection[content_key][lang]
+                else:
+                    logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection_id}")
+                    return None
+            if 'subsections' in subsection:
+                for sub in subsection['subsections']:
+                    result = find_content(sub, target_id, subsection_id)
+                    if result:
+                        return result
+            return None
+
         for category in knowledge_base['guide']['categories']:
             if category['id'] == top_result['category_id']:
                 for subsection in category['subsections']:
-                    if subsection['id'] == top_result['id']:
-                        # بررسی وجود کلید content یا details
-                        content_key = 'content' if 'content' in subsection else 'details'
-                        if content_key in subsection:
-                            content = subsection[content_key][lang]
-                            await update.message.reply_text(
-                                get_translation(lang, 'search_result') + '\n' + '\n'.join(content),
-                                parse_mode='MarkdownV2'
-                            )
-                            logger.info(f"نتیجه جستجو برای کاربر با شناسه {update.effective_user.id} ارسال شد")
-                            return
-                        else:
-                            logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection['id']}")
+                    content = find_content(subsection, top_result['id'])
+                    if content:
+                        await update.message.reply_text(
+                            get_translation(lang, 'search_result') + '\n' + '\n'.join(content),
+                            parse_mode='MarkdownV2'
+                        )
+                        logger.info(f"نتیجه جستجو برای کاربر با شناسه {update.effective_user.id} ارسال شد")
+                        return
         await update.message.reply_text(
             get_translation(lang, 'error_no_guide_data'),
             parse_mode='MarkdownV2'
