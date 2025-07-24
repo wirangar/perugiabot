@@ -4,8 +4,12 @@ from sentence_transformers import SentenceTransformer
 from telegram import Update
 from telegram.ext import ContextTypes
 import pickle
-from config import logger
+import gc
+from config import logger, get_db_connection
 from handlers.cmd_start import get_translation
+
+# بارگذاری مدل یک بار در سطح ماژول
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 
 def load_knowledge_base():
     """Loads the knowledge base from JSON file."""
@@ -24,29 +28,63 @@ def load_knowledge_base():
         logger.error(f"Failed to load knowledge_base_guide.json: {e}")
         raise
 
-def save_embeddings(embeddings):
-    """Saves embeddings to a file."""
+def create_embeddings_table():
+    """Creates a table for storing embeddings in PostgreSQL."""
     try:
-        with open('embeddings.pkl', 'wb') as f:
-            pickle.dump(embeddings, f)
-        logger.info("Embeddings saved to embeddings.pkl")
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS embeddings (
+                id VARCHAR(255) PRIMARY KEY,
+                category_id VARCHAR(255),
+                embedding BYTEA
+            )
+        """)
+        conn.commit()
+        cursor.close()
+        conn.close()
+        logger.info("Embeddings table created successfully")
     except Exception as e:
-        logger.error(f"Failed to save embeddings: {e}")
+        logger.error(f"Failed to create embeddings table: {e}")
+        raise
+
+def save_embeddings(embeddings):
+    """Saves embeddings to PostgreSQL database."""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM embeddings")  # پاک کردن داده‌های قدیمی
+        for item in embeddings:
+            cursor.execute(
+                "INSERT INTO embeddings (id, category_id, embedding) VALUES (%s, %s, %s)",
+                (item['id'], item['category_id'], pickle.dumps(item['embedding']))
+            )
+        conn.commit()
+        cursor.close()
+        conn.close()
+        logger.info("Embeddings saved to database")
+    except Exception as e:
+        logger.error(f"Failed to save embeddings to database: {e}")
         raise
 
 def load_embeddings():
-    """Loads embeddings from a file."""
+    """Loads embeddings from PostgreSQL database."""
     try:
-        with open('embeddings.pkl', 'rb') as f:
-            embeddings = pickle.load(f)
-        logger.info("Embeddings loaded from embeddings.pkl")
-        return embeddings
-    except FileNotFoundError:
-        logger.info("No saved embeddings found, generating new ones")
-        return None
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        cursor.execute("SELECT id, category_id, embedding FROM embeddings")
+        rows = cursor.fetchall()
+        embeddings = [
+            {'id': row[0], 'category_id': row[1], 'embedding': pickle.loads(row[2])}
+            for row in rows
+        ]
+        cursor.close()
+        conn.close()
+        logger.info("Embeddings loaded from database")
+        return embeddings if embeddings else None
     except Exception as e:
-        logger.error(f"Failed to load embeddings: {e}")
-        raise
+        logger.error(f"Failed to load embeddings from database: {e}")
+        return None
 
 def generate_embeddings():
     """Generates embeddings for the knowledge base using Sentence Transformers."""
@@ -55,12 +93,10 @@ def generate_embeddings():
         return embeddings
 
     try:
-        model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         knowledge_base = load_knowledge_base()
         embeddings = []
 
         def process_subsection(subsection, category_id, parent_id=None):
-            """Helper function to process subsections recursively."""
             subsection_id = subsection.get('id', subsection.get('name', {}).get('en', 'unnamed'))
             if parent_id:
                 subsection_id = f"{parent_id}_{subsection_id}"
@@ -72,14 +108,13 @@ def generate_embeddings():
                 content_key = 'content' if 'content' in subsection else 'details'
                 if content_key in subsection:
                     text = ' '.join(subsection[content_key]['en'])
-                    embedding = model.encode(text)
+                    embedding = model.encode(text, batch_size=1)
                     embeddings.append({
                         'id': subsection_id,
                         'category_id': category_id,
                         'embedding': embedding
                     })
-                else:
-                    logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection_id}")
+                    gc.collect()  # آزادسازی حافظه
 
         for category in knowledge_base['guide']['categories']:
             for subsection in category['subsections']:
@@ -97,8 +132,7 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     lang = context.user_data.get('lang', 'fa')
     query = update.message.text.replace('/search ', '')
     try:
-        model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-        query_embedding = model.encode(query)
+        query_embedding = model.encode(query, batch_size=1)
 
         embeddings = generate_embeddings()
         similarities = []
@@ -116,7 +150,6 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         knowledge_base = load_knowledge_base()
 
         def find_content(subsection, target_id, parent_id=None):
-            """Helper function to find content recursively."""
             subsection_id = subsection.get('id', subsection.get('name', {}).get('en', 'unnamed'))
             if parent_id:
                 subsection_id = f"{parent_id}_{subsection_id}"
