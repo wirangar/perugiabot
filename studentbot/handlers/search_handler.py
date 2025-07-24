@@ -1,11 +1,10 @@
 import json
 import numpy as np
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 from telegram import Update
 from telegram.ext import ContextTypes
 import pickle
-import time
-from config import logger, OPENAI_API_KEY
+from config import logger
 from handlers.cmd_start import get_translation
 
 def load_knowledge_base():
@@ -27,9 +26,13 @@ def load_knowledge_base():
 
 def save_embeddings(embeddings):
     """Saves embeddings to a file."""
-    with open('embeddings.pkl', 'wb') as f:
-        pickle.dump(embeddings, f)
-    logger.info("Embeddings saved to embeddings.pkl")
+    try:
+        with open('embeddings.pkl', 'wb') as f:
+            pickle.dump(embeddings, f)
+        logger.info("Embeddings saved to embeddings.pkl")
+    except Exception as e:
+        logger.error(f"Failed to save embeddings: {e}")
+        raise
 
 def load_embeddings():
     """Loads embeddings from a file."""
@@ -41,42 +44,40 @@ def load_embeddings():
     except FileNotFoundError:
         logger.info("No saved embeddings found, generating new ones")
         return None
+    except Exception as e:
+        logger.error(f"Failed to load embeddings: {e}")
+        raise
 
 def generate_embeddings():
-    """Generates embeddings for the knowledge base."""
-    # ابتدا بررسی کنید که آیا embeddings قبلاً ذخیره شده‌اند
+    """Generates embeddings for the knowledge base using Sentence Transformers."""
     embeddings = load_embeddings()
     if embeddings:
         return embeddings
 
     try:
-        client = OpenAI(api_key=OPENAI_API_KEY)
+        model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
         knowledge_base = load_knowledge_base()
         embeddings = []
 
         def process_subsection(subsection, category_id, parent_id=None):
             """Helper function to process subsections recursively."""
-            # تعیین id برای زیربخش
             subsection_id = subsection.get('id', subsection.get('name', {}).get('en', 'unnamed'))
             if parent_id:
                 subsection_id = f"{parent_id}_{subsection_id}"
 
             if 'subsections' in subsection:
-                # پردازش زیربخش‌های داخلی
                 for sub in subsection['subsections']:
                     process_subsection(sub, category_id, subsection_id)
             else:
-                # بررسی وجود کلید content یا details
                 content_key = 'content' if 'content' in subsection else 'details'
                 if content_key in subsection:
                     text = ' '.join(subsection[content_key]['en'])
-                    response = client.embeddings.create(input=text, model="text-embedding-ada-002")
+                    embedding = model.encode(text)
                     embeddings.append({
                         'id': subsection_id,
                         'category_id': category_id,
-                        'embedding': response.data[0].embedding
+                        'embedding': embedding
                     })
-                    time.sleep(0.5)  # تأخیر برای جلوگیری از خطای 429
                 else:
                     logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection_id}")
 
@@ -84,7 +85,6 @@ def generate_embeddings():
             for subsection in category['subsections']:
                 process_subsection(subsection, category['id'])
 
-        # ذخیره embeddings پس از تولید
         save_embeddings(embeddings)
         logger.info("Successfully generated and saved embeddings")
         return embeddings
@@ -97,9 +97,8 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     lang = context.user_data.get('lang', 'fa')
     query = update.message.text.replace('/search ', '')
     try:
-        client = OpenAI(api_key=OPENAI_API_KEY)
-        response = client.embeddings.create(input=query, model="text-embedding-ada-002")
-        query_embedding = response.data[0].embedding
+        model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+        query_embedding = model.encode(query)
 
         embeddings = generate_embeddings()
         similarities = []
