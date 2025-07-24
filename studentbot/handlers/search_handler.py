@@ -31,17 +31,22 @@ def generate_embeddings():
         embeddings = []
         for category in knowledge_base['guide']['categories']:
             for subsection in category['subsections']:
-                text = ' '.join(subsection['content']['en'])  # Use English content for embeddings
-                response = client.embeddings.create(input=text, model="text-embedding-ada-002")
-                embeddings.append({
-                    'id': subsection['id'],
-                    'category_id': category['id'],
-                    'embedding': response.data[0].embedding
-                })
+                # بررسی وجود کلید content یا details
+                content_key = 'content' if 'content' in subsection else 'details'
+                if content_key in subsection:
+                    text = ' '.join(subsection[content_key]['en'])  # استفاده از محتوای انگلیسی برای embeddings
+                    response = client.embeddings.create(input=text, model="text-embedding-ada-002")
+                    embeddings.append({
+                        'id': subsection['id'],
+                        'category_id': category['id'],
+                        'embedding': response.data[0].embedding
+                    })
+                else:
+                    logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection['id']}")
         logger.info("Successfully generated embeddings")
         return embeddings
     except Exception as e:
-        logger.error(f"Failed to generate embeddings: {e}")
+        logger.error(f"خطا در تولید embeddings: {e}")
         raise
 
 async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -71,20 +76,25 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             if category['id'] == top_result['category_id']:
                 for subsection in category['subsections']:
                     if subsection['id'] == top_result['id']:
-                        content = subsection['content'][lang]
-                        await update.message.reply_text(
-                            get_translation(lang, 'search_result') + '\n' + '\n'.join(content),
-                            parse_mode='MarkdownV2'
-                        )
-                        logger.info(f"Search result sent for user_id: {update.effective_user.id}")
-                        return
+                        # بررسی وجود کلید content یا details
+                        content_key = 'content' if 'content' in subsection else 'details'
+                        if content_key in subsection:
+                            content = subsection[content_key][lang]
+                            await update.message.reply_text(
+                                get_translation(lang, 'search_result') + '\n' + '\n'.join(content),
+                                parse_mode='MarkdownV2'
+                            )
+                            logger.info(f"نتیجه جستجو برای کاربر با شناسه {update.effective_user.id} ارسال شد")
+                            return
+                        else:
+                            logger.warning(f"هیچ 'content' یا 'details' در زیربخش پیدا نشد: {subsection['id']}")
         await update.message.reply_text(
             get_translation(lang, 'error_no_guide_data'),
             parse_mode='MarkdownV2'
         )
-        logger.info(f"No search result found for user_id: {update.effective_user.id}")
+        logger.info(f"نتیجه جستجویی برای کاربر با شناسه {update.effective_user.id} پیدا نشد")
     except Exception as e:
-        logger.error(f"Failed to process search for user_id {update.effective_user.id}: {e}")
+        logger.error(f"خطا در پردازش جستجو برای کاربر با شناسه {update.effective_user.id}: {e}")
         await update.message.reply_text(
             get_translation(lang, 'voice_error'),  # Reuse error message
             parse_mode='MarkdownV2'
