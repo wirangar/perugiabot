@@ -25,7 +25,7 @@ from handlers.isee_handler import (
     PROPERTY_STATUS,
     PROPERTY_SIZE,
 )
-from handlers.search_handler import search, generate_embeddings
+from handlers.search_handler import search, generate_embeddings, create_embeddings_table
 from handlers.live_chat_handler import (
     start_live_chat,
     forward_to_admin,
@@ -83,10 +83,11 @@ logger = logging.getLogger(__name__)
 def main() -> None:
     """Start the bot."""
     try:
-        # Create the user table if it doesn't exist
+        # Create database tables
         logger.info("Creating database tables...")
         create_user_table()
         create_isee_calculations_table()
+        create_embeddings_table()  # اضافه کردن جدول embeddings
         logger.info("Generating embeddings...")
         generate_embeddings()
 
