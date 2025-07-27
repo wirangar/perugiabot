@@ -3,6 +3,8 @@ from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
 
+from utils.events import get_events_for_month
+
 def create_calendar(year, month):
     markup = []
     # Header
@@ -12,11 +14,16 @@ def create_calendar(year, month):
     markup.append(row)
 
     my_calendar = calendar.monthcalendar(year, month)
+    events = get_events_for_month(year, month)
+    event_days = [event['date'].day for event in events]
+
     for week in my_calendar:
         row = []
         for day in week:
             if day == 0:
                 row.append(InlineKeyboardButton(" ", callback_data="ignore"))
+            elif day in event_days:
+                row.append(InlineKeyboardButton(f"*{day}*", callback_data=f"calendar-day-{year}-{month}-{day}"))
             else:
                 row.append(InlineKeyboardButton(str(day), callback_data=f"calendar-day-{year}-{month}-{day}"))
         markup.append(row)

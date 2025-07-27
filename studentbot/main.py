@@ -1,4 +1,5 @@
 import logging
+import datetime
 from telegram import Update
 from telegram.ext import (
     Application,
@@ -33,6 +34,7 @@ from handlers.live_chat_handler import (
     cancel_live_chat,
     LIVE_CHAT,
 )
+from handlers.notification_handler import send_notifications
 from handlers.location_handler import send_university_location
 from handlers.calendar_handler import show_calendar, calendar_callback
 from handlers.voice_handler import transcribe_voice
@@ -159,6 +161,10 @@ def main() -> None:
 
     application.add_handler(MessageHandler(filters.REPLY, forward_to_user))
     application.add_handler(CommandHandler("search", search))
+
+    # Schedule daily notifications
+    job_queue = application.job_queue
+    job_queue.run_daily(send_notifications, time=datetime.time(hour=9, minute=0))
 
     # Start the Bot
     application.run_polling()

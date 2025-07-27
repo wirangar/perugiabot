@@ -18,10 +18,18 @@ def load_knowledge_base():
         return json.load(f)
 
 def generate_embeddings():
-    knowledge_base = load_knowledge_base()
-    for item in knowledge_base:
-        if not item['embedding']:
-            item['embedding'] = get_embedding(item['text'])
+    with open('knowledge_base_guide.json', 'r', encoding='utf-8') as f:
+        guide_data = json.load(f)
+
+    knowledge_base = []
+    for category in guide_data['guide']['categories']:
+        for subsection in category.get('subsections', []):
+            text = subsection['title']['en'] + "\n" + "\n".join(subsection.get('content', {}).get('en', []))
+            knowledge_base.append({
+                "text": text,
+                "embedding": get_embedding(text)
+            })
+
     with open('knowledge_base.json', 'w') as f:
         json.dump(knowledge_base, f)
 
