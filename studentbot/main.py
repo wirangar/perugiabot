@@ -34,6 +34,7 @@ from handlers.live_chat_handler import (
     cancel_live_chat,
     LIVE_CHAT,
 )
+from handlers.map_handler import send_map
 from handlers.notification_handler import send_notifications
 from handlers.location_handler import send_university_location
 from handlers.calendar_handler import show_calendar, calendar_callback
@@ -149,6 +150,7 @@ def main() -> None:
     application.add_handler(CommandHandler("calendar", show_calendar))
     application.add_handler(CallbackQueryHandler(calendar_callback, pattern='^calendar-'))
     application.add_handler(CommandHandler("university", send_university_location))
+    application.add_handler(CommandHandler("map", send_map))
 
     live_chat_handler = ConversationHandler(
         entry_points=[CommandHandler("livechat", start_live_chat)],
